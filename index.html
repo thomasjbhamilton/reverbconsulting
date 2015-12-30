@@ -4,40 +4,43 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Reverb Consulting</title>
-    <link type="text/css" rel="stylesheet" href="stylesheets/main.css">
+    <link type="text/css" rel="stylesheet" href="dist/stylesheets/normalize.css">
+    <link type="text/css" rel="stylesheet" href="dist/stylesheets/main.css">
   </head>
 
   <body>
 
     <div class="header">
-      <img src="RVC_Logo_RGB.svg">
-      <nav>
-        <a href="#contact">Contact Us!</a>
+      <div class="logo">
+        <img class="logo-image" src="RVC_Logo_RGB.svg">
+      </div>
+      <nav class="default-nav">
+        <a class="button" href="#contact">Let's Talk!</a>
       </nav>
     </div>
 
     <div class="hero">
-      <h2>We Are Awesome</h2>
-      <p>
-        You should probably hire us.
+      <h2 class="hero-title">We Create Sales</h2>
+      <p class="hero-byline">
+        We shake your whole marketing system from top to bottom and creating a process that drives real sales, NOW.
       </p>
     </div>
 
     <div class="contact-form">
       <form class="" action="index.html" method="post">
-        <div class="">
+        <div class="contact-form-name">
           <label for="name">name</label>
           <input type="text" name="name" value="" placeholder="John Applesmith">
         </div>
-        <div class="">
+        <div class="contact-form-email">
           <label for="email">email</label>
           <input type="email" name="email" value="" placeholder="JohnApplesmith@email.com">
         </div>
-        <div class="">
+        <div class="contact-form-number">
           <label for="number">number</label>
           <input type="text" name="number" value="" placeholder="905-555-1234">
         </div>
-        <div class="">
+        <div class="contact-form-message">
           <label for="message">Message</label>
           <textarea name="message" rows="8" placeholder="write something cool here"></textarea>
         </div>
@@ -52,10 +55,10 @@
     </div>
 
     <div class="cta">
-      <button type="button" name="button">Hire Us</button>
+      <button class="button" type="button" name="button">Hire Us</button>
     </div>
 
-    <script src="javascript/bundle.js"></script>
+    <script src="dist/javascript/bundle.js"></script>
   </body>
 
 </html>

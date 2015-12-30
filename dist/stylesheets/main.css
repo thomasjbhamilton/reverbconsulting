@@ -1,0 +1,82 @@
+
+/** Resets **/
+
+img {
+  max-width: 100%;
+}
+
+
+/** Core **/
+
+body {
+  color: #5A5A5A;
+}
+
+
+/** Header **/
+
+.header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  width: 50%;
+}
+
+
+/** Navigation **/
+
+.default-nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+}
+
+.default-nav a { 
+  margin-left: 20px;
+}
+
+/** Hero **/
+
+.hero {
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-image: linear-gradient(90deg, #E48232, #D94130);
+}
+
+.hero-title,
+.hero-byline {
+  margin: 0;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+
+.hero-title {
+  margin-bottom: .5rem;
+}
+
+/** form **/
+
+.contact-form {
+  padding: 1rem;
+}
+
+/** Buttons **/
+
+.button {
+  background: #AD2A59;
+  border: 0;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+
+a.button {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
