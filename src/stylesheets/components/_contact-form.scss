@@ -1,0 +1,136 @@
+
+/** form **/
+.form-container {
+  @include outer-container(1200px);
+  background-color: #010006;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 6rem;
+  @media (min-width: $tablet){
+    padding-top: 8rem
+  }
+  @media (min-width: $desktop){
+    padding-top: 4rem
+  }
+}
+
+.form-title {
+  font-size: 16pt;
+  padding-bottom: 3rem
+}
+
+.contact-form {
+  @include outer-container(800px);
+  color: #fff;
+
+  @media (min-width: $tablet){
+    padding-top: 1em;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14pt;
+  }
+  @media (min-width: $desktop){
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14pt;
+
+  }
+}
+
+
+.contact-form-name input,
+.contact-form-email input,
+.contact-form-number input {
+  align-content: right;
+}
+
+.contact-form {
+  $input-columns: 10;
+
+  &__field-columns {
+    @include outer-container;
+  }
+
+  &__field {
+    padding: 0.3rem 0;
+
+    @media (min-width: $tablet) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+  }
+
+  &__label {
+    @include span-columns(12 - $input-columns);
+    margin-top: 1.5rem;
+    @media (min-width: $tablet){
+      padding-top: 1.5rem;
+    }
+  }
+
+  &__input {
+    @include span-columns($input-columns);
+    margin-top: 1.5rem;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    @media (min-width: $tablet){
+      padding-top: 1.5rem;
+    }
+
+    &:focus {
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+
+  &__submit {
+    margin: 1rem;
+
+  }
+
+  .button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+
+    @media (min-width: $desktop){
+      margin-top: 4rem;
+    }
+    @media (min-width: $tablet){
+      margin-top: 4rem;
+    }
+
+  }
+}
+
+
+
+/* Media Query Template */
+
+/* Split media query, this will only apply to deives between mobile and tablet */
+@media (min-width: $mobile) and (max-width: $tablet) {
+
+
+}
+
+
+/* Device and up */
+
+@media (min-width: $mobile) {
+
+}
+
+@media (min-width: $tablet) {
+
+}
+
+@media (min-width: $desktop) {
+
+}

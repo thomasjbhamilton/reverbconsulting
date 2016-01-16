@@ -1,0 +1,31 @@
+/** Makes Us Unique **/
+
+/**/
+.makes-us-unique {
+  @include outer-container(1200px)
+  padding: 4rem 1rem;
+  background-image:url(https://images.unsplash.com/photo-1428550670225-15f007f6f1ba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fbbc7fe4e8aa3f452817a98267c1f628);
+  background-position:  center;
+  background-size: cover;
+  @media  (min-width: $tablet){
+    background-position: left;
+  }
+}
+
+
+.makes-us-unique h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1.5rem
+}
+
+.makes-us-unique p {
+  color: #fff;
+  text-align: inherit;
+  @include outer-container(800px)
+  &:last-child {
+    margin-bottom: 3rem;
+    color: #fff
+  }
+}

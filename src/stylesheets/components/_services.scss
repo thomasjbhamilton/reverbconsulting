@@ -1,0 +1,36 @@
+/** services **/
+
+.services {
+  @include outer-container(1200px)
+  padding: 2rem 1rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.services h2 {
+  color: #010006;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-list {
+
+  ul {
+    padding-left: 0;
+    @include clearfix;
+    @include outer-container(700px)
+  }
+
+  li {
+    @include span-columns(6);
+    @include omega(2n);
+    display: block;
+    line-height: 1.5;
+    margin-top: 1.5rem;
+    height: 125px;
+    border: none;
+    color: #010006;
+    text-align: center;
+  }
+}

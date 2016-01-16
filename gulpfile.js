@@ -22,6 +22,9 @@ var STYLES_DEST = DEST + '/stylesheets';
 var JAVASCRIPT_SRC = SRC + '/javascript';
 var JAVASCRIPT_DEST = DEST + '/javascript';
 
+var IMAGE_SRC = SRC + '/images';
+var IMAGE_DEST = DEST + '/images';
+
 var HTML_SRC = SRC;
 var HTML_DEST = DEST;
 
@@ -60,6 +63,13 @@ gulp.task('scripts', function() {
     .pipe(connect.reload());
 });
 
+// Move Images to Dist
+gulp.task('images', function () {
+  gulp.src(IMAGE_SRC + '/**/*.*')
+    .pipe(gulp.dest(IMAGE_DEST))
+    .pipe(connect.reload());
+});
+
 // Refresh when HTML changes
 gulp.task('html', function () {
   gulp.src(HTML_SRC + '/**/*.html')
@@ -87,8 +97,11 @@ gulp.task('watch', function () {
   // Watch .js files
   gulp.watch([JAVASCRIPT_SRC + '/**/*.js'], ['scripts']);
 
+  // Watch image directory
+  gulp.watch([IMAGE_SRC + '/**/*.*'], ['images']);
+
 });
 
 
 // Default Task
-gulp.task('default', ['html', 'dev:scss', 'scripts', 'connect', 'watch']);
+gulp.task('default', ['html', 'dev:scss', 'scripts', 'connect', 'watch', 'images']);

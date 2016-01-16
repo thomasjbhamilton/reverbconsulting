@@ -1,0 +1,27 @@
+/** More Info **/
+
+.more-info {
+  @include outer-container(1200px)
+  padding: 4rem 1rem;
+}
+
+.more-info {
+
+}
+
+.more-info h2 {
+  color: #010006;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+
+.more-info p {
+  color: #010006;
+  text-align: inherit;
+  @include outer-container(800px)
+  &:last-child {
+    margin-bottom: 0rem;
+    color: #010006
+  }
+}

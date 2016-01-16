@@ -1,0 +1,51 @@
+/** Team **/
+
+.the-team-container{
+  @include outer-container(1200px)
+  background-image: url(https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=510562df272fc272c2e7b9a9189a6261);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.the-team {
+  @include outer-container(600px)
+  padding: 2rem 1rem;
+}
+
+.the-team h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 0rem
+}
+
+.employee-title {
+  font-weight: lighter;
+  font-size: 12pt;
+}
+
+.the-team-photos {
+
+  ul {
+    padding-left: 0px;
+    @include clearfix;
+  }
+
+  li {
+    @include span-columns(6);
+    @include omega(2n);
+    display: block;
+    line-height: 1.5;
+    height: 150px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .avatar-team img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+}

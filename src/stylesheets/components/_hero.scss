@@ -1,0 +1,52 @@
+/** Hero **/
+/*background-image: linear-gradient(90deg, $primary-color, $secondary-color);*/
+
+.hero {
+  @include outer-container(1200px)
+  color: #fff;
+  padding: 7rem 1rem 4rem 1rem;
+  text-align: center;
+  background-image:url(https://images.unsplash.com/photo-1441155472722-d17942a2b76a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=20db4002c664cc8bf452f71ce3e08dac);
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: $tablet){
+    padding: 10rem 1rem;
+    background-position: center;
+
+  }
+  @media (min-width: $desktop){
+    padding: 15rem 1rem;
+    background-position: center;
+  }
+}
+
+
+.hero-title,
+.hero-byline {
+  margin: 0;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+
+.hero-title {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  @media (min-width: $tablet){
+    font-size: 36pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 45pt;
+  }
+}
+
+.hero-byline {
+  @include outer-container(600px)
+  margin-top: 1rem;
+  @media (min-width: $tablet){
+    font-size: 18pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 20pt;
+  }
+}

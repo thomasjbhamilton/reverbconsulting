@@ -9,3 +9,16 @@
 @import 'variables/variables';
 @import 'base/base';
 @import 'components/components';
+
+/** Resets **/
+
+img {
+  max-width: 100%;
+}
+
+
+/** Core **/
+
+body {
+  color: #5A5A5A;
+}

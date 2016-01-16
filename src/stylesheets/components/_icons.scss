@@ -1,0 +1,8 @@
+/** Icons **/
+
+.icon {
+  @include outer-container(1200px)
+  fill: #010006;
+  width: 36px;
+  height: 36px;
+}
