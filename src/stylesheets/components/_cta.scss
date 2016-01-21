@@ -9,6 +9,8 @@
   .button{
     background-color: transparent;
     width: auto;
+    border: 1px solid $primary-color;
+    color: $primary-color;
     &:hover{
       color: #fff;
       font-weight: bold;

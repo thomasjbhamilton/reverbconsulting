@@ -101,6 +101,8 @@
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
 
     @media (min-width: $desktop){
       margin-top: 4rem;
