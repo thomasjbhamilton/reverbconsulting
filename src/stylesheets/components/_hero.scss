@@ -1,23 +1,24 @@
 /** Hero **/
 /*background-image: linear-gradient(90deg, $primary-color, $secondary-color);*/
 
+/*https://images.unsplash.com/photo-1441155472722-d17942a2b76a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=20db4002c664cc8bf452f71ce3e08dac*/
+
+
 .hero {
   @include outer-container(1200px)
   color: #fff;
-  padding: 7rem 1rem 4rem 1rem;
+  padding: 7rem 1rem 15% 1rem;
   text-align: center;
   background-image:url(https://images.unsplash.com/photo-1441155472722-d17942a2b76a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=20db4002c664cc8bf452f71ce3e08dac);
   background-size: cover;
   background-position: center;
+  box-shadow: 0px -54px 32px -28px #000 inset;
 
   @media (min-width: $tablet){
     padding: 10rem 1rem;
-    background-position: center;
-
   }
   @media (min-width: $desktop){
     padding: 15rem 1rem;
-    background-position: center;
   }
 }
 
@@ -31,18 +32,25 @@
 .hero-title {
   margin-top: auto;
   margin-bottom: auto;
+  font-weight: 600;
+
+  @media (min-width: $mobile){
+    font-weight: bolder;
+    font-size: 25pt;
+  }
 
   @media (min-width: $tablet){
     font-size: 36pt;
   }
   @media (min-width: $desktop){
-    font-size: 45pt;
+    font-size: 42pt;
   }
 }
 
 .hero-byline {
-  @include outer-container(600px)
+  @include outer-container(700px)
   margin-top: 1rem;
+  font-size: 16pt;
   @media (min-width: $tablet){
     font-size: 18pt;
   }

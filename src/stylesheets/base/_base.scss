@@ -1,9 +1,22 @@
 * {
   -webkit-font-smoothing: antialiased;
+
+}
+
+::selection {
+background:$secondary-color; /* WebKit/Blink Browsers */
 }
 
 body {
-  font-family: 'proxima-nova', sans-serif;
+/*font-family: 'Work Sans', sans-serif*/
+  /*font-family: 'proxima-nova', sans-serif;*/
+
+  font-family: 'Work Sans', sans-serif;
+  .highlighted {
+    color: $primary-color;
+  }
+
+
   @media (min-width: $tablet){
     font-size: 14pt
   }

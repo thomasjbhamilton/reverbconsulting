@@ -1,12 +1,14 @@
 /** Makes Us Unique **/
 
 /**/
+/*https://images.unsplash.com/photo-1428550670225-15f007f6f1ba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fbbc7fe4e8aa3f452817a98267c1f628*/
 .makes-us-unique {
   @include outer-container(1200px)
   padding: 4rem 1rem;
-  background-image:url(https://images.unsplash.com/photo-1428550670225-15f007f6f1ba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fbbc7fe4e8aa3f452817a98267c1f628);
+  background-image:url(https://images.unsplash.com/photo-1440635592348-167b1b30296f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=370477211fd6605e597e0d1e9534d99e);
   background-position:  center;
   background-size: cover;
+  font-weight: 500;
   @media  (min-width: $tablet){
     background-position: left;
   }
@@ -25,7 +27,7 @@
   text-align: inherit;
   @include outer-container(800px)
   &:last-child {
-    margin-bottom: 3rem;
-    color: #fff
+    margin-bottom: 3;
+    color: #fff;
   }
 }

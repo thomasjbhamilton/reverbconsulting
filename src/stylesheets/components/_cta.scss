@@ -8,6 +8,7 @@
   align-items: center;
   .button{
     background-color: transparent;
+    width: auto;
     &:hover{
       color: #fff;
       font-weight: bold;

@@ -14,12 +14,13 @@
   text-align: center;
   margin: 0;
   padding-bottom: 1.5rem;
+
 }
 
 .more-info p {
   color: #010006;
   text-align: inherit;
-  @include outer-container(800px)
+  @include outer-container(850px)
   &:last-child {
     margin-bottom: 0rem;
     color: #010006

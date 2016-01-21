@@ -2,7 +2,7 @@
 /** form **/
 .form-container {
   @include outer-container(1200px);
-  background-color: #010006;
+  background-color: #000;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 6rem;
@@ -16,7 +16,14 @@
 
 .form-title {
   font-size: 16pt;
-  padding-bottom: 3rem
+  color: #fff;
+  margin-bottom: 1rem;
+  @media (min-width: $tablet){
+    font-size: 14pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 16pt;
+  }
 }
 
 .contact-form {
@@ -66,9 +73,7 @@
   &__label {
     @include span-columns(12 - $input-columns);
     margin-top: 1.5rem;
-    @media (min-width: $tablet){
-      padding-top: 1.5rem;
-    }
+
   }
 
   &__input {
@@ -78,9 +83,6 @@
     border-bottom: 1px solid white;
     outline: none;
     background-color: transparent;
-    @media (min-width: $tablet){
-      padding-top: 1.5rem;
-    }
 
     &:focus {
       border-bottom: 1px solid $primary-color;
@@ -102,6 +104,7 @@
 
     @media (min-width: $desktop){
       margin-top: 4rem;
+      font-size: 18pt
     }
     @media (min-width: $tablet){
       margin-top: 4rem;
