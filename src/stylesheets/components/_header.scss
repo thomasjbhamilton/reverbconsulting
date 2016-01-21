@@ -8,15 +8,33 @@
   @media (min-width: $desktop){
     @include outer-container(1200px)
   }
-}
 
-.header .logo {
-  width: 50%;
-  @media (min-width: $tablet){
-    max-width: 20%;
-    margin-left: 2rem;
+  .phone-number {
+    display: none;
+
+    @media (min-width: $tablet) {
+      display: block;
+      margin-left: auto;
+      font-weight: 400;
+
+      a {
+        text-decoration: none;
+        color: $tertiary-color;
+        font-weight: 500;
+      }
+    }
   }
-  @media (min-width: $desktop){
-    max-width: 15%;
+
+  .logo {
+    width: 50%;
+
+    @media (min-width: $tablet){
+      max-width: 20%;
+      margin-left: 2rem;
+    }
+
+    @media (min-width: $desktop){
+      max-width: 15%;
+    }
   }
 }
