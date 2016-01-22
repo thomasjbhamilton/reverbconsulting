@@ -28,6 +28,9 @@ var IMAGE_DEST = DEST + '/images';
 var HTML_SRC = SRC;
 var HTML_DEST = DEST;
 
+var CNAME_SRC = SRC;
+var CNAME_DEST = DEST;
+
 var ROOT = DEST;
 
 // Tasks
@@ -77,6 +80,11 @@ gulp.task('html', function () {
     .pipe(connect.reload());
 });
 
+gulp.task('domain-config', function() {
+  gulp.src(CNAME_SRC + '/' + 'CNAME')
+    .pipe(gulp.dest(CNAME_DEST + '/'));
+});
+
 // Start Webserver
 gulp.task('connect', function() {
   connect.server({
@@ -104,4 +112,4 @@ gulp.task('watch', function () {
 
 
 // Default Task
-gulp.task('default', ['html', 'dev:scss', 'scripts', 'connect', 'watch', 'images']);
+gulp.task('default', ['html', 'dev:scss', 'scripts', 'connect', 'watch', 'images', 'domain-config']);
