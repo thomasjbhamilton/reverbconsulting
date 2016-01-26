@@ -25,7 +25,7 @@
 .makes-us-unique p {
   color: #fff;
   text-align: inherit;
-  @include outer-container(800px)
+  @include outer-container(850px)
   &:last-child {
     margin-bottom: 3;
     color: #fff;
