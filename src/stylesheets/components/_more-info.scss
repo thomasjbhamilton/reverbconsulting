@@ -28,6 +28,9 @@
   @include outer-container(850px)
   &:last-child {
     margin-bottom: 0rem;
-    color: #000
+    color: #000;
+  }
+  @media (min-width: $large-screen){
+    @include outer-container(1100px);
   }
 }

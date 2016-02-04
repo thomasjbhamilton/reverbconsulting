@@ -38,4 +38,8 @@
     margin-bottom: 3;
     color: #fff;
   }
+
+  @media (min-width: $large-screen){
+    @include outer-container(1100px);
+  }
 }

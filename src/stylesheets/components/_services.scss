@@ -29,6 +29,9 @@
     padding-left: 0;
     @include clearfix;
     @include outer-container(850px)
+    @media (min-width: $large-screen){
+      @include outer-container(1000px);
+    }
   }
 
   li {

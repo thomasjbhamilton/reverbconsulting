@@ -39,6 +39,9 @@
   ul {
     padding-left: 0px;
     @include clearfix;
+    @media (min-width: $large-screen){
+      @include outer-container(1000px);
+    }
   }
 
   li {
