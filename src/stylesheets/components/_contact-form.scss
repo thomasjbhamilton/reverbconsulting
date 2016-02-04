@@ -1,8 +1,8 @@
 
 /** form **/
 .form-container {
-  @include outer-container(1200px);
   background-color: #050A10;
+  background-image: linear-gradient(180deg, #050A10, #000);
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 6rem;

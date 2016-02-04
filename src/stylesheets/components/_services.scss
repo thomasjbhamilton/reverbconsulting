@@ -12,6 +12,15 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  @media (min-width: $mobile){
+    font-size: 20pt;
+  }
+  @media (min-width: $tablet){
+    font-size: 28pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 28pt;
+  }
 }
 
 .service-list {

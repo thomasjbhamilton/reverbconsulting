@@ -1,10 +1,11 @@
 /** Team **/
 
 .the-team-container{
-  @include outer-container(1200px)
+
   background-image: url(https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=510562df272fc272c2e7b9a9189a6261);
-  background-position: bottom;
+  background-position:bottom;
   background-size: cover;
+  box-shadow: 0px -54px 32px -28px #000 inset;
 }
 
 .the-team {
@@ -16,7 +17,16 @@
   color: #fff;
   text-align: center;
   margin-bottom: 4rem;
-  margin-top: 0rem
+  margin-top: 4rem;
+  @media (min-width: $mobile){
+    font-size: 20pt;
+  }
+  @media (min-width: $tablet){
+    font-size: 28pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 28pt;
+  }
 }
 
 .employee-title {

@@ -5,15 +5,13 @@
 
 
 .hero {
-  @include outer-container(1200px)
-  color: #fff;
-  padding: 7rem 1rem 15% 1rem;
-  text-align: center;
   background-image:url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=67aed64636699cf66845409d35054fd7);
   background-size: cover;
   background-position: center;
+  color: #fff;
+  padding: 7rem 1rem 15% 1rem;
+  text-align: center;
   box-shadow: 0px -54px 32px -28px #050A10 inset;
-
   @media (min-width: $tablet){
     padding: 10rem 1rem;
   }
@@ -43,7 +41,7 @@
     font-size: 36pt;
   }
   @media (min-width: $desktop){
-    font-size: 42pt;
+    font-size: 45pt;
   }
 }
 
@@ -56,6 +54,6 @@
     font-size: 18pt;
   }
   @media (min-width: $desktop){
-    font-size: 20pt;
+    font-size: 25pt;
   }
 }

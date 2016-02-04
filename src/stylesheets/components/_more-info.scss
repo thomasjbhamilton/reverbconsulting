@@ -5,24 +5,29 @@
   padding: 4rem 1rem;
 }
 
-.more-info {
-
-}
 
 .more-info h2 {
-  color: #010006;
+  color: #000;
   text-align: center;
   margin: 0;
   padding-bottom: 1.5rem;
-
+  @media (min-width: $mobile){
+    font-size: 20pt;
+  }
+  @media (min-width: $tablet){
+    font-size: 28pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 28pt;
+  }
 }
 
 .more-info p {
-  color: #010006;
+  color: #000;
   text-align: inherit;
   @include outer-container(850px)
   &:last-child {
     margin-bottom: 0rem;
-    color: #010006
+    color: #000
   }
 }
