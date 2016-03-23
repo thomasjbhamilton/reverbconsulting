@@ -27,7 +27,7 @@ var IMAGE_DEST = DEST + '/images';
 var HTML_SRC = SRC;
 var HTML_DEST = DEST;
 
-var CNAME_SRC = SRC;
+var CNAME_SRC = './';
 var CNAME_DEST = DEST;
 
 var ROOT = DEST;
