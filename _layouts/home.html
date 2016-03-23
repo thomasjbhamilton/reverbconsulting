@@ -1,12 +1,11 @@
 ---
 layout: default
+
 ---
 
 <div class="hero">
-  <h1 class="hero-title">ORCHESTRATING DIGITAL PROFITS</h1>
-  <p class="hero-byline">
-    “Digitalizing” your operational & marketing activities, saving you time while creating trackable results.
-  </p>
+  <h1 class="hero-title">{{ page.homepage_hero_title }}</h1>
+  <p class="hero-byline">{{ page.homepage_hero_byline }}</p>
 </div>
 
 <div class="form-container" id="homepage-form">
@@ -17,10 +16,7 @@ layout: default
     method="POST"
     name="formspree_contact_form">
 
-    <p
-      class="form-title">
-      Want To Digitalize Your Business?
-    </p>
+    <p class="form-title">{{ page.homepage_form_title }}</p>
 
     <div class="contact-form__field-columns">
 

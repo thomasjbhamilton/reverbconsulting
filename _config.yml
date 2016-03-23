@@ -1,7 +1,8 @@
----
-title: Reverb Consulting
+# Siteleaf Settings
+title: Reverb Consulting | Digital Marketing | Funnel Development | Automating Operations
 url: http://reverbconsulting.com
 timezone: America/New_York
+# Jekyll settings
 collections:
   posts:
     title: Posts
@@ -9,3 +10,18 @@ collections:
   uploads:
     title: Uploads
     output: true
+port: 8080
+markdown: kramdown
+permalink: none
+exclude:
+  - node_modules
+# Custom Variables
+email: thomas@reverbconsulting.com
+description: |-
+  We look at your whole customer life-cycle. We track a customer all the away
+  from initial awarness, to a repeat customer who refers you. We do this by using
+  many different digital marketing tools and automating your operations.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: reverbconsult
+keywords: digital marketing,funnel development,operational automation
+logo: /assets/images/RVC_Logo_RGB.svg
