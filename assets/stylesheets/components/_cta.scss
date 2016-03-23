@@ -5,16 +5,18 @@
   height: 150px;
   display: flex;
   align-items: center;
-  .button{
-    background-color: transparent;
+
+  .button {
+    background-color: $brand-red;
     width: auto;
-    border: 1px solid $primary-color;
-    color: $primary-color;
-    &:hover{
+    border: 1px solid $brand-red;
+    color: #fff;
+
+    &:hover {
       color: #fff;
       font-weight: bold;
-      background-color: $primary-color;
+      background-color: $brand-red;
       transition: all 175ms ease-in;
-      }
+    }
   }
 }

@@ -1,12 +1,14 @@
 .header {
   padding: 1rem;
+  background-color: opacify(#fff, 0.9);
   display: flex;
   align-items: center;
   @media (min-width: $tablet){
     @include outer-container(1200px)
   }
   @media (min-width: $desktop){
-    @include outer-container(1200px)
+    @include outer-container(1200px);
+    padding: 0rem;
   }
 
   .phone-number {
@@ -34,7 +36,7 @@
     }
 
     @media (min-width: $desktop){
-      max-width: 18%;
+      max-width: 15%;
     }
   }
 }
