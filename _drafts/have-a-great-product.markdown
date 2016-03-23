@@ -19,4 +19,35 @@ Yes, as an agency or consultancy, we take on risk. We have the risk of future bu
 
 So, do you work with Agencies that take on the risk? Work on a commission basis? Well we can speak from experience that these agencies won't last long. Because they don't control the product, it becomes too difficult for them to assume the risk because they don't own the product and have to work off of the previous companies assumptions.
 
-**See Our Post on Worksites.net for information**
+See Our Post on failure for information
+
+SO WHAT DO YOU DO?
+------------------
+
+I've searched and searched for this answer, and every-time that I do, I end up back to this this:
+
+**Have a flipping awesome product (or service) that is worth every penny people pay for it!**
+
+Want an example of what I mean? Of course you do:
+
+I spend $45 to get my hair cut. I understand that if you are a lady you are probably thinking "WHAT!! THAT'S IT??", but for a guy's cut, this is pretty expensive. But I have never felt that the price was too high and heres why
+
+1. You enter a beautifully laid out, men's only shop downtown burlington. Frank Sinatra music playing in the background and you are greeted with friendly smiles of the staff.
+
+2. Even though the owner has only met you once, he remembers you and calls you by name.
+
+3. They offer to take your coat for you, which the hang-up properly as to now cause damage
+
+4. You are offered a delicious espresso and based biscotti (baked by his Italian mother in-law) 
+
+5. They sweet and kind assistants take you over the sink and wash your hair out. They wash, condition, and give the most wonderful head massage.
+
+6. You are then given an expert hair-cut
+
+7. Your hair is then washed out a second time, to assure that you don't have bits of hair stuck to your neck all day.
+
+8. Straight razor Shave on the back of the neck
+
+9. You are then taken to the styling chair, where your hair styled. Following this a hot towel is placed on your face as their lay the chair down and give you a hand massage and nail file.
+
+10. Did I mention they own their liquor license
