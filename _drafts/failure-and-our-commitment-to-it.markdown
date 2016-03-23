@@ -23,7 +23,7 @@ We are all different personalities. We feel things differently. We see the world
 
 Yes, being able to overcome the fear of failure is valuable to help people get started in life, to help them take that first step, to "jump".
 
-**But... **
+**But...**
 
 We need that fear of failure. It's that same fear of failure that keeps us alive. It's what allows us to dig deep within ourselves and find what little strength we have left to push through the next day. Fear of failure gives us grit. The grit needed to fight for every last inch to get to success. 
 
