@@ -40,7 +40,7 @@ I spend $45 to get my hair cut. I understand that if you are a lady you are prob
 
 4. You are offered a delicious espresso and based biscotti (baked by his Italian mother in-law) 
 
-5. They sweet and kind assistants take you over the sink and wash your hair out. They wash, condition, and give the most wonderful head massage.
+5. They sweet and kind assistants take you over the sink and wash your hair out. They wash, condition, and given the most wonderful head massage.
 
 6. You are then given an expert hair-cut
 
@@ -50,4 +50,15 @@ I spend $45 to get my hair cut. I understand that if you are a lady you are prob
 
 9. You are then taken to the styling chair, where your hair styled. Following this a hot towel is placed on your face as their lay the chair down and give you a hand massage and nail file.
 
-10. Did I mention they own their liquor license
+10. Did I mention they have their liquor license
+
+
+This is an example of an incredible service. This is a service that stands above its competitors, and can get away with charging for it.
+
+Now this business, like all businesses will face challenges, and they will ask the same question "how do I get new customers", but finding the answer to that question becomes easier. Because the simple reality is, if you are selling something that people want, and it is actually awesome, people will buy it.
+
+**it doesn't matter what industry you are talking about, something awesome will always sell.**
+
+That's why we've changed our approach. We used to start with the Brand, and Brand assets, but clients often couldn't justify the expense right away because, they needed to make sales NOW. So, we adjusted and developed a 360 marketing package that would handle all area's of marketing a company, and we assumed risk to prove our worth. But, as we spend time working with businesses, we have had to pause and change again to go back to square one and Look at the product its self. Because, if the product is no good, then no matter how good the branding is, or how good the marketing is. It won't work. It won't last.
+
+Reverb comes from the word reverberation (or if you are a musician, the guitar effect of reverb) which is
