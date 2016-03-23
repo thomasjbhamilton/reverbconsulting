@@ -65,4 +65,6 @@ Reverb comes from the word reverberation (or if you are a musician, the guitar e
 
 "Physics. the persistence of a sound after its source has stopped"
 
-Our goal it to work with companies to help them create an amazing product or service. This can be done through helping them develop systems to run their internal operations so that they have more time to work with customers, or from doing product assement and re-design.
+Our goal it to work with companies to help them sell an amazing product or service. However if they don't have one yet, then we don't want to drop them to gutters. We will work with them, helping them create that mazing product or service. This can be done through helping them develop systems to run their internal operations so that they have more time to work with customers, or from doing product assessment to full product builds and re-designs.
+
+We want you to be successful, however we can't do that if your business won't sell.
