@@ -33,6 +33,7 @@
 .makes-us-unique p {
   color: #fff;
   text-align: inherit;
+  font-size: 14pt;
   @include outer-container(850px)
   &:last-child {
     margin-bottom: 3;

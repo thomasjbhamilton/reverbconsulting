@@ -12,18 +12,19 @@
   margin: 0;
   padding-bottom: 1.5rem;
   @media (min-width: $mobile){
-    font-size: 20pt;
+    font-size: 18pt;
   }
   @media (min-width: $tablet){
-    font-size: 28pt;
+    font-size: 24pt;
   }
   @media (min-width: $desktop){
-    font-size: 28pt;
+    font-size: 24pt;
   }
 }
 
 .more-info p {
   color: #000;
+  font-size: 14pt;
   text-align: inherit;
   @include outer-container(850px)
   &:last-child {

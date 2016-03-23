@@ -9,11 +9,10 @@ var sass = require('gulp-sass'),
   uglify = require('gulp-uglify'),
   rename = require('gulp-rename'),
   notify = require('gulp-notify'),
-  connect = require('gulp-connect'),
   sourcemaps = require('gulp-sourcemaps');
 
 // Paths
-var SRC = 'src';
+var SRC = 'assets';
 var DEST = 'dist';
 
 var STYLES_SRC = SRC + '/stylesheets';
@@ -53,8 +52,7 @@ gulp.task('dev:scss', function() {
       sound: 'Basso'
     }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest(STYLES_DEST))
-    .pipe(connect.reload());
+    .pipe(gulp.dest(STYLES_DEST));
 });
 
 // Concatenate & Minify JS
@@ -62,35 +60,24 @@ gulp.task('scripts', function() {
   gulp.src(JAVASCRIPT_SRC + '/**/*.js')
     .pipe(concat('bundle.js'))
     .pipe(uglify())
-    .pipe(gulp.dest(JAVASCRIPT_DEST))
-    .pipe(connect.reload());
+    .pipe(gulp.dest(JAVASCRIPT_DEST));
 });
 
 // Move Images to Dist
 gulp.task('images', function () {
   gulp.src(IMAGE_SRC + '/**/*.*')
-    .pipe(gulp.dest(IMAGE_DEST))
-    .pipe(connect.reload());
+    .pipe(gulp.dest(IMAGE_DEST));
 });
 
 // Refresh when HTML changes
 gulp.task('html', function () {
   gulp.src(HTML_SRC + '/**/*.html')
-    .pipe(gulp.dest(HTML_DEST))
-    .pipe(connect.reload());
+    .pipe(gulp.dest(HTML_DEST));
 });
 
 gulp.task('domain-config', function() {
   gulp.src(CNAME_SRC + '/' + 'CNAME')
     .pipe(gulp.dest(CNAME_DEST + '/'));
-});
-
-// Start Webserver
-gulp.task('connect', function() {
-  connect.server({
-    root: ROOT,
-    livereload: true
-  });
 });
 
 // Watch files for changes
@@ -112,4 +99,4 @@ gulp.task('watch', function () {
 
 
 // Default Task
-gulp.task('default', ['html', 'dev:scss', 'scripts', 'connect', 'watch', 'images', 'domain-config']);
+gulp.task('default', ['html', 'dev:scss', 'scripts', 'watch', 'images', 'domain-config']);

@@ -1,27 +1,27 @@
+/** Form **/
 
-/** form **/
 .form-container {
-  background-color: #050A10;
+  background: linear-gradient($midnight-blue 10%, darken($brand-navy, 25%) 90%);
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 6rem;
+  padding-top: 1rem;
   @media (min-width: $tablet){
-    padding-top: 8rem
+    padding-top: 1rem
   }
   @media (min-width: $desktop){
-    padding-top: 4rem
+    padding-top: 1rem
   }
 }
 
 .form-title {
-  font-size: 16pt;
+  font-size: 14pt;
   color: #fff;
   margin-bottom: 1rem;
   @media (min-width: $tablet){
     font-size: 14pt;
   }
   @media (min-width: $desktop){
-    font-size: 16pt;
+    font-size: 14pt;
   }
 }
 
@@ -34,14 +34,14 @@
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 14pt;
+    font-size: 12pt;
   }
   @media (min-width: $desktop){
     padding-top: 0rem;
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    font-size: 14pt;
+    font-size: 12pt;
 
   }
   @media (min-width: $large-screen){
@@ -89,7 +89,7 @@
     background-color: transparent;
 
     &:focus {
-      border-bottom: 1px solid $primary-color;
+      border-bottom: 1px solid $brand-red-orange;
     }
   }
 
@@ -104,20 +104,21 @@
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-color: transparent;
-    border: 1px solid $primary-color;
-    color: $primary-color;
+    background-color: $brand-red-orange;
+    border: 1px solid $brand-red-orange;
+    color: #fff;
 
     &:hover{
-      background-color: $primary-color;
+      background-color: $brand-red-orange;
+      border: 1px solid $brand-red-orange;
     }
 
     @media (min-width: $desktop){
-      margin-top: 4rem;
-      font-size: 18pt
+      margin-top: 3rem;
+      font-size: 14pt
     }
     @media (min-width: $tablet){
-      margin-top: 4rem;
+      margin-top: 3rem;
     }
 
   }
