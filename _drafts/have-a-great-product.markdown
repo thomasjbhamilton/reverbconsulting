@@ -61,4 +61,8 @@ Now this business, like all businesses will face challenges, and they will ask t
 
 That's why we've changed our approach. We used to start with the Brand, and Brand assets, but clients often couldn't justify the expense right away because, they needed to make sales NOW. So, we adjusted and developed a 360 marketing package that would handle all area's of marketing a company, and we assumed risk to prove our worth. But, as we spend time working with businesses, we have had to pause and change again to go back to square one and Look at the product its self. Because, if the product is no good, then no matter how good the branding is, or how good the marketing is. It won't work. It won't last.
 
-Reverb comes from the word reverberation (or if you are a musician, the guitar effect of reverb) which is
+Reverb comes from the word reverberation (or if you are a musician, the guitar effect of reverb) which is defined in one way:
+
+"Physics. the persistence of a sound after its source has stopped"
+
+Our goal it to work with companies to help them create an amazing product or service. This can be done through helping them develop systems to run their internal operations so that they have more time to work with customers, or from doing product assement and re-design.
