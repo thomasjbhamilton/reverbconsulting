@@ -3,12 +3,13 @@
   background-color: opacify(#fff, 0.9);
   display: flex;
   align-items: center;
-  @media (min-width: $tablet){
-    @include outer-container(1200px)
-  }
-  @media (min-width: $desktop){
+
+  @media (min-width: $tablet) {
     @include outer-container(1200px);
-    padding: 0rem;
+  }
+
+  @media (min-width: $desktop){
+    padding: 0;
   }
 
   .phone-number {
@@ -38,5 +39,11 @@
     @media (min-width: $desktop){
       max-width: 15%;
     }
+  }
+
+  .navigation-links {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
   }
 }

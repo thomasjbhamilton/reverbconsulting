@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "preinstall": "gem install bundler",
+    "postinstall": "bundle install",
     "start": "gulp"
   },
   "author": "",
