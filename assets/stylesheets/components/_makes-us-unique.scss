@@ -1,0 +1,46 @@
+/** Makes Us Unique **/
+
+/*@include outer-container(1200px)*/
+/*https://images.unsplash.com/photo-1428550670225-15f007f6f1ba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fbbc7fe4e8aa3f452817a98267c1f628*/
+.makes-us-unique {
+  padding: 4rem 1rem;
+  background-image:url(https://images.unsplash.com/photo-1440635592348-167b1b30296f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=370477211fd6605e597e0d1e9534d99e);
+  background-position:  center;
+  background-size: cover;
+  font-weight: 500;
+  @media  (min-width: $tablet){
+    background-position: left;
+  }
+}
+
+
+.makes-us-unique h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  @media (min-width: $mobile){
+    font-size: 20pt;
+  }
+  @media (min-width: $tablet){
+    font-size: 28pt;
+  }
+  @media (min-width: $desktop){
+    font-size: 28pt;
+  }
+}
+
+.makes-us-unique p {
+  color: #fff;
+  text-align: inherit;
+  font-size: 14pt;
+  @include outer-container(850px)
+  &:last-child {
+    margin-bottom: 3;
+    color: #fff;
+  }
+
+  @media (min-width: $large-screen){
+    @include outer-container(1100px);
+  }
+}

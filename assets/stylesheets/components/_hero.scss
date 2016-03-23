@@ -1,0 +1,67 @@
+/** Hero **/
+
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3) 70%, rgb(17, 20, 26) 100%),
+    url(https://images.unsplash.com/photo-1457974947974-1d290928d5c7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2a42596dec44f530c63bb9a29f87df2a);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 5rem 1rem 5rem 1rem;
+  text-align: center;
+  box-shadow: 0px -54px 32px -28px $midnight-blue inset;
+
+  @media (min-width: $tablet){
+    padding: 7rem 1rem;
+  }
+
+  @media (min-width: $desktop){
+    padding: 7rem 1rem;
+  }
+
+  @media (min-width: $large-screen){
+    padding: 9rem 1rem;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+.hero-title,
+.hero-byline {
+  margin: 0;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
+}
+
+.hero-title {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 600;
+
+  @media (min-width: $mobile){
+    font-weight: bolder;
+    font-size: 25pt;
+  }
+
+  @media (min-width: $tablet){
+    font-size: 36pt;
+  }
+
+  @media (min-width: $desktop){
+    font-size: 38pt;
+  }
+}
+
+.hero-byline {
+  @include outer-container(700px)
+  margin-top: 1rem;
+  font-size: 16pt;
+  font-weight: 500;
+
+  @media (min-width: $tablet){
+    font-size: 18pt;
+  }
+
+  @media (min-width: $desktop){
+    font-size: 18pt;
+  }
+}

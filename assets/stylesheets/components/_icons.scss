@@ -1,0 +1,9 @@
+/** Icons **/
+/*  fill: #010006;  linear-gradient(90deg, $primary-color, $secondary-color)*/
+
+.icon {
+  @include outer-container(1200px)
+  fill: $secondary-color;
+  width: 42px;
+  height: 42px;
+}

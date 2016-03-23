@@ -1,0 +1,17 @@
+/** Navigation **/
+
+.default-nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+}
+
+.default-nav a {
+  margin-left: 20px;
+}
+
+.mobile-specific-nav {
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}
