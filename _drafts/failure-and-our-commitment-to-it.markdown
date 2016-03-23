@@ -31,4 +31,4 @@ Which is something that has always bothered me about the rhetoric surrounding fa
 
 If you aren't scared to fail, that means that success if just a nice bonus, if you don't happen to fail. If there is no fear of downside, then how can their be major commitment to upside? There can't be. It's simple logic: If you are not scared of the consequences, then you don't have a reason to give something everything you've got.
 
-Think about it this way. If you hire an agency or consultancy to work for you, and their fear of failure,
+Think about it this way. If you hire an agency or consultancy to work for you, you want them to be scared of failure. You want failure to keep them up at night. You want them to dread it, because it means that they are going to do everything in their power to find success for you. You don't want someone to say "We are risk takers who aren't afraid to fail!".
