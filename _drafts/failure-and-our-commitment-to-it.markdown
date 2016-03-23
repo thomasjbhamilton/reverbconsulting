@@ -13,7 +13,7 @@ But it does strike me as odd that this is the case, as it is usually failure tha
 
 I could go on and on with examples, but I don't think that anybody reading this needs much convincing of the truth of that. Because, it's not that we don't understand failure, or the benefits that come from it, its that we hate the pain associated with it. 
 
-Some people in this world are lucky, and they are able to handle failure with ease. They can see a situation and go "hmmm, well I will do that different next time." and move on with their life... Lots of us though feel the shame, the embarrassment, the feeling that sits in pit of your stomach and burns away at you, keeping you up at night that comes with failure. 
+Some people in this world are lucky, and they are able to handle failure with ease. They can see a situation and go "hmmm, well I will do that different next time." and move on with their life... However, lots of us can't do that. We feel the shame, the embarrassment, the feeling that sits in pit of your stomach and burns away at you, keeping you up at night that comes with failure. 
 
 **I know I do...**
 
@@ -25,6 +25,10 @@ Yes, being able to overcome the fear of failure is valuable to help people get s
 
 **But... **
 
-that same fear of failure is what keeps us alive. It's what allows us to dig deep within ourselves and find what little strength we have left to push through the next day. Fear of failure gives us grit. The grit needed to fight for every last inch to get to success. 
+We need that fear of failure. It's that same fear of failure that keeps us alive. It's what allows us to dig deep within ourselves and find what little strength we have left to push through the next day. Fear of failure gives us grit. The grit needed to fight for every last inch to get to success. 
+
+Which is something that has always bothered me about the rhetoric surrounding failure and people who embrace failure. Not that there isn't incredible value in embracing failure as part of the game, because there is, but there is also incredible danger is losing the fear of it.
 
 If you aren't scared to fail, that means that success if just a nice bonus, if you don't happen to fail. If there is no fear of downside, then how can their be major commitment to upside? There can't be. It's simple logic: If you are not scared of the consequences, then you don't have a reason to give something everything you've got.
+
+Think about it this way. If you hire an agency or consultancy to work for you, and their fear of failure,
