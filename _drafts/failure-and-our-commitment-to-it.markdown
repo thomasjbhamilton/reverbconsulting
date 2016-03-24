@@ -29,14 +29,22 @@ Which, if its going to be that much effort, begs the question: Why?
 
 As true as it is that we need to overcome the strangle hold that fear of failure can have on letting us start something new, or take a risk in life. We need to wary of anytime someone says we need to eliminate our fear of failure completely.
 
-Yes, being able to overcome the fear of failure is valuable to help people get started in life, to help them take that first step, to "jump".
+**Because...**
 
-**But...**
+We need that fear of failure. It's that same fear of failure that keeps us alive. It's what allows us to dig deep within ourselves and find what little strength we have left to push through the next day.
 
-We need that fear of failure. It's that same fear of failure that keeps us alive. It's what allows us to dig deep within ourselves and find what little strength we have left to push through the next day. Fear of failure gives us grit. The grit needed to fight for every last inch to get to success. 
+Fear of failure gives us grit. The grit needed to fight for every last inch.
 
-Which is something that has always bothered me about the rhetoric surrounding failure and people who embrace failure. Not that there isn't incredible value in embracing failure as part of the game, because there is, but there is also incredible danger is losing the fear of it.
+Which is what has always bothered me about the rhetoric surrounding failure and the tech culture who have been known to embrace failure. Not that there isn't incredible value in embracing failure as part of the game, because there is. However there is also incredible danger in not understanding the difference between the accepting of failure as an outcome, and losing the fear of it.
 
-If you aren't scared to fail, that means that success if just a nice bonus, if you don't happen to fail. If there is no fear of downside, then how can their be major commitment to upside? There can't be. It's simple logic: If you are not scared of the consequences, then you don't have a reason to give something everything you've got.
+If you aren't scared to fail, then you are not fighting to succeed. Which translates to: success is a nice bonus, if you don't happen to fail. 
+
+If there is no fear of downside, then how can their be major commitment to upside? There can't be. It's simple logic: If you are not scared of the consequences, then you don't have a reason to give something everything you've got.
 
 Think about it this way. If you hire an agency or consultancy to work for you, you want them to be scared of failure. You want failure to keep them up at night. You want them to dread it, because it means that they are going to do everything in their power to find success for you. You don't want someone to say "We are risk takers who aren't afraid to fail!".
+
+Because that's why you hire them. To help stop you from failing by lending their expertise. As a way to mitigate risk. To buffer the blame you apply to your self.
+
+If they couldn't do it, and they are the experts, then obviously I couldn't have done it. It must have been a lost cause that I happened to get sucked into.
+
+But the reality is that even the experts fail: I fail. Often.
