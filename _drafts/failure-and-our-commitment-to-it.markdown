@@ -2,24 +2,32 @@
 title: Failure & Our Commitment to it
 date: 2016-03-23 13:50:00 -04:00
 categories:
+- Business
+tags:
 - failure
 ---
 
-Failure is a hard thing to talk about. No consultant can really ever admit to it without it hurting his credibility, and most people are incredibly ashamed to talk about it at all.
+Failure is a hard thing to talk about. No consultant can really ever admit to it without it killing their credibility, since we are the ones that are to prevent others from failure. Not to mention that in general the general public  ashamed to talk about it at all.
 
 I know I am...
 
-But it does strike me as odd that this is the case, as it is usually failure that teaches us the most in life. This applies both personally and professionally. Because if we don't fail, we won't learn how to succeed, or how to make something better. 
+But it does strike me as odd that this is the case, as it is (usually) failure  that is life greatest teacher. This principal applies both personally and professionally. Because, if we don't fail, we won't can't know how to succeed or improve. 
 
-I could go on and on with examples, but I don't think that anybody reading this needs much convincing of the truth of that. Because, it's not that we don't understand failure, or the benefits that come from it, its that we hate the pain associated with it. 
+I could go on and on with examples, but I don't think that anybody reading this needs much convincing. Besides, it's not that we don't understand the value of failure, and the benefits that come from it, its that we hate the pain associated with it. As humans we can hang on to that pain and let it rule us.
 
-Some people in this world are lucky, and they are able to handle failure with ease. They can see a situation and go "hmmm, well I will do that different next time." and move on with their life... However, lots of us can't do that. We feel the shame, the embarrassment, the feeling that sits in pit of your stomach and burns away at you, keeping you up at night that comes with failure. 
+Now, this is not always the case. There are some people in this world who are lucky, and they are able to handle failure with ease. They can see a situation where they failed and simply think "I will do that different next time." before moving on with their life... However, lots of us can't do that. We feel the shame, the embarrassment, and the pain. We experience the hurt that sits in pit of your stomach and burns away at you, keeping you up at night and robbing you of joy. 
 
 **I know I do...**
 
-Recently there has been some great articles written on dealing with failure, and how to change your outlook on it, and I think those are good. They are helpful to provide prospective on how to adjust your mindset to better help you with success. However, I don't always see that line of thinking play out in reality. 
+But we try our best to over come that. We read self help books, and news articles written by fantastic writers. Recently there has been some great articles written on dealing with failure, and how to change your outlook on it, and I think those are good. Those writings are helpful to provide prospective on how to adjust your mindset to better help you with success. 
 
-We are all different personalities. We feel things differently. We see the world through different lenses. To say that we just need to adjust out mindsets is almost like telling someone to change who they are. As sure as it is that we need to overcome the strangle hold that fear of failure can have on letting us start something new. We need to wary of anytime someone says that they aren't scared to fail. Because without fear of failure, how to do you care about success?
+However, I don't always see that line of thinking play out in reality. 
+
+We are humans, we are unique and all have different personalities. We feel and experience things differently. To say that we just need to adjust our mindsets is almost like telling us to change who we are. Reading the top ten steps on how to change your mind and better deal with fear, makes it about as easy as telling someone ten top tips to losing weight. It goes deeper then that. To try to overcome that fear requires us to dig deep into who we are and work to change that.
+
+Which, if its going to be that much effort, begs the question: Why?
+
+As true as it is that we need to overcome the strangle hold that fear of failure can have on letting us start something new, or take a risk in life. We need to wary of anytime someone says we need to eliminate our fear of failure completely.
 
 Yes, being able to overcome the fear of failure is valuable to help people get started in life, to help them take that first step, to "jump".
 
