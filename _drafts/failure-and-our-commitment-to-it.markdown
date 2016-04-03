@@ -7,21 +7,25 @@ tags:
 - failure
 ---
 
-Failure is a hard thing to talk about. No consultant can really ever admit to it without it killing their credibility, since we are the ones that are to prevent others from failure. Not to mention that in general the general public  ashamed to talk about it at all.
+Failure is a hard thing to talk about. No consultant can really ever admit to it without it hurting their credibility, since we are the ones that are hired to prevent others from failure. Not to mention that in general, the general public  ashamed to talk about it at all.
 
 I know I am...
 
-But it does strike me as odd that this is the case, as it is (usually) failure  that is life greatest teacher. This principal applies both personally and professionally. Because, if we don't fail, we won't can't know how to succeed or improve. 
+But it does strike me as odd that this is the case, as it is (usually) failure  that is life greatest teacher. This principal applies both personally and professionally. Because, if we don't fail, we won't/can't know how to succeed or improve.
 
-I could go on and on with examples, but I don't think that anybody reading this needs much convincing. Besides, it's not that we don't understand the value of failure, and the benefits that come from it, its that we hate the pain associated with it. As humans we can hang on to that pain and let it rule us.
+I could go on and on with examples, but I don't think that anybody reading this needs much convincing. Besides, it's not that we don't understand the valuable learning that comes from failure,  its that we hate the pain associated with it. It's the pain of failure that makes it hard to talk about it.
 
-Now, this is not always the case. There are some people in this world who are lucky, and they are able to handle failure with ease. They can see a situation where they failed and simply think "I will do that different next time." before moving on with their life... However, lots of us can't do that. We feel the shame, the embarrassment, and the pain. We experience the hurt that sits in pit of your stomach and burns away at you, keeping you up at night and robbing you of joy. 
+That pain can take many forms. Embarassment, saddness, anger, regret, and a whole host of other emotions. But, whichever it is, it's that feeling of pain that makes regret hard to talk about. It's that pain that makes us fear the future.
+
+Now, this is not always the case. There are some people in this world who are lucky, and they are able to handle failure with ease. They can see a situation where they failed and simply think "I will do that different next time.", before moving on with their life...I don't know how, but they seem to be able to do it.
+
+ However, lots of us (normal people) can't do that. We feel the pain. We experience the hurt that sits in pit of your stomach and burns away at us, keeping us up at night and robbing our of joy.
 
 **I know I do...**
 
-But we try our best to over come that. We read self help books, and news articles written by fantastic writers. Recently there has been some great articles written on dealing with failure, and how to change your outlook on it, and I think those are good. Those writings are helpful to provide prospective on how to adjust your mindset to better help you with success. 
+But we try our best to over come that. We read self help books, and news articles written by fantastic writers. 
 
-However, I don't always see that line of thinking play out in reality. 
+Recently there has been some great articles written on dealing with failure, and how to change your outlook on it, and I think those are good. Those writings are helpful to provide prospective on how to adjust your mindset to better help you with success. However, my struggle with all of that great work is that I don't always see that line of thinking play out in reality.
 
 We are humans, we are unique and all have different personalities. We feel and experience things differently. To say that we just need to adjust our mindsets is almost like telling us to change who we are. Reading the top ten steps on how to change your mind and better deal with fear, makes it about as easy as telling someone ten top tips to losing weight. It goes deeper then that. To try to overcome that fear requires us to dig deep into who we are and work to change that.
 
@@ -37,7 +41,7 @@ Fear of failure gives us grit. The grit needed to fight for every last inch.
 
 Which is what has always bothered me about the rhetoric surrounding failure and the tech culture who have been known to embrace failure. Not that there isn't incredible value in embracing failure as part of the game, because there is. However there is also incredible danger in not understanding the difference between the accepting of failure as an outcome, and losing the fear of it.
 
-If you aren't scared to fail, then you are not fighting to succeed. Which translates to: success is a nice bonus, if you don't happen to fail. 
+If you aren't scared to fail, then you are not fighting to succeed. Which translates to: success is a nice bonus, if you don't happen to fail.
 
 If there is no fear of downside, then how can their be major commitment to upside? There can't be. It's simple logic: If you are not scared of the consequences, then you don't have a reason to give something everything you've got.
 
