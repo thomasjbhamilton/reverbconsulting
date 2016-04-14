@@ -25,11 +25,11 @@ So, do you work with Agencies that take on the risk? Work on a commission basis?
 
 See our post on failure for information
 
-## SO WHAT DO YOU DO?
+**SO WHAT DO YOU DO?**
 
 I've searched and searched for this answer, and every time that I do, I end up back to this:
 
-**Have a flipping awesome product (or service) that is worth every penny people pay for it!**
+## Have a flipping awesome product (or service) that is worth every penny people pay for it!
 
 Want an example of what I mean? Of course, you do:
 
