@@ -5,7 +5,7 @@ categories:
 - marketing
 ---
 
-## **How do I find new customers?**
+## How do I find new customers?
 
 This is a question the keeps business owners (including myself) up late night.  Because this question, if unanswered, can sink a business.
 
