@@ -38,7 +38,7 @@ nothing...
 
 I look around, and the rest of the band are playing along swimmingly, I hear them coming through the system but my guitar is nowhere to be found. Frantically (but still remaining calm & cool ;) I check all my cables. Everything is intact. I check my amp on the side. Everything is switched on and I can hear sound coming from it. As a final resort, I check the mic, but it's plugged in and cable is running to the board.
 
-I'm screwed... The show goes on, and I play along to all the songs, listening to the amp in the back and hoping to God that I am on time and playing the right parts. But... We never recover. I later found out the xlr for the cable died.
+I'm screwed... The show goes on, and I play along to all the songs, listening to the amp in the back and hoping to God that I am on time and playing the right parts. But... We never recover. I later found out the XLR for the cable died.
 
 # Snow in April.
 
