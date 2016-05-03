@@ -7,7 +7,7 @@ categories:
 
 ## How do I find new customers?
 
-This is a question the keeps business owners (including myself) up late night.  Because this question, if unanswered, can sink a business.
+This is a question the keeps business owners (including myself) up late night. Because this question, if unanswered, can sink a business.
 
 It's simple really, if you don't have customers to pay for your good or services, you don't have a business. You can have an amazing brand, perfectly aligned with your target market, with the right messaging and marketing assets, but if you don't find new customers every day... You die.
 
@@ -17,7 +17,7 @@ The fact is, there too many variables that go into each media channel, and so ma
 
 The most frustrating part is that you can't truly test any one channel without a decent chunk of cash. 
 
-Personally, I've always cringed when I hear a media manager tell me that they need at least 3 months of "testing" budget to really get it to work. Even though this makes sense statistically, the underlying message is basically "I have no idea if this is going to work, so I need 3 months to waste your money, learn how to do this for you and then hopefully at that point we will be able to get some results". As someone who runs these sorts of campaigns for people, knowing the that this is the simply reality, stresses me to the point of hair pulling. Because money is exhaustive, every dollar spent on marketing is not spent paying employee's, rent, groceries, or even yourself (but seriously... who gets paid when they own a business?). Even if your business happens to be cash flush, and has marketing budgets set-aside, someone's job is on the line, based on the success of the dollars they invest.
+Personally, I've always cringed when I hear a media manager tell me that they need at least 3 months of "testing" budget to really get it to work. Even though this makes sense statistically, the underlying message is basically "I have no idea if this is going to work, so I need 3 months to waste your money, learn how to do this for you and then hopefully at that point we will be able to get some results". As someone who runs these sorts of campaigns for people, knowing that this is the simply reality stresses me to the point of hair pulling. Because money is exhaustive, every dollar spent on marketing is not spent paying employee's, rent, groceries, or even yourself (but seriously... who gets paid when they own a business?). Even if your business happens to be cash flush, and has marketing budgets set-aside, someone's job is on the line, based on the success of the dollars they invest.
 
 Yes, as an agency or consultancy, we take on risk. We have the risk of future business, which is really us solving our own "How do I get new customers" issues, but we aren't playing with our money. We aren't taking the risk.
 
