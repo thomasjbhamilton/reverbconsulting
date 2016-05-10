@@ -1,0 +1,100 @@
+/* 21-century*/
+
+
+.next-century {
+    background-image: linear-gradient(90deg, rgba(56,78,151,0.34) 1%, rgba(213,38,87,0.34) 100%),
+    url(https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0e1684df9d25752d18af51fdccb01a4a);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    @media (min-width: $tablet){
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    &__container {
+      @include outer-container(800px);
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    &__title-container{
+      @include outer-container(750px);
+      padding: 2rem;
+    }
+
+    &__container-left {
+      display: none;
+      @media (min-width: $tablet){
+        @include span-columns(2);
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+
+      svg {
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__container-right {
+      @include span-columns(12);
+      margin-bottom: 0;
+      margin-top: 4rem;
+
+      @media (min-width: $big-mobile){
+        margin-top: 20px;
+      }
+      @media (min-width: $tablet){
+        @include span-columns(10);
+        margin-top:0;
+      }
+    }
+
+    &__title h2 {
+      color: #fff;
+      margin: 0;
+      @media (min-width: $mobile){
+        font-size: 26px;
+        text-align: center;
+      }
+      @media (min-width: $tablet){
+        font-size: 50px;
+        text-align: left;
+      }
+  }
+}
+.next-century__content p {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  @media (min-width: $mobile){
+    padding: 1rem;
+  }
+}
+
+.bold {
+  font-weight: 600;
+}
+
+
+.next-century__button {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+
+  .button {
+    background-color: $brand-pink;
+    width: auto;
+    border: 1px solid $brand-pink;
+    width: 12rem;
+
+    &:hover {
+      background-color: $brand-green;
+      border: 1px solid $brand-green;
+    }
+  }
+}

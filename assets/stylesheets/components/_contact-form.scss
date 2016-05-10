@@ -1,111 +1,118 @@
 /** Form **/
 
 .form-container {
-  background: linear-gradient($midnight-blue 10%, darken($brand-navy, 25%) 90%);
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 1rem;
-  @media (min-width: $tablet){
-    padding-top: 1rem
-  }
-  @media (min-width: $desktop){
-    padding-top: 1rem
-  }
 }
 
 .form-title {
-  font-size: 14pt;
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 16pt;
   color: #fff;
   margin-bottom: 1rem;
   @media (min-width: $tablet){
-    font-size: 14pt;
+    font-size: 18pt;
   }
   @media (min-width: $desktop){
-    font-size: 14pt;
+    padding-top: 4rem;
+    font-size: 18pt;
   }
 }
 
 .contact-form {
   @include outer-container(800px);
-  color: #fff;
+    color: #fff;
+    background: rgba(0,0,0,0.70);
 
+  @media (min-width: $mobile){
+    padding-left: 1.5rem;
+    border-radius: 0;
+  }
   @media (min-width: $tablet){
     padding-top: 1em;
     padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 12pt;
+    border-radius: 15px;
   }
   @media (min-width: $desktop){
     padding-top: 0rem;
     padding-bottom: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 4rem;
     font-size: 12pt;
-
   }
   @media (min-width: $large-screen){
     @include outer-container(1000px);
   }
-
 }
 
 
 
 .contact-form-name input,
 .contact-form-email input,
-.contact-form-number input {
+.contact-form-number input{
   align-content: right;
 }
 
 .contact-form {
-  $input-columns: 10;
-
-  &__field-columns {
+  &__field-container {
     @include outer-container;
   }
 
-  &__field {
+  &__field-column {
     padding: 0.3rem 0;
 
     @media (min-width: $tablet) {
       @include span-columns(6);
-      @include omega(2n);
     }
   }
 
-  &__label {
-    @include span-columns(12 - $input-columns);
-    margin-top: 1.5rem;
-
-  }
-
   &__input {
-    @include span-columns($input-columns);
-    margin-top: 1.5rem;
+    @include span-columns(10);
+    margin-top: 2rem;
     border: 0;
     border-bottom: 1px solid white;
     outline: none;
     background-color: transparent;
-
+    color: #fff;
     &:focus {
-      border-bottom: 1px solid $brand-red-orange;
+      border-bottom: 1px solid $brand-orange;
+      color: #fff;
     }
   }
 
-  &__submit {
-    margin: 1rem;
+  &__input-message {
+    @include span-columns(10);
+    object-position: center;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    margin-top: 1rem;
+    font-size: 12pt;
+    color: #fff;
+    &:focus {
+      border: 1px solid $brand-orange;
+      color: #fff;
+    }
 
+    @media (min-width: $large-screen){
+      @include outer-container(1000px);
+    }
+
+    @media (max-width: $big-mobile){
+      display:none;
+    }
   }
 
   .button {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
-    max-width: 300px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
-    background-color: $brand-red-orange;
-    border: 1px solid $brand-red-orange;
+    background-color: $brand-orange;
+    border: 1px solid $brand-orange;
     color: #fff;
 
     &:hover{
@@ -115,36 +122,10 @@
 
     @media (min-width: $desktop){
       margin-top: 3rem;
-      font-size: 14pt
+      font-size: 14pt;
     }
     @media (min-width: $tablet){
       margin-top: 3rem;
     }
-
   }
-}
-
-
-
-/* Media Query Template */
-
-/* Split media query, this will only apply to deives between mobile and tablet */
-@media (min-width: $mobile) and (max-width: $tablet) {
-
-
-}
-
-
-/* Device and up */
-
-@media (min-width: $mobile) {
-
-}
-
-@media (min-width: $tablet) {
-
-}
-
-@media (min-width: $desktop) {
-
 }

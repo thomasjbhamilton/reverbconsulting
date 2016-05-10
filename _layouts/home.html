@@ -5,207 +5,211 @@ layout: default
 
 <div class="hero">
   <h1 class="hero-title">{{ page.homepage_hero_title }}</h1>
-  <p class="hero-byline">{{ page.homepage_hero_byline }}</p>
+  <h1 class="hero-title-byline">{{ page.homepage_hero_byline }}</h1>
+
+
+  <div class="form-container" id="homepage-form">
+    <form
+      class="contact-form"
+      action="//formspree.io/thomas@reverbconsulting.com"
+      method="POST"
+      name="formspree_contact_form">
+
+      <p class="form-title">{{ page.homepage_form_title }}</p>
+
+      <div class="contact-form__field-container">
+        <div class="contact-form__field-column">
+
+          <div class="contact-form__field">
+            <input
+              class="contact-form__input"
+              name="name"
+              type="text"
+              placeholder="NAME">
+          </div>
+
+          <div class="contact-form__field">
+            <input
+              class="contact-form__input"
+              name="-replyto"
+              type="email"
+              placeholder="EMAIL">
+          </div>
+
+          <div class="contact-form__field">
+            <input
+              class="contact-form__input"
+              name="phone"
+              type="tel"
+              placeholder="PHONE"
+              required>
+          </div>
+        </div>
+      <div class="contact-form__field-column contact-form__field-column">
+        <div class="contact-form__message">
+          <textarea class="contact-form__input-message" name="message" rows="8" placeholder="MESSAGE"></textarea>
+        </div>
+      </div>
 </div>
-
-<div class="form-container" id="homepage-form">
-
-  <form
-    class="contact-form"
-    action="//formspree.io/thomas@reverbconsulting.com"
-    method="POST"
-    name="formspree_contact_form">
-
-    <p class="form-title">{{ page.homepage_form_title }}</p>
-
-    <div class="contact-form__field-columns">
-
-      <div class="contact-form__field">
-
-        <label
-          class="contact-form__label">
-          First:
-        </label>
-
+      <div class="contact-form__submit">
         <input
-          class="contact-form__input"
-          name="name"
-          type="text"
-          placeholder="Cornelius">
+          class="button button--is-full-width"
+          type="submit"
+          value="YES I DO">
+        <input
+          type="hidden"
+          name="_cc"
+          value="chris@reverbconsulting.com" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="Hot Lead!" />
+        <input
+          type="hidden"
+          name="_next"
+          value="https://calendly.com/reverb"/>
       </div>
 
-      <div class="contact-form__field">
-
-        <label
-          class="contact-form__label">
-          Last:
-        </label>
-
-        <input
-          class="contact-form__input"
-          name="LastName"
-          type="text"
-          placeholder="Wunderbyrd">
-      </div>
-
-      <div class="contact-form__field">
-
-        <label
-          class="contact-form__label">
-          Email:
-        </label>
-
-        <input
-          class="contact-form__input"
-          name="-replyto"
-          type="email"
-          placeholder="c_man2000@example.com"
-          required>
-
-      </div>
-
-      <div class="contact-form__field">
-        <label
-          class="contact-form__label">
-          Phone:
-        </label>
-
-        <input
-          class="contact-form__input"
-          name="phone"
-          type="tel"
-          placeholder=" 416-328-3425"
-          required>
-      </div>
-
-    </div>
-
-    <div class="contact-form__submit">
-
-      <input
-        class="button button--is-full-width"
-        type="submit"
-        value=" Yes! Show Me How">
-
-      <input type="hidden" name="_cc" value="chris@reverbconsulting.com" />
-      <input type="hidden" name="_subject" value="Hot Lead!" />
-      <input type="hidden" name="_next" value="https://calendly.com/reverb"/>
-
-    </div>
-
-  </form>
+    </form>
+  </div>
 </div>
 
 
 <div class="more-info">
-  <h2>WHY YOU SHOULD CARE</h2>
-  <p>
-    Like you, we were tired of wasting time & money on operational, sales and marketing tactics that just didn't work!
-  </p>
-  <p>
-    We founded Reverb Consulting on the conviction that your business <u>can</u> and <u>should</u> be digitally automated: making your day-to-day tasks far less time consuming, more ejoyable and more profitable.
-  </p>
-  <p>
-    We "digitalize" your business by leveraging software to create efficient operational and marketing systems. This allows for less wasted time, increased sales and ultimately, more cash in your bank.
-  </p>
+  <div class="more-info__container">
+    <div class="more-info__container-content">
+      <h2>Sick of wasting money?<br><span class="orange">Us too!</span></h2>
+      <p>
+        Like you, we were tired of wasting time & money on operational, sales and
+        marketing tactics that just didn't work!
+      </p>
+      <p>
+        We founded Reverb Consulting on the conviction that your business <u>can</u>
+        and <u>should</u> be digitally automated: making your day-to-day tasks far
+        less time consuming, more ejoyable and more profitable.
+      </p>
+      <p>
+        We "digitalize" your business by leveraging software to create efficient
+        operational and marketing systems. This allows for less wasted time,
+        increased sales and ultimately, more cash in your bank.
+      </p>
+    </div>
+    <div class="more-info__container-img">
+      <img src="https://farm9.staticflickr.com/8015/7214600922_7b59441c84_o.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="next-century">
+  <div class="next-century__container">
+    <div class="next-century__title-container">
+      <div class="next-century__container-left">
+        {% include earth-svg.html %}
+      </div>
+      <div class="next-century__container-right">
+        <div class="next-century__title">
+          <h2>We Bring Your Marketing Into The Next Century</h2>
+        </div>
+      </div>
+    </div>
+    <div class="next-century__content">
+      <p>
+        We use the latest and greatest digital marketing techniques, from Google
+        Adwords and Facebook Ads to funnel management and SEO. We help business
+        owners track their marketing spend across multiple channels, promoting
+        only the money-makers while cutting the losers. <span class="bold">In
+        short: we create marketing that actually works.</span>
+      </p>
+    </div>
+    <div class="next-century__button">
+      <a href="#homepage-form" class="button button-is-centered">SHOW ME</a>
+    </div>
+  </div>
+
 
 </div>
 
-
-<div class="makes-us-unique">
-  <h2>WHY <u class="highlighted">US</u> VS THEM</h2>
-  <p>
-    As a results-driven business, all of your efforts should be quantified and have clearly-defined expected outcomes. With the amount of technology that currently exists, tracking nearly every component of your business, and mapping them into a single, all encompassing strategy is not only achievable, but downright necessary to remain profitable in today’s competitive market.
-  </p>
-  <p>
-    Unfortunately, even with this ability,  most digital consultants look at a very small view of the customer life-cycle (e.g. SEO, time-tracking, CPC advertising). The trouble with this approach, is that all of your efforts become disjointed. Yes, SEO is important; but if your site isn’t also set up to qualify and convert prospects into customers, who cares where you rank? Likewise, a site that generates leads but doesn't also have a nurturing program to engage those leads becomes a dumping ground for tire kickers and missed opportunities.
-  </p>
-  <p>
-    <span class="highlighted">We look at your whole customer life-cycle, rather than looking at one small portion. We track a customer all the way from initial awareness, to a repeat customer who refers you. We also ensure your operational activities are mapped into this process so we can help you scale resources to match demand.</span> We then use, or create, different software tools to automate as much of that process as possible; tracking and analyzing along the way so your results (i.e. cash in your bank) can be optimized at any point in the lifecycle. This way, we show you exactly which of your efforts are most efficient and where improvements can be made.
-  </p>
-
-</div>
 
 <div class= "services">
-  <h2> WHAT WE CAN DO FOR YOU </h2>
+  <h2> What we do for you:</h2>
   <div class="service-list">
     <ul>
       <li>
         <div class="icon-service-list">
-          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-            <path d="M8 1C4.686 1 2 3.685 2 7c0 2.215 1.214 4.128 3 5.167V15h6v-2.833c1.785-1.04 3-2.952 3-5.168 0-3.314-2.686-6-6-6zm2 13H6v-1h4v1zm0-2.423V12H6v-.423C4.235 10.807 3 9.05 3 7c0-2.762 2.238-5 5-5s5 2.238 5 5c0 2.05-1.236 3.806-3 4.577z"/>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+            <path d="M50.676 28.297c0-1.867-1.516-3.38-3.38-3.38h-2.59V13.155c0-4.73-4.352-8.575-9.698-8.575s-9.697 3.847-9.697 8.575v30.38c0 3.625-3.18 6.576-7.09 6.576-3.906 0-7.085-2.95-7.085-6.575v-24.1h1.13c1.105 0 2-.897 2-2v-9H12.89v-3.25h-5.5v3.25H6.015v9c0 1.103.897 2 2 2h1.12v24.1c0 4.73 4.076 8.576 9.086 8.576 5.012 0 9.09-3.847 9.09-8.575V13.153c0-3.624 3.454-6.574 7.698-6.574s7.697 2.95 7.697 6.574v11.763h-2.592c-1.865 0-3.377 1.513-3.377 3.38v15.207h2.322v7.492h9.293v-7.492h2.325V28.297zM42.5 48.764h-1.445v-2.617H42.5v2.617zm3.857 0H44.91v-2.617h1.447v2.617zm2.32-7.26h-9.94V28.297c0-.76.618-1.38 1.377-1.38h7.182c.762 0 1.38.62 1.38 1.38v13.207z"/>
           </svg>
         </div>
-        <span>Strategic Research & Planning</span>
-      </li>
-      <li>
-      <div class="icon-service-list">
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M15.645 7.153L13.99 5.497c1.106-.355 1.907-1.395 1.907-2.617 0-1.517-1.232-2.75-2.746-2.75-1.222 0-2.26.803-2.614 1.91L8.832.33c-.45-.446-1.23-.447-1.68.002l-2.327 2.33c-.154.154-.19.39-.09.585.1.192.314.3.53.26.143-.025.257-.037.36-.037 1.094 0 1.893.89 1.893 1.985 0 1.094-.8 2.003-1.893 2.003S3.642 6.553 3.642 5.46c0-.104.012-.218.037-.36.037-.216-.068-.43-.26-.53-.195-.103-.43-.065-.585.09L.338 7.153c-.46.463-.46 1.217 0 1.68l6.815 6.82c.224.225.522.348.84.348.316 0 .614-.123.84-.348l6.81-6.82c.462-.463.462-1.217.002-1.68zm-.707.975l-6.81 6.818c-.1.097-.173.096-.27 0L1.05 8.13c-.075-.075-.075-.196-.002-.27L2.73 6.175c.322 1.3 1.497 2.285 2.895 2.285 1.645 0 2.892-1.356 2.892-3.002 0-1.4-.875-2.576-2.176-2.898l1.517-1.518c.098-.098.173-.096.268 0l2.45 2.452c.15.15.378.188.57.098s.302-.293.28-.504l-.012-.09c-.003-.04-.01-.078-.01-.118 0-.966.784-1.75 1.747-1.75s1.748.784 1.748 1.75c0 .964-.785 1.748-1.748 1.748-.045 0-.086-.007-.13-.012l-.075-.01c-.213-.026-.414.087-.508.278-.092.19-.053.42.098.572l2.402 2.402c.075.076.075.196 0 .27z"/></svg>
-      </div>
         <span>Software Integration</span>
       </li>
       <li>
-        <div class="icon-service-list">
-          <svg class="icon"xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-            <path d="M8.165 7.495V5.233c.614.083 1.185.343 1.622.8l.55-.633c-.538-.53-1.263-.88-2.172-.955V3.49h-.67v.944c-1.315.094-2.27.85-2.27 1.92 0 1.275 1.152 1.628 2.27 1.918v2.52c-.866-.092-1.535-.507-1.95-.974l-.55.664c.55.59 1.394 1.026 2.5 1.09v.922h.67v-.923c1.7-.113 2.335-1.088 2.335-2.02 0-1.36-1.205-1.754-2.335-2.055zm-.67-.167C6.75 7.12 6.17 6.872 6.17 6.302c0-.602.547-1.037 1.326-1.09V7.33zm.67 3.476V8.438c.767.218 1.392.5 1.392 1.172 0 .498-.35 1.09-1.392 1.194zM8 0C3.582 0 0 3.58 0 8c0 4.417 3.582 8 8 8s8-3.583 8-8c0-4.42-3.582-8-8-8zm0 15c-3.866 0-7-3.136-7-7 0-3.867 3.134-7 7-7 3.865 0 7 3.133 7 7 0 3.864-3.135 7-7 7z"/>
-          </svg>
-        </div>
-        <span>Sales Funnel Development</span>
+      <div class="icon-service-list">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+          <path d="M43.666 20.32h-30.75v-2.213h30.75v2.214zM32.5 10.107H12.917v2.214H32.5v-2.214zm11.166 13.667h-30.75v2.214h30.75v-2.214zm10.555-1.297V47.976c0 3.31-2.69 6-6 6H8.47c-3.31 0-6-2.69-6-6v-25.5c0-.368.035-.727.1-1.076.02-.11.06-.214.086-.323.057-.234.11-.47.195-.692.044-.117.105-.224.156-.337.092-.204.18-.408.292-.6.063-.106.142-.203.21-.306.124-.183.246-.364.39-.532.078-.093.168-.175.252-.263.153-.16.307-.318.477-.46.093-.078.192-.144.29-.215.18-.133.36-.263.555-.376.104-.06.214-.11.32-.163.203-.102.406-.197.62-.276.053-.02.104-.043.157-.06V7.713c0-2.757 2.242-5 5-5h33.54c2.76 0 5 2.243 5 5v9.077l.065.026c.184.063.354.15.527.23.146.067.297.123.436.2.168.094.316.21.473.317.132.09.27.17.394.27.148.12.277.262.412.395.113.11.234.21.338.33.127.148.23.313.344.47.09.126.19.243.27.375.105.175.184.365.27.55.063.134.14.26.19.397.083.213.132.44.19.664.03.123.078.24.102.366.066.355.1.722.1 1.096zm-4.11 1.27l2.108-1.29c-.002-.228-.02-.452-.06-.67v-.01c-.04-.224-.1-.44-.175-.648-.053-.148-.125-.288-.195-.427-.027-.054-.047-.113-.078-.166-.1-.178-.215-.347-.342-.507L51.35 20c-.336-.42-.764-.76-1.24-1.017v4.762zM8.57 24.962l7.32 4.477h20.776v2.214H19.51l3.927 2.4 4.907 3 4.906-3h.002l14.86-9.086V7.714c0-1.654-1.347-3-3-3H11.568c-1.655 0-3 1.346-3 3v17.25zM4.47 22.458L6.57 23.74v-4.757c-.145.078-.283.163-.415.257-.037.026-.072.053-.107.08-.126.097-.247.2-.36.308-.04.04-.08.083-.12.125-.1.105-.196.214-.284.33-.046.06-.086.124-.13.187-.07.107-.144.215-.205.33-.048.086-.085.18-.126.27-.045.1-.094.2-.13.303-.045.13-.076.266-.107.402-.018.075-.043.147-.057.224-.037.214-.057.433-.058.658zM4.47 45.652l17.05-10.426L4.47 24.8v20.852zm47.75 2.343L33.25 36.398l-4.906 3-4.906-3L4.472 47.995c0 .146.027.284.043.427.014.122.015.25.04.368.026.13.076.25.116.376.04.125.067.254.118.373.045.104.11.197.162.298.068.127.127.26.208.38.055.08.125.147.185.223.1.126.19.256.305.368.063.063.14.113.208.172.125.11.246.223.384.315.077.052.165.087.245.134.143.08.28.17.433.233.127.053.264.083.396.123.118.036.23.084.353.11.26.052.528.08.804.08h39.75c.276 0 .544-.028.804-.08.123-.026.234-.074.354-.11.133-.04.27-.07.396-.123.152-.064.29-.152.432-.234.08-.048.168-.083.246-.135.137-.093.258-.206.383-.315.068-.06.145-.108.21-.172.112-.112.204-.242.304-.367.058-.074.128-.142.183-.222.082-.12.14-.253.21-.38.052-.1.116-.193.16-.3.052-.118.08-.247.118-.372s.09-.246.118-.376c.023-.12.025-.246.04-.368.013-.143.04-.28.04-.427zm0-23.195L35.17 35.227 52.22 45.653V24.8z"/>
+        </svg>
+      </div>
+        <span>Email Marketing</span>
       </li>
       <li>
         <div class="icon-service-list">
-          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-            <path d="M8 0L0 5v11h16V5L8 0zm0 1l6.794 4.368-7.02 5.325-1.78-1.436.003-.005-.822-.655L1.19 5.38 8 1zM1 6.527l3.554 2.868L1 13.965V6.528zM1.527 15l3.845-4.944 2.117 1.708.232.233.03-.02.025.02.176-.175 2.547-1.93L14.473 15H1.527zM15 13.966l-3.662-4.71L15 6.48v7.486z"/>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+            <path d="M28.49 19.106c-1.182-2.964-4.006-4.88-7.196-4.88-.98 0-1.943.185-2.86.55-1.923.767-3.432 2.235-4.25 4.134-.816 1.9-.845 4.004-.08 5.925 1.18 2.965 4.004 4.88 7.194 4.88.98 0 1.945-.186 2.864-.552 3.965-1.58 5.906-6.09 4.327-10.057zm-5.07 8.2c-.682.272-1.396.41-2.123.41-2.366 0-4.46-1.42-5.336-3.62-.566-1.425-.546-2.985.06-4.395.607-1.408 1.727-2.497 3.152-3.064.682-.27 1.396-.41 2.12-.41 2.367 0 4.462 1.422 5.34 3.62 1.17 2.942-.27 6.288-3.21 7.46zm8.115 10.58c.182-.425.188-.894.017-1.32l-1.155-2.9c.902-.69 1.72-1.485 2.445-2.373l2.816 1.21c.854.372 1.903-.054 2.265-.903l1.797-4.172c.376-.872-.027-1.89-.902-2.27l-2.764-1.187c.17-1.196.19-2.402.062-3.598l2.78-1.107c.43-.17.766-.497.948-.92s.19-.893.02-1.322L38.18 12.8c-.343-.864-1.366-1.312-2.24-.965l-2.782 1.108c-.703-.92-1.512-1.75-2.415-2.482l1.203-2.797c.183-.423.19-.892.02-1.32-.17-.43-.497-.766-.922-.95L26.874 3.6c-.852-.37-1.902.048-2.272.9l-1.195 2.78c-1.176-.16-2.364-.18-3.542-.057l-1.157-2.905c-.348-.864-1.374-1.305-2.24-.962l-4.223 1.682c-.43.17-.766.5-.947.922s-.187.893-.016 1.32l1.155 2.902c-.957.73-1.817 1.574-2.57 2.52L6.936 11.44c-.85-.368-1.9.05-2.268.903l-1.795 4.174c-.375.873.03 1.89.902 2.267l2.984 1.284c-.146 1.137-.16 2.278-.04 3.407L3.694 24.68c-.428.17-.765.497-.947.92-.183.426-.19.895-.02 1.322l1.684 4.224c.345.862 1.373 1.31 2.24.96l3.024-1.202c.717.938 1.546 1.786 2.477 2.533l-1.27 2.947c-.182.423-.188.892-.018 1.32s.498.765.92.947l4.177 1.798c.854.366 1.902-.055 2.267-.904l1.275-2.97c1.153.153 2.316.168 3.463.048l1.157 2.907c.265.657.894 1.082 1.603 1.082.22 0 .435-.04.638-.123l4.22-1.683c.43-.17.767-.497.95-.922zm-1.942-.835l-3.713 1.48-1.64-4.12-.793.13c-1.432.234-2.92.214-4.37-.058l-.786-.148-1.79 4.168-3.67-1.58 1.787-4.15-.653-.47c-1.227-.882-2.27-1.95-3.105-3.18l-.452-.662-4.24 1.688-1.477-3.71 4.24-1.69-.13-.79c-.23-1.425-.214-2.88.05-4.32l.144-.784-4.174-1.796 1.578-3.67 4.145 1.782.47-.658c.88-1.238 1.958-2.296 3.206-3.146l.662-.45-1.64-4.12 3.713-1.477 1.64 4.116.792-.128c1.46-.237 2.974-.212 4.442.07l.79.153 1.713-3.984L30 7.123l-1.718 4 .647.468c1.197.87 2.22 1.923 3.045 3.134l.452.664 3.997-1.592 1.48 3.712-4 1.592.13.793c.242 1.488.216 3-.08 4.493l-.155.793 3.975 1.71-1.58 3.668-4.008-1.724-.47.644c-.863 1.184-1.906 2.195-3.1 3.007l-.664.45 1.64 4.116zm12.15-.23c-2.714.345-4.643 2.834-4.3 5.55.314 2.474 2.43 4.34 4.92 4.34.207 0 .417-.014.63-.04 2.715-.347 4.644-2.837 4.3-5.55-.343-2.682-2.805-4.646-5.55-4.3zm.997 7.866c-1.63.22-3.108-.965-3.312-2.567-.206-1.622.946-3.11 2.567-3.314.127-.017.253-.024.378-.024 1.484 0 2.746 1.114 2.935 2.592.207 1.618-.947 3.105-2.568 3.312zm10.995-5.726c-.09-.713-.698-1.25-1.417-1.25l-1.62.194c-.21-.457-.46-.895-.748-1.31l.908-1.174c.234-.3.337-.674.29-1.052-.048-.38-.24-.717-.542-.95l-2.113-1.64c-.6-.46-1.532-.345-2 .257l-.9 1.162c-.488-.182-.99-.32-1.5-.413l-.193-1.517c-.092-.71-.7-1.246-1.415-1.246l-2.82.35c-.38.044-.72.234-.954.536-.235.303-.338.68-.29 1.057l.193 1.518c-.48.224-.94.49-1.378.794l-1.24-.96c-.603-.467-1.538-.345-2 .255l-1.637 2.11c-.233.302-.335.677-.286 1.056s.24.716.542.947l1.267.98c-.167.466-.296.94-.385 1.425l-1.593.202c-.378.048-.715.24-.95.542-.232.3-.335.674-.287 1.05L31 44.53c.088.715.697 1.254 1.42 1.254l1.77-.213c.218.47.477.92.774 1.35L34 48.16c-.234.3-.34.675-.29 1.055.047.38.24.72.54.95l2.11 1.634c.598.47 1.54.35 2.004-.252l.975-1.26c.474.175.96.308 1.455.4l.192 1.514c.09.713.697 1.25 1.415 1.25l2.83-.35c.378-.047.715-.24.948-.54.234-.303.336-.678.287-1.054l-.193-1.517c.446-.207.876-.45 1.284-.73l1.18.916c.6.465 1.533.35 2.002-.252l1.64-2.116c.478-.622.362-1.52-.257-1.998l-1.153-.894c.187-.498.328-1.01.424-1.53l1.442-.184c.378-.048.715-.24.948-.542s.336-.675.288-1.053l-.337-2.647zm-4.146 2.637l-.076.798c-.078.835-.303 1.645-.668 2.408l-.348.73 1.947 1.507-.934 1.205-1.96-1.52-.616.506c-.628.517-1.33.916-2.087 1.188l-.756.27.32 2.503-1.512.194-.318-2.503-.798-.074c-.812-.075-1.6-.29-2.34-.64l-.727-.34-1.583 2.042-1.203-.933 1.576-2.036-.516-.618c-.537-.644-.95-1.363-1.23-2.14l-.27-.757-2.58.332-.19-1.516 2.58-.327.073-.8c.072-.796.283-1.575.627-2.314l.336-.725-2.048-1.585.934-1.205 2.032 1.574.617-.52c.65-.545 1.38-.965 2.165-1.246l.756-.27-.315-2.506 1.51-.195.32 2.51.8.072c.82.075 1.62.296 2.376.655l.73.346 1.512-1.953 1.204.935-1.516 1.958.51.617c.523.633.928 1.34 1.202 2.106l.27.754 2.43-.312.192 1.516-2.425.31z"/>
           </svg>
         </div>
-        <span>Email Automation & List Building</span>
+        <span>Conversion Optimization</span>
       </li>
       <li>
         <div class="icon-service-list">
-          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-            <path d="M11.5 0C10 0 8 2.58 8 2.58S6 0 4.5 0C1.462 0 0 1.525 0 4.683c0 2.966 8 11.32 8 11.32s8-8.354 8-11.32C16 1.526 14.537 0 11.5 0zM1 4.82c0-2.664.842-3.792 3.5-3.792.79 0 3.5 2.58 3.5 2.58s2.71-2.58 3.5-2.58c2.658 0 3.5 1.128 3.5 3.792 0 2.503-7 9.632-7 9.632s-7-7.13-7-9.632z"/>
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+            <path d="M31.885 50.818h-9.672V30.666h-5.328V21.41h5.328v-5.196c0-4.77 2.985-10.342 11.4-10.342 2.968 0 5.146.278 5.237.29l.893.116-.215 8.66-.984-.008c-.002 0-2.213-.02-4.625-.02-1.796 0-2.034.442-2.034 2.204v4.3h7.922l-.44 9.254h-7.48v20.15zm-7.673-2h5.672v-20.15h7.574l.25-5.257h-7.824v-6.298c0-2.08.48-4.205 4.033-4.205 1.428 0 2.785.007 3.658.014l.12-4.868c-.882-.08-2.35-.18-4.083-.18-6.93 0-9.4 4.31-9.4 8.342v7.197h-5.33v5.257h5.33v20.15z"/>
           </svg>
         </div>
-        <span>Lead Attraction & Conversion</span>
+        <span>Social Media Marketing</span>
+      </li>
+      <li>
+        <div class="icon-service-list">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+            <path d="M52.45 43.583l-10.04-10.04c1.578-2.964 2.48-6.34 2.48-9.927 0-11.696-9.514-21.212-21.208-21.212-11.698 0-21.215 9.516-21.215 21.212 0 11.695 9.517 21.21 21.215 21.21 3.52 0 6.833-.875 9.757-2.398L43.52 52.51c1.146 1.146 2.668 1.776 4.287 1.776s3.14-.63 4.286-1.775l.354-.353c2.363-2.362 2.363-6.21 0-8.574zM4.468 23.616c0-10.593 8.62-19.212 19.215-19.212 10.592 0 19.208 8.62 19.208 19.212 0 3.293-.834 6.395-2.3 9.106l-.112.192c-.158.286-.336.56-.51.837-.232.376-.478.74-.735 1.098-.164.227-.33.453-.503.672-.16.204-.328.404-.497.602-.204.237-.416.467-.63.694-.197.207-.395.412-.6.61-.29.28-.587.55-.895.813-.174.147-.354.29-.533.433-.258.204-.522.4-.79.59-.172.124-.34.25-.517.367-3.038 2.016-6.675 3.196-10.586 3.196-10.594 0-19.214-8.617-19.214-19.21zm46.568 27.127l-.354.354c-.768.767-1.788 1.19-2.873 1.19s-2.106-.424-2.874-1.19l-9.705-9.705c.03-.02.056-.04.084-.06.487-.322.956-.67 1.415-1.03.096-.074.2-.143.295-.22 1.673-1.36 3.135-2.966 4.33-4.766l9.68 9.68c1.584 1.586 1.584 4.164 0 5.747z"/>
+          </svg>
+        </div>
+        <span>SEO & SEM</span>
       </li>
       <li>
       <div class="icon-service-list">
-        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-          <path d="M10.05 7.446c.573-.458.948-1.155.948-1.947 0-1.21-.86-2.22-1.998-2.45V1H8v2.05c-1.138.23-1.996 1.24-1.996 2.45 0 .79.375 1.488.948 1.946l-2.07 3.364C3.537 9.915 2.506 8.583 2.033 7H.997c.503 1.943 1.732 3.58 3.366 4.658l-2.357 3.835.85.5 2.36-3.84c1.07.53 2.268.846 3.544.846 1.12 0 2.175-.242 3.142-.655l2.244 3.65.85-.502-4.947-8.047zM8.5 4c.828 0 1.498.67 1.498 1.5S9.328 7 8.5 7c-.827 0-1.498-.673-1.498-1.5S7.674 4 8.5 4zm.26 8c-1.084 0-2.103-.262-3.02-.7L7.832 7.9c.214.06.436.1.668.1.233 0 .454-.04.667-.1l2.207 3.588c-.808.326-1.686.513-2.614.513z"/>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="56.69" height="56.69" viewBox="0 0 56.69 56.69">
+          <path d="M51.818 7.618H4.87c-1.314 0-2.385 1.07-2.385 2.386v29.018c0 1.316 1.07 2.39 2.386 2.39h17.79v5.442h-5.22v2.22h21.81v-2.22h-5.222V41.41h17.79c1.316 0 2.387-1.072 2.387-2.39V10.005c0-1.316-1.07-2.386-2.387-2.386zm.387 31.403c0 .216-.174.39-.387.39H4.87c-.212 0-.385-.174-.385-.39V10.005c0-.213.173-.386.386-.386H51.82c.213 0 .387.173.387.386V39.02z"/>
         </svg>
       </div>
-      <span>Website Analytics & Optimization</span>
+      <span>Web Development</span>
       </li>
     </ul>
   </div>
 </div>
 
 
-  <div class="the-team-container">
-    <div class="the-team">
-      <h2>THE MEN BEHIND IT ALL</h2>
-      <div class="the-team-photos">
-        <ul>
-          <li>
-            <div class="avatar-team">
-              <img src="//s3.amazonaws.com/reverb-consulting-website/9G4A0984.jpg" alt="" />
-            </div>
-            <span>Thomas Hamilton</span><br>
-            <span class="employee-title">Director of Marketing & Strategy</span>
-          </li>
-          <li>
-            <div class="avatar-team">
-              <img src="//reverb-consulting-website.s3.amazonaws.com/christopher-buscarino.jpg" alt="" />
-            </div>
-            <span>Chris Buscarino</span><br>
-            <span class="employee-title">Director of Operations</span>
-          </li>
-        </ul>
-      </div>
+<div class="the-team-container">
+  <div class="the-team">
+    <h2>The guys behind it all</h2>
+    <div class="the-team-photos">
+      <ul>
+        <li>
+          <div class="avatar-team">
+            <img src="//s3.amazonaws.com/reverb-consulting-website/9G4A0984.jpg" alt="" />
+          </div>
+          <span>Thomas Hamilton</span><br>
+          <span class="employee-title">Director of Marketing & Strategy</span>
+        </li>
+        <li>
+          <div class="avatar-team">
+            <img src="//reverb-consulting-website.s3.amazonaws.com/christopher-buscarino.jpg" alt="" />
+          </div>
+          <span>Chris Buscarino</span><br>
+          <span class="employee-title">Director of Operations</span>
+        </li>
+      </ul>
     </div>
-</div>
-
-
-<div class="cta">
-  <a href="#homepage-form" class="button button-is-centered">Book An Appointment!</a>
+    <div class="cta">
+      <a href="#homepage-form" class="button button-is-centered">LET'S TALK</a>
+    </div>
+  </div>
 </div>

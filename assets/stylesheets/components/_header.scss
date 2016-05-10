@@ -1,3 +1,4 @@
+
 .header {
   padding: 1rem;
   background-color: opacify(#fff, 0.9);
@@ -12,6 +13,10 @@
     padding: 0;
   }
 
+  @media (min-width: $large-screen){
+    @include outer-container(1800px);
+  }
+
   .phone-number {
     display: none;
 
@@ -23,7 +28,7 @@
       a {
         text-decoration: none;
         color: $tertiary-color;
-        font-weight: 500;
+        font-weight: 400;
       }
     }
   }

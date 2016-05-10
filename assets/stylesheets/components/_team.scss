@@ -1,26 +1,31 @@
 /** Team **/
 
 .the-team-container{
-  background-image: linear-gradient(90deg, rgba(0,0,0, 0.6) 10%, rgba(0,0,0, 0.6) 90%), url(https://images.unsplash.com/photo-1456313569315-d9a1fffd9532?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f42efefb24f2d93ee321fc5f943460b8);
+  background-image: linear-gradient(135deg, rgba(43,155,118,0.50) 1%, rgba(34,152,217,0.50) 80%),
+  url(https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c96a4a9947c18a322bfd38fd84225ccd);
   background-position:bottom;
   background-size: cover;
-  box-shadow: 0px -54px 32px -28px #000 inset;
-  padding-bottom: 4rem;
+  background-attachment: fixed;
 }
 
 .the-team {
-  @include outer-container(600px)
+  @include outer-container(1000px)
   padding: 2rem 1rem;
+}
+
+.orange {
+  color: $brand-red;
+  font-weight: bold;
 }
 
 .the-team h2 {
   color: #fff;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   margin-top: 1rem;
 
   @media (min-width: $mobile) {
-    font-size: 20pt;
+    font-size: 24pt;
   }
 
   @media (min-width: $tablet) {
@@ -28,7 +33,7 @@
   }
 
   @media (min-width: $desktop) {
-    font-size: 28pt;
+    font-size: 36pt;
   }
 }
 
@@ -38,19 +43,19 @@
 }
 
 .the-team-photos {
+  @include outer-container(600px);
 
   ul {
     padding-left: 0px;
     @include clearfix;
 
     @media (min-width: $large-screen) {
-      @include outer-container(1000px);
+
     }
   }
 
   li {
     @include span-columns(6);
-    @include omega(2n);
     display: block;
     line-height: 1.5;
     height: 150px;
@@ -64,5 +69,11 @@
     height: 100px;
     width: 100px;
     object-fit: cover;
+    object-position: bottom;
+    @media (min-width: $tablet){
+      height: 130px;
+      width: 130px;
+    }
+
   }
 }
