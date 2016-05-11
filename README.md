@@ -18,6 +18,13 @@ to build this one time without starting a server run
 bundle exec jekyll build
 ```
 
+```bash
+jekyll exec serve --drafts
+```
+
+to work on the blog
+
+
 ## Deployment
 
 ```bash
