@@ -5,31 +5,51 @@
 }
 
 .footer-home__badges {
-  @include outer-container(900px);
+  @include outer-container(1000px);
   padding-left: auto;
   padding-right: auto;
 
+
   .academy-badge__thomas{
-    @include span-columns(3);
-    max-width: 300px;
+    padding: 5px;
+    @include span-columns(6);
+    margin-right: 0;
+    max-width: 250px;
+    @media (min-width: $tablet){
+      @include span-columns(3);
+      max-width: 300px;
+    }
   }
 
   .academy-badge__thomas-email {
-    @include span-columns(3);
-    padding-top: 2px;
-    max-width: 300px;
+    padding: 5px;
+    margin-top: 3px;
+    @include span-columns(6);
+    @include omega(2n)
+    max-width: 250px;
+    @media (min-width: $tablet) {
+      @include span-columns(3);
+      max-width: 300px;
+    }
   }
 
   .academy-badge__chris {
-  @include span-columns(3);
-  max-width: 300px;
+    padding: 5px;
+    @include span-columns(6);
+    max-width: 250px;
+    @media (min-width: $tablet){
+      @include span-columns(3);
+      max-width: 300px;
+    }
   }
-
   .academy-badge__chris-email {
-  @include span-columns(3);
-  padding-top: 2px;
-  max-width: 300px;
+    padding: 5px;
+    margin-top: 3px;
+    @include span-columns(6);
+    max-width: 250px;
+    @media (min-width: $tablet){
+      @include span-columns(3);
+      max-width: 300px;
+    }
   }
-
-
 }
