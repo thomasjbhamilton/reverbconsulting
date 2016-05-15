@@ -1,9 +1,8 @@
 ---
-title: home
+title: Marketing That Works
 layout: home
-homepage_hero_title: ORCHESTRATING DIGITAL PROFITS
-homepage_hero_byline: "“Digitalizing” your operational & marketing activities, saving
-  you time while creating trackable results."
-homepage_form_title: Want To Digitalize Your Business?
+homepage_hero_title: Creating Marketing
+homepage_hero_byline: THAT WORKS!
+homepage_form_title: Want your marketing to work?
 ---
 

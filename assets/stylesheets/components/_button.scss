@@ -2,26 +2,30 @@
 
 .button {
   padding: 0.5rem;
-  border-radius:3px;
-  border: 1px solid $tertiary-color;
-  color: $tertiary-color;
+  width: 12rem;
+  height: 2.5rem;
+  border-radius:20px;
+  border: 1px solid $brand-red;
+  background-color: $brand-red;
   text-align: center;
-  font-weight: 600;
-  font-size: 14pt;
-  background-color: #fff;
+  color: #fff;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-right: 1rem;
   box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
   @media  (min-width: $desktop){
-    font-size: 18pt;
+    font-size: 14pt;
   }
   @media  (min-width: $tablet){
-    font-size: 16pt;
+    font-size: 14pt;
   }
 
   &:hover{
     color: #fff;
-    font-weight: bold;
-    background-color: $tertiary-color;
+    background-color: $brand-orange;
+    border: 1px solid $brand-orange;
     transition: all 175ms ease-in;
+
   }
 
   &:active {
@@ -29,7 +33,7 @@
   }
 
   &-is-centered {
-    height: 3rem;
+
     width: 15rem;
     margin-left: auto;
     margin-right: auto;

@@ -1,7 +1,10 @@
 /** services **/
 
 .services {
-  @include outer-container(1200px)
+  background-image: linear-gradient(135deg, rgba(255,255,255,0.86) 0%, rgba(255,255,255,0.84) 100%),
+  url('https://s3.amazonaws.com/reverb-consulting-website/circle-background.jpg');
+  background-size: cover;
+  @include outer-container(1800px)
   padding: 2rem 1rem;
   background-color: #fff;
   opacity: 90%;
@@ -19,7 +22,7 @@
     font-size: 28pt;
   }
   @media (min-width: $desktop){
-    font-size: 28pt;
+    font-size: 36pt;
   }
 }
 
@@ -28,10 +31,7 @@
   ul {
     padding-left: 0;
     @include clearfix;
-    @include outer-container(850px)
-    @media (min-width: $large-screen){
-      @include outer-container(1000px);
-    }
+    @include outer-container(750px)
   }
 
   li {
@@ -45,4 +45,9 @@
     color: #010006;
     text-align: center;
   }
+
+  span {
+      font-weight: 300;
+  }
+
 }

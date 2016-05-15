@@ -1,36 +1,39 @@
 // Include gulp
-var gulp = require('gulp');
-
+const gulp = require('gulp');
 
 // Include Our Plugins
-var sass = require('gulp-sass'),
-  jshint = require('gulp-jshint'),
-  concat = require('gulp-concat'),
-  uglify = require('gulp-uglify'),
-  rename = require('gulp-rename'),
-  notify = require('gulp-notify'),
-  sourcemaps = require('gulp-sourcemaps');
+const sass = require('gulp-sass');
+const jshint = require('gulp-jshint');
+const concat = require('gulp-concat');
+const uglify = require('gulp-uglify');
+const rename = require('gulp-rename');
+const notify = require('gulp-notify');
+const sourcemaps = require('gulp-sourcemaps');
+const imagemin = require('gulp-imagemin');
 
 // Paths
-var SRC = 'assets';
-var DEST = 'dist';
+const SRC = 'assets';
+const DEST = 'dist';
 
-var STYLES_SRC = SRC + '/stylesheets';
-var STYLES_DEST = DEST + '/stylesheets';
+const STYLES_SRC = SRC + '/stylesheets';
+const STYLES_DEST = DEST + '/stylesheets';
 
-var JAVASCRIPT_SRC = SRC + '/javascript';
-var JAVASCRIPT_DEST = DEST + '/javascript';
+const JAVASCRIPT_SRC = SRC + '/javascript';
+const JAVASCRIPT_DEST = DEST + '/javascript';
 
-var IMAGE_SRC = SRC + '/images';
-var IMAGE_DEST = DEST + '/images';
+const IMAGE_SRC = SRC + '/images';
+const IMAGE_DEST = DEST + '/images';
 
-var HTML_SRC = SRC;
-var HTML_DEST = DEST;
+const S3_IMAGE_SRC = SRC + '/remote-images';
+const S3_IMAGE_DEST = DEST + '/remote-images';
 
-var CNAME_SRC = './';
-var CNAME_DEST = DEST;
+const HTML_SRC = SRC;
+const HTML_DEST = DEST;
 
-var ROOT = DEST;
+const CNAME_SRC = './';
+const CNAME_DEST = DEST;
+
+const ROOT = DEST;
 
 // Tasks
 // ----------------------------------------
@@ -63,10 +66,18 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest(JAVASCRIPT_DEST));
 });
 
-// Move Images to Dist
+// Optimize images and move to dist
 gulp.task('images', function () {
-  gulp.src(IMAGE_SRC + '/**/*.*')
+  return gulp.src(IMAGE_SRC + '/**/*.*')
+    .pipe(imagemin())
     .pipe(gulp.dest(IMAGE_DEST));
+});
+
+// Optimize S3 images
+gulp.task('images:s3', function () {
+  return gulp.src(`${S3_IMAGE_SRC}/**/*.*`)
+    .pipe(imagemin())
+    .pipe(gulp.dest(S3_IMAGE_DEST));
 });
 
 // Refresh when HTML changes

@@ -1,24 +1,35 @@
 * {
   -webkit-font-smoothing: antialiased;
-
+/* WebKit/Blink Browsers */
 }
 
 ::selection {
-background:$secondary-color; /* WebKit/Blink Browsers */
+color:$brand-orange;
+}
+
+h1 {
+  @media (min-width: $mobile){
+    font-weight: bolder;
+    font-size: 25pt;
+    padding-left: 1rem
+  }
+
+  @media (min-width: $tablet){
+    font-size: 36pt;
+  }
+
+  @media (min-width: $desktop){
+    font-size: 45pt;
+  }
 }
 
 body {
-/*font-family: 'Work Sans', sans-serif*/
-  /*font-family: 'proxima-nova', sans-serif;*/
 
   font-family: 'Work Sans', sans-serif;
-  .highlighted {
-    color: $primary-color;
-  }
-
+  //font-family: 'proxima-nova', sans-serif;
 
   @media (min-width: $tablet){
-    font-size: 14pt
+    font-size: 16pt
   }
   @media (min-width: $desktop){
     font-size: 18pt
@@ -27,4 +38,42 @@ body {
 
 p {
   line-height: 1.4;
+  font-weight: 300;
+  color: #000;
+}
+
+h2 {
+  color: #000;
+  font-weight: 250;
+  @media (min-width: $mobile){
+    font-size: 20pt;
+    letter-spacing: -1.4px;
+  }
+  @media (min-width: $tablet){
+    font-size: 24pt;
+    letter-spacing: -1.4px;
+  }
+  @media (min-width: $desktop){
+    font-size: 35pt;
+    letter-spacing: -2px;
+  }
+
+}
+
+h3 {
+  color: #000;
+  font-weight: 200;
+  @media (min-width: $mobile){
+    font-size: 18pt;
+    letter-spacing: -1.4px;
+  }
+  @media (min-width: $tablet){
+    font-size: 24pt;
+    letter-spacing: -1.4px;
+  }
+  @media (min-width: $desktop){
+    font-size: 35pt;
+    letter-spacing: -2px;
+  }
+
 }
