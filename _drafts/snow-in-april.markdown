@@ -1,7 +1,6 @@
 ---
 title: Snow In April
 date: 2016-04-03 15:47:00 -04:00
-author: Thomas Hamilton
 categories:
 - Business
 tags:
@@ -9,6 +8,7 @@ tags:
 - planning
 - success
 - Thomas
+author: Thomas Hamilton
 ---
 
 # It caught me by surprise...
