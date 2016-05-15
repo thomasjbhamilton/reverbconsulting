@@ -14,6 +14,13 @@ markdown: kramdown
 permalink: none
 exclude:
 - node_modules
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: "posts"
+    values:
+      layout: "post"
 email: thomas@reverbconsulting.com
 description: |-
   We look at your whole customer life-cycle. We track a customer all the away

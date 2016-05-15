@@ -12,6 +12,7 @@ layout: page
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a>
+          {% if post.author %}<p>{{ post.author }}</p>{% endif %}
         </h2>
       </li>
     {% endfor %}
