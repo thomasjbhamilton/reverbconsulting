@@ -11,7 +11,7 @@ tags:
 author: Thomas Hamilton
 ---
 
-# It caught me by surprise...
+## It caught me by surprise...
 
 I didn't expect it.
 
@@ -41,7 +41,7 @@ I look around, and the rest of the band are playing along swimmingly, I hear the
 
 I'm screwed... The show goes on, and I play along to all the songs, listening to the amp in the back and hoping to God that I am on time and playing the right parts. But... We never recover. I later found out the XLR for the cable died.
 
-# Snow in April.
+## Snow in April.
 
 We had everything figured out. We worked incredibly hard and got it all taken care of, we had sound-check and everything was fine. But, something happened that we couldn't have expected. We had just tested that cable, and in fact had switched it in for one that was actually dead.
 
