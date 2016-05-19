@@ -1,6 +1,5 @@
 ---
 title: Reverb Consulting | Digital Marketing | Funnel Development | Automating Operations
-url: http://reverbconsulting.com
 timezone: America/New_York
 collections:
   posts:
@@ -9,6 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 port: 8080
 markdown: kramdown
 permalink: none
