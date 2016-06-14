@@ -32,13 +32,10 @@
   margin: 0;
   padding-bottom: 1.5rem;
   font-size: 18pt;
-  @media (min-width: $tablet){
-    font-size: 24pt;
-  }
-  @media (min-width: $desktop){
-    font-size: 28pt;
-    color: #fff;
-  }
+}
+
+.red {
+  color: $brand-red;
 }
 
 &__container-content p {
@@ -46,9 +43,8 @@
   text-align: center;
   &:last-child {
     margin-bottom: 0rem;
-    color: #000;
-    text-align: center;
   }
+
   @media (min-width: $tablet){
     color: #000;
     text-align: left;
