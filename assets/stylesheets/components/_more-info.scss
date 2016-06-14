@@ -32,13 +32,10 @@
   margin: 0;
   padding-bottom: 1.5rem;
   font-size: 18pt;
-  @media (min-width: $tablet){
-    font-size: 24pt;
-  }
-  @media (min-width: $desktop){
-    font-size: 28pt;
-    color: #fff;
-  }
+}
+
+.red {
+  color: $brand-red;
 }
 
 &__container-content p {
