@@ -13,41 +13,36 @@
   padding: 2rem 1rem;
 }
 
-.orange {
-  color: $brand-red;
-  font-weight: bold;
-}
-
 .the-team h2 {
-  color: #fff;
-  text-align: center;
   margin-bottom: 4rem;
   margin-top: 1rem;
-}
-
-.employee-title {
-  font-weight: 300;
-  font-size: 12pt;
-  @media (min-width: $tablet){
-    font-size: 16pt;
-  }
+  color: #fff;
+  text-align: center;
 }
 
 .the-team-photos {
   @include outer-container(700px);
 
+  .avatar-team img {
+    height: 150px;
+    width: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+    object-position: top;
+    @media (min-width: $tablet){
+      height: 210px;
+      width: 150px;
+    }
+  }
+
   ul {
     padding-left: 0px;
     @include clearfix;
-
-    @media (min-width: $large-screen) {
-
-    }
   }
 
   li {
     @include span-columns(6);
-    display: block;
+     
     line-height: 1.5;
     height: 150px;
     color: #fff;
@@ -57,17 +52,12 @@
       font-size: 16pt;
     }
   }
+}
 
-  .avatar-team img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
-    object-position: top;
-    @media (min-width: $tablet){
-      height: 130px;
-      width: 130px;
-    }
-
+.employee-title {
+  font-weight: 300;
+  font-size: 12pt;
+  @media (min-width: $tablet){
+    font-size: 16pt;
   }
 }
