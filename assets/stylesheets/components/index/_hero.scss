@@ -1,0 +1,10 @@
+
+.logo-mobile {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media(min-width: $tablet) {
+    display: none;
+  }
+}

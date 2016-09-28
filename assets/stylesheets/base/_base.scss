@@ -7,30 +7,12 @@
 color:$brand-orange;
 }
 
-h1 {
-  @media (min-width: $mobile){
-    font-weight: bolder;
-    font-size: 25pt;
-    padding-left: 1rem
-  }
-
-  @media (min-width: $tablet){
-    font-size: 36pt;
-  }
-
-  @media (min-width: $desktop){
-    font-size: 45pt;
-  }
-}
 
 body {
 
   font-family: 'Work Sans', sans-serif;
-  //font-family: 'proxima-nova', sans-serif;
+  font-size: 16pt;
 
-  @media (min-width: $tablet){
-    font-size: 16pt
-  }
   @media (min-width: $desktop){
     font-size: 18pt
   }
@@ -38,38 +20,47 @@ body {
 
 p {
   line-height: 1.4;
-  font-weight: 300;
-  color: #000;
+  font-weight: 400;
+  color: $brand-black;
 }
 
-h2 {
-  color: #000;
-  font-weight: 250;
+
+
+h1 {
+  color: $brand-black;
+  font-weight: 200;
+  letter-spacing: -0.43px;
   @media (min-width: $mobile){
-    font-size: 20pt;
-    letter-spacing: -1.4px;
+    font-size: 34pt;
   }
   @media (min-width: $tablet){
-    font-size: 26pt;
-    letter-spacing: -1.4px;
+    font-size: 44pt;
+  }
+
+}
+
+
+h2 {
+  color: $brand-black;
+  font-weight: 200;
+  @media (min-width: $mobile){
+    font-size: 30pt;
   }
   @media (min-width: $desktop){
-    font-size: 35pt;
+    font-size: 38pt;
     letter-spacing: -2px;
   }
 
 }
 
 h3 {
-  color: #000;
+  color: $brand-black;
   font-weight: 200;
   @media (min-width: $mobile){
     font-size: 18pt;
-    letter-spacing: -1.4px;
   }
   @media (min-width: $tablet){
     font-size: 24pt;
-    letter-spacing: -1.4px;
   }
   @media (min-width: $desktop){
     font-size: 35pt;
