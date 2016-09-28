@@ -1,0 +1,37 @@
+
+.section-container {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+
+  @media(min-width: $tablet) {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.content-box {
+  @include outer-container;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.row {
+  @include span-columns(12);
+}
+
+.third {
+  margin-bottom: 2rem;
+  @include span-columns(12 of 12);
+  @media(min-width: $tablet) {
+    @include span-columns(4 of 12);
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  @include outer-container(83.33%);
+}

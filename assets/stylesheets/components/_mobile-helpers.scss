@@ -1,0 +1,19 @@
+.m-hide {
+  display: none;
+  @media(min-width: $tablet) {
+    display: block;
+  }
+}
+
+.m-show {
+  @media(min-width: $tablet) {
+    display: none;
+  }
+}
+
+.m-hide-text {
+  display: none;
+  @media(min-width: $tablet) {
+    display: inline;
+  }
+}
