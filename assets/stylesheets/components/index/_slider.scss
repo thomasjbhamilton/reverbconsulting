@@ -2,7 +2,10 @@
 /**** slider ****/
 
 #slider, .slider-list {
-  height: 500px;
+  height: 900px;
+  @media(min-width: $tablet) {
+    height: 500px;
+  }
 }
 
 #slider {
@@ -46,7 +49,7 @@
 .slider-container {
   margin: 0 auto;
   padding: 0;
-  width: 350px;
+  width: 300px;
   min-height: 180px;
   border-bottom: 1px solid #ccc;
   @media(min-width: $tablet) {
