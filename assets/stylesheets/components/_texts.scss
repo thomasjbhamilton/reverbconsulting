@@ -13,6 +13,11 @@
   color: $brand-blue;
 }
 
+.red-text {
+  color: $brand-red;
+}
+
+
 .thin {
   font-weight: 200;
 }
@@ -23,9 +28,4 @@
 
 .normal {
   font-weight: 400;
-}
-
-
-.red-text {
-  color: $brand-red;
 }
