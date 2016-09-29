@@ -1,1 +1,17 @@
-@import 'digital-advertising';
+.service-title {
+  display: inline-block;
+}
+
+.service-icon {
+  margin-left: 3rem;
+}
+
+.service-icon-m {
+  margin-right: 1rem;
+}
+
+.service-content {
+  @media(min-width: $tablet) {
+    @include span-columns(11);
+  }
+}

@@ -17,3 +17,10 @@
     display: inline;
   }
 }
+
+.form-hide-text {
+  display: none;
+  @media(min-width: $small-form-end) {
+    display: inline;
+  }
+}
