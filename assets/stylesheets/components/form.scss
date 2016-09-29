@@ -17,11 +17,22 @@
     width: 20rem;
 
     @media(min-width: $tablet) {
+      width: 50%;
+    }
+
+    @media(min-width: $desktop) {
       width: 28rem;
     }
 
     &:focus{
       border-bottom: 2px solid $brand-blue;
+    }
+
+    @media(max-width: $desktop) {
+      &::-webkit-input-placeholder {
+        font-size: 0.8em;
+        line-height: 2;
+      }
     }
   }
 
@@ -33,13 +44,14 @@
     border-bottom: 1px solid white;
     outline: none;
     background-color: transparent;
+    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#F0AA37' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
     color: $brand-orange;
     text-align: center;
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
-    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#F0AA37' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
-    background-position: 100% 50%;
-    background-repeat: no-repeat;
+
 
   }
 
