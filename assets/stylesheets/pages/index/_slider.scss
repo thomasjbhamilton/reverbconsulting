@@ -49,7 +49,7 @@
 .slider-container {
   margin: 0 auto;
   padding: 0;
-  width: 300px;
+  width: 340px;
   min-height: 180px;
   border-bottom: 1px solid #ccc;
   @media(min-width: $tablet) {
@@ -57,44 +57,32 @@
   }
 
   p {
-    margin: 10px 25px;
+    margin-bottom: 1.5em;
     line-height: 150%;
-    text-align: justify;
+    text-align: left;
   }
 }
 
 /*** target hooks ****/
 
 @-webkit-keyframes slide-animation {
-  0% { opacity: 0; }
-  2% { opacity: 1; }
   20% { left: 0px; opacity: 1; }
-  22.5% { opacity: 0.6; }
   25% { left: -900px; opacity: 1; }
   45% { left: -900px; opacity: 1 ; }
-  47.5% { opacity: 0.6; }
   50% { left: -1800px; opacity: 1; }
   70% { left: -1800px; opacity: 1; }
-  72.5% { opacity: 0.6; }
   75% { left: -2700px; opacity: 1; }
-  95% { opacity: 1; }
   98% { left: -2700px; opacity: 0; }
   100% { left: 0px; opacity: 0;}
 }
 
 @-webkit-keyframes slide-animation-m {
-  0% { opacity: 0; }
-  2% { opacity: 1; }
   20% { left: 0px; opacity: 1; }
-  22.5% { opacity: 0.6; }
   25% { left: -350px; opacity: 1; }
   45% { left: -350px; opacity: 1 ; }
-  47.5% { opacity: 0.6; }
   50% { left: -700px; opacity: 1; }
   70% { left: -700px; opacity: 1; }
-  72.5% { opacity: 0.6; }
   75% { left: -1050px; opacity: 1; }
-  95% { opacity: 1; }
   98% { left: -1050px; opacity: 0; }
   100% { left: 0px; opacity: 0;}
 }
