@@ -31,7 +31,6 @@
   }
 
   .navigation-links {
-    display: none;
     @include span-columns(12 of 12)
 
     @media(min-width: $tablet) {
@@ -40,25 +39,29 @@
     ul {
       padding: 0px;
       margin: 0px;
-      display: none;
+
 
       li {
         list-style: none;
-        display: block;
+        display: inline-block;
         margin-left: 0.5rem;
         padding-bottom: 0.5rem;
         @media(min-width: $tablet) {
           padding-bottom: 0;
+          margin-left: 2rem;
         }
         a {
           display: block;
           text-decoration: none;
           text-align: left;
           font-weight: 500;
-          font-size: 18px;
+          font-size: 12px;
           color: #fff;
           -webkit-transition: all ease-in 500ms;
           transition: all ease-in 500ms;
+          @media(min-width: $tablet) {
+            font-size: 18px;
+          }
 
           &:hover {
             background-color: $brand-grey;
