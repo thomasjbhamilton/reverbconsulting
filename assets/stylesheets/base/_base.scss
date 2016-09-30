@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   color: $brand-black;
-  font-weight: 200;
+  font-weight: 400;
   @media (min-width: $mobile){
     font-size: 18pt;
   }
@@ -63,7 +63,7 @@ h3 {
     font-size: 24pt;
   }
   @media (min-width: $desktop){
-    font-size: 35pt;
+    font-size: 26pt;
     letter-spacing: -2px;
   }
 

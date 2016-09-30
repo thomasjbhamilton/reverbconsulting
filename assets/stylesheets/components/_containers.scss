@@ -33,5 +33,7 @@
 }
 
 .form-container {
-  @include outer-container(83.33%);
+  @media(min-width: $tablet) {
+    @include outer-container(83.33%);
+  }
 }
