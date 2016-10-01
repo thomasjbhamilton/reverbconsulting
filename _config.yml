@@ -29,4 +29,4 @@ twitter_username: reverbconsult
 keywords: digital marketing,funnel development,operational automation
 logo: "/assets/images/RVC_Logo_RGB.svg"
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
