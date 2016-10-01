@@ -1,0 +1,32 @@
+.team-member__photo {
+  margin-top: 0.5rem;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.team-member-content {
+  @include span-columns(12 of 12);
+  @media(min-width: $tablet) {
+    @include span-columns(9 of 12);
+  }
+
+
+  &__name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    vertical-align: top;
+  }
+
+  &__bio {
+    margin-top: 0.5rem;
+  }
+}
+
+.team-member-photo {
+  @include span-columns(12 of 12);
+  @media(min-width: $tablet) {
+    @include span-columns(3 of 12);
+  }
+}

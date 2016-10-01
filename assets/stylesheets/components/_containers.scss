@@ -2,6 +2,9 @@
 .section-container {
   padding-top: 1rem;
   padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+
 
   @media(min-width: $tablet) {
     padding-top: 1rem;
@@ -33,5 +36,14 @@
 }
 
 .form-container {
-  @include outer-container(83.33%);
+  @media(min-width: $tablet) {
+    @include outer-container(83.33%);
+  }
+}
+
+.services-container {
+    @media (min-width: $tablet) {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
 }

@@ -2,6 +2,24 @@
   padding-top: 1rem;
 }
 
+.pt2 {
+  padding-top: 2rem;
+}
+
+.pt3 {
+  padding-top: 3rem;
+}
+
+.pt4 {
+  padding-top: 4rem;
+}
+
+.pt5-desktop-only {
+  @media(min-width: $tablet) {
+    padding-top: 5rem;
+  }
+}
+
 .pb1 {
   padding-bottom: 1rem;
 }

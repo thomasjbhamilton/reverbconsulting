@@ -2,27 +2,29 @@
 /**** slider ****/
 
 #slider, .slider-list {
-  height: 900px;
+  height: 950px;
   @media(min-width: $tablet) {
     height: 500px;
   }
 }
 
 #slider {
-  margin: auto;
+
   overflow: hidden;
-  padding: 20px;
+
   margin-top: 50px;
   position: relative;
-  width: 350px;
+  width: 320px;
   @media(min-width: $tablet) {
-    width: 900px
+    width: 900px;
+    margin: 1rem;
+    padding: 20px;
   }
 
   .slider-list-item {
     float: left;
     position: relative;
-    width: 350px;
+    width: 320px;
     display: inline-block;
     height: 200px;
     @media(min-width: $tablet) {
@@ -49,7 +51,7 @@
 .slider-container {
   margin: 0 auto;
   padding: 0;
-  width: 340px;
+  width: 290px;
   min-height: 180px;
   border-bottom: 1px solid #ccc;
   @media(min-width: $tablet) {
@@ -78,19 +80,19 @@
 
 @-webkit-keyframes slide-animation-m {
   20% { left: 0px; opacity: 1; }
-  25% { left: -350px; opacity: 1; }
-  45% { left: -350px; opacity: 1 ; }
-  50% { left: -700px; opacity: 1; }
-  70% { left: -700px; opacity: 1; }
-  75% { left: -1050px; opacity: 1; }
-  98% { left: -1050px; opacity: 0; }
+  25% { left: -320px; opacity: 1; }
+  45% { left: -320px; opacity: 1 ; }
+  50% { left: -640px; opacity: 1; }
+  70% { left: -640px; opacity: 1; }
+  75% { left: -960px; opacity: 1; }
+  98% { left: -960px; opacity: 0; }
   100% { left: 0px; opacity: 0;}
 }
 
  .slider-list {
-   -webkit-animation: slide-animation-m 25s infinite;
+   -webkit-animation: slide-animation-m 40s infinite;
    @media(min-width: $tablet) {
-     -webkit-animation: slide-animation 25s infinite;
+     -webkit-animation: slide-animation 40s infinite;
    }
 
    &:hover {

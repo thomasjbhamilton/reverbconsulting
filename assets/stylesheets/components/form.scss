@@ -12,9 +12,11 @@
     border-bottom: 1px solid white;
     outline: none;
     background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
     color: $brand-orange;
     text-align: center;
-    width: 20rem;
+    width: 100%;
 
     @media(min-width: $tablet) {
       width: 50%;
@@ -51,8 +53,6 @@
     text-align: center;
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
-
-
   }
 
   &__label {
