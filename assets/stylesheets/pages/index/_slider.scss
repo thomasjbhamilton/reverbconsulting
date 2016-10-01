@@ -2,21 +2,23 @@
 /**** slider ****/
 
 #slider, .slider-list {
-  height: 900px;
+  height: 950px;
   @media(min-width: $tablet) {
     height: 500px;
   }
 }
 
 #slider {
-  margin: 1rem;
+
   overflow: hidden;
-  padding: 20px;
+
   margin-top: 50px;
   position: relative;
   width: 320px;
   @media(min-width: $tablet) {
-    width: 900px
+    width: 900px;
+    margin: 1rem;
+    padding: 20px;
   }
 
   .slider-list-item {

@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <div class="dark-bg hero-spacing m-show">
+    <div class="content-box">
+      <div class="logo-mobile">
+        <img class="logo-image" src="{{ site.logo }}">
+      </div>
+    </div>
+  </div>
+  <div class="dark-bg section-container pt5-desktop-only">
+    <div class="content-box">
+      <h2 class="thick light-text center-text">
+        Let's get in touch!
+      </h2>
+      <div class="form-container light-text thin form-text">
+        <div class="row">
+          <form id="form" action="https://formspree.io/thomas@reverbconsulting.com" method="post">
+            <label class="contact-form__label" for="name">
+              Hello, my name is
+              <input class="contact-form__input"
+                type="text"
+                name="name"
+                value=""
+                placeholder="Jim Morrison">
+              <span class="form-hide-text">
+                , and you
+              </span>
+            </label>
+            <label class="contact-form__label" for="phone">
+              <span class="form-hide-text">
+                can
+              </span>
+                reach me by phone at:
+                <input class="contact-form__input"
+                  type="tel"
+                  name="phone"
+                  value=""
+                  placeholder="905-220-4445">
+                </label>
+            <label class="contact-form__label" for="email">
+              and by email at
+              <input class="contact-form__input"
+                type="email"
+                name="email"
+                value=""
+                placeholder="Jim@rockandroll.com">
+              <span class="form-hide-text">
+                .
+              </span>
+            </label><br>
+            <label class="contact-form__select-label" for="why">
+              I would like to discuss the following service:
+            </label><br>
+            <select class="contact-form__select-input" name="why">
+              <option value="igital Advertising">
+                Digital Advertising
+              </option>
+              <option value="Websites">
+                Websites
+              </option>
+              <option value="Marketing Automation">
+                Marketing Automation
+              </option>
+              <option value="Software Development">
+                Software Development
+              </option>
+              <option value="Digital Consulting">
+                Digital Consulting
+              </option>
+              <option value="Something else!">
+                Something else!
+              </option>
+            </select>
+            <input type="hidden" name="_subject" value="Hot Lead!" />
+            <input type="hidden" name="_cc" value="chris@reverbconsulting.com" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <input class="btn mt4 center normal" type="submit" name="name" value="Let's Talk">
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
