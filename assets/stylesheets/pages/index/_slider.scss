@@ -2,7 +2,7 @@
 /**** slider ****/
 
 #slider, .slider-list {
-  height: 950px;
+  height: 1000px;
   @media(min-width: $tablet) {
     height: 500px;
   }
@@ -27,6 +27,7 @@
     width: 320px;
     display: inline-block;
     height: 200px;
+    line-height: 1.4;
     @media(min-width: $tablet) {
       width: 900px
     }
@@ -39,10 +40,7 @@
     top: 0px;
     width: 9000px;
     transition: left .3s linear;
-    -moz-transition: left .3s linear;
-    -o-transition: left .3s linear;
-    -webkit-transition: left .3s linear;
-    margin-left: -25px;
+    margin-left: -55px;
   }
 }
 
