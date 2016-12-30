@@ -9,9 +9,13 @@
   text-align: center;
   color: $brand-orange;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 13pt;
   -webkit-transition: all ease-in 250ms;
   transition: all ease-in 250ms;
+
+  @media(min-width: $stnd-mobile) {
+    font-size: 14pt;
+  }
   @media(min-width: $tablet) {
     font-size: inherit;
   }
