@@ -7,11 +7,19 @@
 color:$brand-orange;
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
 
 body {
 
   font-family: 'Work Sans', sans-serif;
   font-size: 16pt;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
 
   @media (min-width: $desktop){
     font-size: 18pt
@@ -34,11 +42,12 @@ h1 {
   color: $brand-black;
   font-weight: 200;
   letter-spacing: -0.43px;
-  @media (min-width: $mobile){
-    font-size: 34pt;
+  font-size: 30pt;
+  @media (min-width: $tablet) {
+    font-size: 36pt;
   }
-  @media (min-width: $tablet){
-    font-size: 44pt;
+  @media (min-width: $desktop) {
+    font-size: 40pt;
   }
 }
 

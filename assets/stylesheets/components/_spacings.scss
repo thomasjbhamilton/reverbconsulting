@@ -40,6 +40,10 @@
   margin-top: 4rem;
 }
 
+.mt5 {
+  margin-top: 5rem;
+}
+
 .mb1 {
   margin-bottom: 1rem;
 }
@@ -59,9 +63,9 @@
 }
 
 .hero-spacing {
-  padding-top: 4rem;
+  padding-top: 2rem;
   @media(min-width: $tablet) {
-   margin-top: 4.5rem;
+   padding-top: 0;
 
   }
 }
