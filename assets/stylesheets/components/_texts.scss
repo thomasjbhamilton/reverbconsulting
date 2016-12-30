@@ -1,3 +1,7 @@
+.text-right {
+  text-align: right;
+}
+
 .light-text {
   text-align: left;
   color: #fff;
@@ -11,6 +15,10 @@
 .blue-text {
   text-align: left;
   color: $brand-blue;
+}
+
+.gray-text {
+  color: $brand-grey
 }
 
 .red-text {

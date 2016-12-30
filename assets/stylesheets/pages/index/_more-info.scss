@@ -10,3 +10,10 @@
     @include span-columns(4 of 12)
   }
 }
+
+.home-page__about-us {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

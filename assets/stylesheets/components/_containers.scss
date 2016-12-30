@@ -5,17 +5,14 @@
 }
 
 .call-out__section {
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
 
-    @include outer-container;
-    height: 90vh;
-    display: flex;
-    align-items: flex-start;
-
-    @media(min-width:$tablet){
-      height: 100vh;
-      align-items: center;
-    }
-
+  @media(min-width:$tablet){
+    height: 100vh;
+    align-items: center;
+  }
 }
 
 .content-box {
@@ -52,4 +49,8 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+}
+
+.display-none {
+  display: none;
 }
