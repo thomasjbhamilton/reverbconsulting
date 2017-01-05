@@ -1,7 +1,14 @@
 
 .section-container {
+  position: relative;
+  overflow: hidden;
   padding-left: 1rem;
   padding-right: 0.5rem;
+
+  // @media(min-width: $tablet) {
+  //   padding-left: 0;
+  //   padding-right: 0;
+  // }
 }
 
 .call-out__section {
@@ -15,10 +22,23 @@
   }
 }
 
+.call-out__section-about {
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  @media(min-width:$tablet){
+    height: 100vh;
+    align-items: center;
+  }
+}
+
 .content-box {
   @include outer-container;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .row {
@@ -38,9 +58,15 @@
   align-items: center;
 }
 
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .form-container {
   @media(min-width: $tablet) {
     @include outer-container(83.33%);
+    height: 90vh;
   }
 }
 
@@ -49,6 +75,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+}
+
+.column-v-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .display-none {

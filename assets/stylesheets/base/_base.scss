@@ -97,8 +97,13 @@ h4 {
 
 
 blockquote {
-  border-left: 5px solid $brand-blue;
+  border-left: 5px solid #CED0D6;
   margin-left: 0;
   margin-bottom: 3rem;
   padding-left: 2rem;
+  transition: all 450ms ease-in;
+
+  &:hover {
+    border-left: 5px solid $brand-orange;
+  }
 }

@@ -3,18 +3,20 @@ layout: default
 ---
 
 <div class="wrapper">
-  <div class="dark-bg section-container hero-spacing">
+
+  <section class="section-container call-out__section hero-spacing">
     <div class="content-box">
       <div class="logo-mobile">
         <img class="logo-image" src="{{ site.logo }}">
       </div>
-      <h1 class="light-text mb3">
-        Everything you need to provide your clients with digital services
+      <h1 class="light-text mt4 mb3">
+        Everything you need to help your business grow online.
       </h1>
       <a class="btn mb1" href="#form" onclick="goToForm();">WANT TO GRAB COFFEE?</a>
     </div>
-  </div>
-  <div class="section-container light-bg">
+  </section>
+
+  <section class="section-container light-bg service-container ">
     <div class="services-container">
       <div class="content-box m-text">
         <div class="row flex-center">
@@ -45,8 +47,9 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-  <div class="dark-bg section-container">
+  </section>
+
+  <section class="dark-bg section-container service-container ">
     <div class="services-container">
       <div class="content-box">
         <div class="row flex-center">
@@ -77,8 +80,9 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-  <div class="section-container light-bg">
+  </section>
+
+  <section class="section-container light-bg service-container ">
     <div class="services-container">
       <div class="content-box m-text">
         <div class="row flex-center">
@@ -110,8 +114,9 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-  <div class="dark-bg section-container">
+  </section>
+
+  <section class="dark-bg section-container service-container ">
     <div class="services-container">
       <div class="content-box">
         <div class="row flex-center">
@@ -143,8 +148,9 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-  <div class="section-container light-bg">
+  </section>
+
+  <section class="section-container light-bg service-container ">
     <div class="services-container">
       <div class="content-box m-text">
         <div class="row flex-center">
@@ -175,78 +181,79 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-    <div class="dark-bg section-container">
-      <div class="content-box">
+  </section>
+
+  <section id="form" class="dark-bg section-container pb3 pt3">
+    <div class="content-box pb5 ">
+      <div class="form-container light-text thin form-text column-v-center">
         <h2 class="thick light-text center-text">
           Let's get in touch!
         </h2>
-        <div class="form-container light-text thin form-text">
-          <div class="row">
-            <form id="form" action="https://formspree.io/thomas@reverbconsulting.com" method="post">
-              <label class="contact-form__label" for="name">
-                Hello, my name is
-                <input class="contact-form__input"
-                  type="text"
-                  name="name"
-                  value=""
-                  placeholder="Jim Morrison">
-                <span class="form-hide-text">
-                  , and you
-                </span>
-              </label>
-              <label class="contact-form__label" for="phone">
-                <span class="form-hide-text">
-                  can
-                </span>
-                  reach me by phone at:
-                  <input class="contact-form__input"
-                    type="tel"
-                    name="phone"
-                    value=""
-                    placeholder="905-220-4445">
-                  </label>
-              <label class="contact-form__label" for="email">
-                and by email at
-                <input class="contact-form__input"
-                  type="email"
-                  name="email"
-                  value=""
-                  placeholder="Jim@rockandroll.com">
-                <span class="form-hide-text">
-                  .
-                </span>
-              </label><br>
-              <label class="contact-form__select-label" for="why">
-                I would like to discuss the following service:
-              </label><br>
-              <select class="contact-form__select-input" name="why">
-                <option value="igital Advertising">
-                  Digital Advertising
-                </option>
-                <option value="Websites">
-                  Websites
-                </option>
-                <option value="Marketing Automation">
-                  Marketing Automation
-                </option>
-                <option value="Software Development">
-                  Software Development
-                </option>
-                <option value="Digital Consulting">
-                  Digital Consulting
-                </option>
-                <option value="Something else!">
-                  Something else!
-                </option>
-              </select>
-              <input type="hidden" name="_subject" value="Hot Lead!" />
-              <input type="hidden" name="_cc" value="chris@reverbconsulting.com" />
-              <input type="text" name="_gotcha" style="display:none" />
-              <input class="btn mt4 center normal" type="submit" name="name" value="Let's Talk">
-            </form>
-          </div>
+        <div class="row">
+          <form  action="https://formspree.io/thomas@reverbconsulting.com" method="post">
+            <label class="contact-form__label" for="name">
+              Hello, my name is
+              <input class="contact-form__input"
+                type="text"
+                name="name"
+                value=""
+                placeholder="Jim Morrison">
+              <span class="form-hide-text">
+                , and you
+              </span>
+            </label>
+            <label class="contact-form__label" for="phone">
+              <span class="form-hide-text">
+                can
+              </span>
+                reach me by phone at:
+              <input class="contact-form__input"
+                type="tel"
+                name="phone"
+                value=""
+                placeholder="905-220-4445">
+            </label>
+            <label class="contact-form__label" for="email">
+              and by email at
+              <input class="contact-form__input"
+                type="email"
+                name="email"
+                value=""
+                placeholder="Jim@rockandroll.com">
+              <span class="form-hide-text">
+                .
+              </span>
+            </label><br>
+            <label class="contact-form__select-label" for="why">
+              I would like to discuss the following service:
+            </label><br>
+            <select class="contact-form__select-input" name="why">
+              <option value="igital Advertising">
+                Digital Advertising
+              </option>
+              <option value="Websites">
+                Websites
+              </option>
+              <option value="Marketing Automation">
+                Marketing Automation
+              </option>
+              <option value="Software Development">
+                Software Development
+              </option>
+              <option value="Digital Consulting">
+                Digital Consulting
+              </option>
+              <option value="Something else!">
+                Something else!
+              </option>
+            </select>
+            <input type="hidden" name="_subject" value="Hot Lead!" />
+            <input type="hidden" name="_cc" value="chris@reverbconsulting.com" />
+            <input type="text" name="_gotcha" style="display:none" />
+            <input class="btn mt4 center normal" type="submit" name="name" value="Let's Talk">
+          </form>
         </div>
+      </div>
     </div>
-  </div>
+  </section>
 </div>

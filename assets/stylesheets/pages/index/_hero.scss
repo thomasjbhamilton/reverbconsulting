@@ -8,3 +8,22 @@
     display: none;
   }
 }
+
+.sound-wave {
+  position: absolute;
+  bottom: -6px;
+  left: -25%;
+  right: -25%;
+
+  @media(min-width: $large-screen) {
+    left: 0;
+    right: 0;
+  }
+}
+
+
+.hero-content {
+  @media(min-width: $tablet) {
+    top: -4rem;
+  }
+}
