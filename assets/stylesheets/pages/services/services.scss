@@ -17,7 +17,7 @@
 }
 
 .service-container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,5 +28,12 @@
     height: 100vh;
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+.services-container {
+  @media (min-width: $tablet) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }

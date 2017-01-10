@@ -1,14 +1,8 @@
 
 .section-container {
   position: relative;
-  overflow: hidden;
   padding-left: 1rem;
   padding-right: 0.5rem;
-
-  // @media(min-width: $tablet) {
-  //   padding-left: 0;
-  //   padding-right: 0;
-  // }
 }
 
 .call-out__section {
@@ -41,10 +35,6 @@
   z-index: 1;
 }
 
-.row {
-  @include span-columns(12);
-}
-
 .third {
   margin-bottom: 2rem;
   @include span-columns(12 of 12);
@@ -70,13 +60,6 @@
   }
 }
 
-.services-container {
-  @media (min-width: $tablet) {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-
 .column-v-center {
   display: flex;
   flex-direction: column;
@@ -85,4 +68,12 @@
 
 .display-none {
   display: none;
+}
+
+.small-callout {
+  height: 90vh !important;
+}
+
+.overflow-h {
+  overflow: hidden;
 }

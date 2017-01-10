@@ -4,6 +4,36 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    padding: 0;
+  }
+}
+
+.philosphy-container__svg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  @media(min-width: $tablet) {
+    flex-direction: column;
+
+  }
+}
+
+.philosphy-container__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media(min-width: $tablet) {
+    flex-direction: row;
+  }
+}
+
+
+
+.philosphy-container__p {
+  @include span-columns(12)
+  @media(min-width: $tablet) {
+    @include span-columns(10)
   }
 }
