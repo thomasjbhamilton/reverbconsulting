@@ -6,14 +6,15 @@
 }
 
 .call-out__section {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   align-items: flex-start;
 
   @media(min-width:$tablet){
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
   }
+
 }
 
 .call-out__section-about {
@@ -22,7 +23,7 @@
   align-items: flex-start;
 
   @media(min-width:$tablet){
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
   }
 }
@@ -56,7 +57,7 @@
 .form-container {
   @media(min-width: $tablet) {
     @include outer-container(83.33%);
-    height: 90vh;
+    min-height: 90vh;
   }
 }
 

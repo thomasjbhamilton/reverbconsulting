@@ -1,6 +1,12 @@
 .footer {
   position: relative;
-  padding-bottom: rem;
+  padding-bottom: 5rem;
+  min-height: 90vh;
+
+  @media(min-width: $tablet) {
+    min-height: 30vh;
+    padding-bottom: 2rem;
+  }
 
   &__container {
     display: flex;
@@ -17,13 +23,22 @@
     }
 
     &-title {
-      color: inherit;
+      color: #fff;
       transition: all 350ms ease-in;
+
+      @media(min-width: $tablet) {
+        color: inherit;
+      }
     }
 
     &-body {
-      color: inherit;
+      font-size: 16px;
+      color: #fff;
       transition: all 400ms ease-in;
+
+      @media(min-width: $tablet) {
+        color: inherit;
+      }
     }
 
     &:hover{
@@ -36,7 +51,7 @@
     margin: 0;
     padding-left: 0;
 
-    &__item {
+    &-item {
       display: flex;
       flex-direction: row;
       margin-top: 0.5rem;
@@ -44,22 +59,28 @@
   }
 
 
-}
 
-.social {
 
-  &__icon {
-    display: flex;
-    align-items: center;
-  }
+  &__social {
 
-  &__link {
-    padding-left: 1rem;
-    font-size: 16px;
-    color: inherit;
-    transition: all 400ms ease-in;
-    &:hover {
-      color: $brand-blue;
+    &__icon {
+      display: flex;
+      align-items: center;
+    }
+
+    &__link {
+      padding-left: 1rem;
+      font-size: 16px;
+      color: #fff;
+      transition: all 400ms ease-in;
+
+      &:hover {
+        color: $brand-blue;
+      }
+
+      @media(min-width: $tablet) {
+        color: inherit;
+      }
     }
   }
 }

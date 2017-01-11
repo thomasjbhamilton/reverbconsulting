@@ -47,10 +47,6 @@ h1 {
   letter-spacing: -0.43px;
   font-size: 26pt;
 
-  @media (min-width: $stnd-mobile) {
-    font-size: 30pt;
-  }
-
   @media (min-width: $tablet) {
     font-size: 36pt;
   }
