@@ -10,3 +10,13 @@
     @include span-columns(4 of 12)
   }
 }
+
+.home-page__about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  @media(min-width: $tablet) {
+    min-height: 100vh;
+  }
+}

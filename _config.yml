@@ -1,5 +1,5 @@
 ---
-title: Reverb Consulting | Digital Marketing For Consutans And Businesses Coaches
+title: Reverb Consulting | Digital Marketing For Consultants And Businesses Coaches
 timezone: America/New_York
 collections:
   posts:
@@ -26,7 +26,7 @@ description: |-
   many different digital marketing tools and automating your operations.
 baseurl: ''
 twitter_username: reverbconsult
-keywords: digital marketing,funnel development,operational automation
+keywords: digital marketing, funnel development, operational automation
 logo: "/assets/images/RVC_Logo_RGB.svg"
 gems:
 - jekyll-sitemap
