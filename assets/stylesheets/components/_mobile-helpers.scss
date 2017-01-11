@@ -24,3 +24,11 @@
     display: inline;
   }
 }
+
+
+.t-hide-text {
+  display: none;
+  @media(min-width: $desktop) {
+    display: inline;
+  }
+}

@@ -1,6 +1,8 @@
 .nav-container {
   position: fixed;
   z-index: 1000;
+  max-height: 10vh;
+  min-height: 90px;
   width: 100%;
   bottom: 0;
   top: auto;
@@ -11,6 +13,7 @@
     top: 0;
     bottom: auto;
   }
+
 }
 
 .header-wrap {
@@ -32,14 +35,22 @@
   .navigation-links {
     @include span-columns(12 of 12)
 
+    &__active-link {
+      color:            #F8F8F8;
+      background-color: #4f81bd;
+    }
+
     @media(min-width: $tablet) {
       @include span-columns(7 of 12)
     }
     ul {
+      display: flex;
+      justify-content: space-around;
       padding: 0px;
       margin: 0px;
       text-align: center;
       @media(min-width: $tablet) {
+        display: block;
         text-align: left;
       }
 
@@ -50,7 +61,7 @@
         padding-bottom: 0.5rem;
         @media(min-width: $tablet) {
           padding-bottom: 0;
-          margin-left: 2rem;
+          margin-left: 1rem;
         }
 
         a {
@@ -58,10 +69,8 @@
           text-decoration: none;
           text-align: center;
           font-weight: 500;
-          font-size: 14px;
+          font-size: 10px;
           color: #fff;
-          -webkit-transition:  ease-in 500ms;
-          transition: ease-in 500ms;
           @media(min-width: $tablet) {
             font-size: 16px;
           }
@@ -98,5 +107,8 @@
       }
     }
   }
+}
 
+.active-link {
+  border-bottom: 2px solid $brand-orange;
 }

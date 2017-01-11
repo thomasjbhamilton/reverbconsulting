@@ -1,3 +1,7 @@
+.text-right {
+  text-align: right;
+}
+
 .light-text {
   text-align: left;
   color: #fff;
@@ -13,8 +17,16 @@
   color: $brand-blue;
 }
 
+.gray-text {
+  color: $brand-grey
+}
+
 .red-text {
   color: $brand-red;
+}
+
+.orange-text {
+  color: $brand-orange;
 }
 
 
@@ -28,4 +40,13 @@
 
 .normal {
   font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.cite-text {
+  text-decoration: none;
+  color: $brand-blue;
 }

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="wrapper">
-  <div class="dark-bg section-container hero-spacing">
+  <section class="section-container call-out__section-about hero-spacing dark-bg">
     <div class="content-box">
       <div class="logo-mobile">
         <img class="logo-image" src="{{ site.logo }}">
@@ -15,14 +15,17 @@ layout: default
         It seems like everyday there is some new digital channel, or social
         media that every business “has” to be on. This can be exhausting to
         keep-up with, but we love it. Our goal is be on-top of all new media,
-        evaluating each one with a reazor sharp skpetics knife and decifering
-        which will have a true impact on a businesses bottom line, and where it
-        is worthwhile investing money.
+        evaluating each one with a razor sharp skeptics knife and then decifering
+        which will have a true impact on a businesses bottom line. That way we can
+        help you undersand whether it is worthwhile investing money.
       </p>
-      <a class="btn mb1" href="#form" onclick="goToForm();">WANT TO GRAB COFFEE?</a>
+      <a class="btn mb1 mt2" href="#form">
+        WANT TO TALK TO US?
+      </a>
     </div>
-  </div>
-  <div class="section-container light-bg">
+  </section>
+
+  <section class="section-container light-bg pt3 pb4 edge--bottom--reverse edge--top">
     <div class="content-box m-text">
       <div class="">
         <h2 class="center-text">
@@ -31,7 +34,11 @@ layout: default
         <div class="team-member row">
           <div class="team-member-photo">
             <div class="team-member__photo">
-              <img class="image" src="https://s3.amazonaws.com/reverb-consulting-website/thomas-hamilton.jpg" alt="" />
+              <img
+                class="image"
+                src="https://s3.amazonaws.com/reverb-consulting-website/thomas-hamilton.jpg"
+                alt=""
+              />
             </div>
             <div class="email-icon mt1">
               <a href="mailto:thomas@reverbconsulting.com">
@@ -49,7 +56,7 @@ layout: default
               Thomas Hamilton
             </h3>
             <p class="team-member-content__bio">
-              Thomas is a very strategic and big picture thinker, with a strong
+              Thomas is a strategic, big picture thinker, with a strong
               creative flair. He loves communicating and talking with people,
               and lives to create new and unique marketing strategies. No matter
               what he looks at, he is always able to find a new and creative way
@@ -65,7 +72,11 @@ layout: default
       <div class=" row mt3">
         <div class="team-member-photo">
           <div class="team-member__photo">
-            <img class="image" src="https://s3.amazonaws.com/reverb-consulting-website/Screen%2BShot%2B2016-05-15%2Bat%2B3.59.46%2BPM.png" alt="" />
+            <img
+              class="image"
+              src="https://s3.amazonaws.com/reverb-consulting-website/Screen%2BShot%2B2016-05-15%2Bat%2B3.59.46%2BPM.png"
+              alt=""
+            />
           </div>
           <div class="email-icon mt1">
             <a href="mailto:chris@reverbconsulting.com">
@@ -79,7 +90,9 @@ layout: default
           </div>
         </div>
         <div class="team-member-content">
-          <h3 class="team-member-content__name">Chris Buscarino</h3>
+          <h3 class="team-member-content__name">
+            Chris Buscarino
+          </h3>
           <p class="team-member-content__bio">
             An organized and disciplined thinker. He has an incredible ability to
             look at tasks, prioritize them, and execute. The details are never
@@ -95,15 +108,16 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
-  <div class="dark-bg section-container">
-    <div class="content-box">
-      <h2 class="thick light-text center-text">
-        Let's get in touch!
-      </h2>
-      <div class="form-container light-text thin form-text">
+  </section>
+
+  <section id="form" class="dark-bg section-container pb3 pt3">
+    <div class="content-box pb5 ">
+      <div class="form-container light-text thin form-text column-v-center">
+        <h2 class="thick light-text center-text">
+          Let's get in touch!
+        </h2>
         <div class="row">
-          <form id="form" action="https://formspree.io/thomas@reverbconsulting.com" method="post">
+          <form  action="https://formspree.io/thomas@reverbconsulting.com" method="post">
             <label class="contact-form__label" for="name">
               Hello, my name is
               <input class="contact-form__input"
@@ -120,12 +134,12 @@ layout: default
                 can
               </span>
                 reach me by phone at:
-                <input class="contact-form__input"
-                  type="tel"
-                  name="phone"
-                  value=""
-                  placeholder="905-220-4445">
-                </label>
+              <input class="contact-form__input"
+                type="tel"
+                name="phone"
+                value=""
+                placeholder="905-220-4445">
+            </label>
             <label class="contact-form__label" for="email">
               and by email at
               <input class="contact-form__input"
@@ -167,6 +181,6 @@ layout: default
           </form>
         </div>
       </div>
-  </div>
-</div>
+    </div>
+  </section>
 </div>

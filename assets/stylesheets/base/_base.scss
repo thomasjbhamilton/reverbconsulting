@@ -7,11 +7,22 @@
 color:$brand-orange;
 }
 
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
 
 body {
-
   font-family: 'Work Sans', sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  @media (min-width: $tablet){
+    font-size: 16pt
+  }
 
   @media (min-width: $desktop){
     font-size: 18pt
@@ -34,11 +45,14 @@ h1 {
   color: $brand-black;
   font-weight: 200;
   letter-spacing: -0.43px;
-  @media (min-width: $mobile){
-    font-size: 34pt;
+  font-size: 26pt;
+
+  @media (min-width: $tablet) {
+    font-size: 36pt;
   }
-  @media (min-width: $tablet){
-    font-size: 44pt;
+
+  @media (min-width: $desktop) {
+    font-size: 40pt;
   }
 }
 
@@ -46,28 +60,50 @@ h1 {
 h2 {
   color: $brand-black;
   font-weight: 200;
-  @media (min-width: $mobile){
-    font-size: 30pt;
-  }
+  font-size: 22pt;
+
   @media (min-width: $desktop){
     font-size: 38pt;
     letter-spacing: -2px;
   }
-
 }
 
 h3 {
   color: $brand-black;
   font-weight: 400;
+  margin: 0;
+
   @media (min-width: $mobile){
     font-size: 18pt;
   }
+
   @media (min-width: $tablet){
     font-size: 24pt;
   }
+
   @media (min-width: $desktop){
     font-size: 26pt;
     letter-spacing: -2px;
   }
+}
 
+h4 {
+  margin: 1rem 0;
+}
+
+
+blockquote {
+  border-left: 5px solid #CED0D6;
+  margin-left: 0;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+  transition: all 300ms ease-in;
+
+  &:hover {
+    border-left: 5px solid $brand-orange;
+  }
+}
+
+a {
+  text-decoration: none;
 }
