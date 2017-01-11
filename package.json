@@ -8,7 +8,7 @@
     "postinstall": "bundle install",
     "start": "gulp",
     "sync-images": "aws s3 sync ./assets/remote-images s3://reverb-consulting-website",
-    "deploy:images": "./node_modules/gulp/bin/gulp.js images:s3 && npm run sync-images"
+    "deploy:images": "gulp images:s3 && npm run sync-images"
   },
   "author": "",
   "license": "MIT",
