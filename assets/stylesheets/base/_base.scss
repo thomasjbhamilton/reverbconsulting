@@ -18,7 +18,9 @@ body {
   font-size: 14pt;
   height: 100%;
   width: 100%;
-  overflow: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
 
   @media (min-width: $tablet){
     font-size: 16pt
