@@ -3,21 +3,42 @@ layout: default
 ---
 
 <div class="wrapper">
-  <div class="dark-bg hero-spacing m-show">
-    <div class="content-box">
+  <section class="section-container call-out__section hero-spacing overflow-h">
+    <div class="content-box hero-content column-v-center">
       <div class="logo-mobile">
         <img class="logo-image" src="{{ site.logo }}">
       </div>
+      <div class="svg-center mt3">
+        <svg width="100" height="92" viewBox="0 0 100 92" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.2727.8095C20.2932.8095 13.28 3.0715 7.9545 8.5c-10.6504 10.857-10.358 27.5952 0 38.4524L50 91.2857l42.0455-44.3333c10.359-10.8572 10.65-27.5953 0-38.4524-10.65-10.4048-27.9864-10.4048-38.6364 0L50 12.119 46.591 8.5C41.2635 3.0714 34.2522.8095 27.2726.8095z" fill="#D52657" fill-rule="evenodd"/>
+        </svg>
+      </div>
+      <h1 class="thick light-text center-text mb0 mt4 text-center">
+        We would love to hear from you
+      </h1>
+      <p class="light-text text-center mb0">
+        Feel to email-us at
+        <span class="orange-text thick">
+          sales@reverbconsulting.com
+        </span>
+        or simply give us a call at
+        <span class="orange-text thick">
+          905-220-4445
+        </span>
+      </p>
+      <p class="light-text text-center">
+        Or you can use the form below!
+      </p>
     </div>
-  </div>
-  <div class="dark-bg section-container pt5-desktop-only">
-    <div class="content-box">
-      <h2 class="thick light-text center-text">
-        Let's get in touch!
-      </h2>
-      <div class="form-container light-text thin form-text">
+  </section>
+  <section id="form" class="dark-bg section-container pb3 pt3 ">
+    <div class="content-box pb5 ">
+      <div class="form-container light-text thin form-text column-v-center">
+        <h2 class="thick light-text center-text mb0 mt4 text-center">
+          Let's get in touch!
+        </h2>
         <div class="row">
-          <form id="form" action="https://formspree.io/thomas@reverbconsulting.com" method="post">
+          <form  action="https://formspree.io/thomas@reverbconsulting.com" method="post">
             <label class="contact-form__label" for="name">
               Hello, my name is
               <input class="contact-form__input"
@@ -34,19 +55,19 @@ layout: default
                 can
               </span>
                 reach me by phone at:
-                <input class="contact-form__input"
-                  type="tel"
-                  name="phone"
-                  value=""
-                  placeholder="905-220-4445">
-                </label>
+              <input class="contact-form__input"
+                type="tel"
+                name="phone"
+                value=""
+                placeholder="905-220-4445">
+            </label>
             <label class="contact-form__label" for="email">
               and by email at
               <input class="contact-form__input"
                 type="email"
                 name="email"
                 value=""
-                placeholder="Jim@rockandroll.com">
+                placeholder="Jim@example.com">
               <span class="form-hide-text">
                 .
               </span>
@@ -55,7 +76,7 @@ layout: default
               I would like to discuss the following service:
             </label><br>
             <select class="contact-form__select-input" name="why">
-              <option value="igital Advertising">
+              <option value="digital Advertising">
                 Digital Advertising
               </option>
               <option value="Websites">
@@ -77,11 +98,11 @@ layout: default
             <input type="hidden" name="_subject" value="Hot Lead!" />
             <input type="hidden" name="_cc" value="chris@reverbconsulting.com" />
             <input type="text" name="_gotcha" style="display:none" />
-            <input type="hidden" name="_next" value="http://reverbconsulting.com/thank-you.html" />
             <input class="btn mt4 center normal" type="submit" name="name" value="Let's Talk">
           </form>
         </div>
       </div>
-  </div>
+    </div>
+  </section>
 </div>
 </div>
