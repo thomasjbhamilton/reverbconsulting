@@ -1,19 +1,15 @@
 .nav-container {
   position: fixed;
   z-index: 1000;
-  max-height: 10vh;
-  min-height: 90px;
   width: 100%;
   bottom: 0;
   top: auto;
   background-color: $brand-black;
-  padding-bottom: 0.5em;
 
   @media(min-width: $tablet) {
     top: 0;
     bottom: auto;
   }
-
 }
 
 .header-wrap {
@@ -43,6 +39,7 @@
     @media(min-width: $tablet) {
       @include span-columns(7 of 12)
     }
+    
     ul {
       display: flex;
       justify-content: space-around;
