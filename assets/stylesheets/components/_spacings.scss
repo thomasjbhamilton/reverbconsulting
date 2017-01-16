@@ -92,17 +92,6 @@
   }
 }
 
-.h1-m-spacing {
-  margin-top: 3rem;
-  @media(min-width: $stnd-mobile) {
-    margin-top: 4rem;
-  }
-  @media(min-width: $big-mobile) {
-    margin-top: 6rem;
-  }
-
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
