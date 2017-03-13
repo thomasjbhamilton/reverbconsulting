@@ -1,32 +1,51 @@
-.team-member__photo {
-  margin-top: 0.5rem;
-  max-height: 250px;
-  overflow: hidden;
-}
 
-.team-member-content {
-  @include span-columns(12 of 12);
+
+
+.team-member {
+
+  display: flex;
+  flex-direction: column;
+
   @media(min-width: $tablet) {
-    @include span-columns(9 of 12);
+    flex-direction: row;
+    justify-content: space-between;
   }
 
+  &__photo {
+    width: 100%;;
+    @media(min-width: $tablet) {
+      width:33.33%;
+    }
 
-  &__name {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    vertical-align: top;
+    &-img {
+      margin-top: 0.5rem;
+      max-height: 250px;
+      overflow: hidden;
+    }
   }
 
-  &__bio {
-    margin-top: 0.5rem;
-  }
-}
+  &__content {
+    width: 100%;
+    @media(min-width: $tablet) {
+      width: 48%;
+      margin-left: 2rem;
+    }
 
-.team-member-photo {
-  @include span-columns(12 of 12);
-  @media(min-width: $tablet) {
-    @include span-columns(3 of 12);
+
+    &__name {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      vertical-align: top;
+    }
+
+    &__bio {
+      margin-top: 0.5rem;
+
+      @media(min-width: $tablet) {
+        font-size: 16px;
+      }
+    }
   }
 }
