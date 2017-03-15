@@ -1,3 +1,8 @@
+{% assign services = '/services.html' %}
+{% assign home = '/' %}
+{% assign about_us = '/about.html' %}
+{% assign contact = '/contact.html' %}
+
 <div class="nav-container">
   <div class="header-wrap mt1">
     <header class="header">
@@ -7,7 +12,7 @@
       <nav id="nav-bar" class="navigation-links">
         <ul class="">
             <li>
-              <a id="homepage-link" class="nav__link" href="/">
+              <a id="homepage-link" class="nav__link {% if page.url == home %} active-link {% endif %}" href="/">
                 <div class="m-show">
                   <svg width="28" height="24" viewBox="1075 296 24 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1098.5 298h-2.5v-1.5c0-.276-.224-.5-.5-.5h-17c-.276 0-.5.224-.5.5v1.5h-2.5c-.276 0-.5.224-.5.5v11c0 .276.224.5.5.5h2.5v1.03c0 .277.224.5.5.5s.5-.223.5-.5V310h16v1.03c0 .277.224.5.5.5s.5-.223.5-.5V310h2.5c.276 0 .5-.224.5-.5v-11c0-.276-.224-.5-.5-.5zm-20 4.53c.276 0 .5-.223.5-.5V297h7.47v7h-6.97c-.276 0-.5.224-.5.5s.224.5.5.5h15c.276 0 .5-.224.5-.5s-.224-.5-.5-.5h-7.03v-7h7.53v5.03c0 .277.224.5.5.5s.5-.223.5-.5V299h2v10h-22v-10h2v3.03c0 .277.224.5.5.5z" fill="#fff" fill-rule="evenodd"/>
@@ -17,7 +22,7 @@
               </a>
             </li>
             <li>
-              <a id="about-us-link" class="nav__link" href="/about">
+              <a id="about-us-link" class="nav__link {% if page.url == about_us %} active-link {% endif %}" href="/about">
                 <div class="m-show">
                   <svg width="20" height="24" viewBox="69 -428 20 24" xmlns="http://www.w3.org/2000/svg">
                     <g fill="#fff" fill-rule="evenodd">
@@ -29,7 +34,7 @@
               </a>
             </li>
             <li>
-              <a id="services-link" class="nav__link" href="/services">
+              <a id="services-link" class="nav__link {% if page.url == services %} active-link {% endif %}" href="/services">
                 <div class="m-show">
                   <svg width="28" height="24" viewBox="499 -116 24 23" xmlns="http://www.w3.org/2000/svg">
                     <path d="M522.504-110.648c-.28-.24-.624-.36-.97-.36H502.92l-.71-3.566c-.002-.008-.008-.014-.01-.022-.045-.23-.238-.406-.48-.406h-2.205c-.277 0-.5.224-.5.5s.223.5.5.5h1.79l3.225 16.22c-.872.39-1.482 1.262-1.482 2.28 0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5c0-.566-.195-1.08-.512-1.5h8.043c-.317.42-.512.934-.512 1.5 0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5h-12.062l-.404-2.03h13.583c.44.002.81-.225 1.037-.494.233-.27.366-.583.446-.88.005-.02.062-.195.143-.428.288-.835.928-2.62 1.495-4.19l1.06-2.932c.08-.213.12-.424.12-.63.003-.44-.2-.826-.48-1.062zm-15.456 15.146c-.002.828-.672 1.498-1.5 1.5-.83-.002-1.5-.672-1.5-1.5s.67-1.5 1.5-1.5c.828 0 1.498.672 1.5 1.5zm12.02 0c-.002.828-.672 1.498-1.5 1.5-.83-.002-1.5-.672-1.5-1.5s.67-1.5 1.5-1.5c.828 0 1.498.672 1.5 1.5zm2.858-13.796s-.646 1.78-1.308 3.62c-.33.918-.666 1.853-.927 2.59-.13.367-.24.685-.325.928-.085.247-.136.4-.163.498-.048.184-.138.37-.235.48-.104.112-.17.145-.282.15h-13.782l-1.785-8.977h18.417c.103 0 .234.046.316.12.083.075.13.15.135.305 0 .07-.015.166-.06.287z" fill="#FFF" fill-rule="evenodd"/>
@@ -39,7 +44,7 @@
               </a>
             </li>
             <li>
-              <a id="contact-link" class="nav__link" href="/contact">
+              <a id="contact-link" class="nav__link {% if page.url == contact %} active-link {% endif %}" href="/contact">
                 <div class="m-show">
                   <svg width="14" height="24" viewBox="360 316 14 25" xmlns="http://www.w3.org/2000/svg">
                     <path d="M373.002 319.487v-1.756c0-.95-.77-1.722-1.722-1.722h-8.56c-.95 0-1.722.77-1.722 1.723v20.555c0 .952.772 1.723 1.723 1.723h8.56c.95 0 1.72-.77 1.72-1.723l.002-18.798zm-11.003.5H372v16.042H362v-16.043zm5 18.777c-.415 0-.75-.336-.75-.75s.335-.75.75-.75c.414 0 .75.336.75.75s-.336.75-.75.75z" fill="#fff" fill-rule="evenodd"/>
@@ -67,4 +72,5 @@
       </div>
     </header>
   </div>
+  <p id="poop"></p>
 </div>
