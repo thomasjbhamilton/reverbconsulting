@@ -15,19 +15,18 @@ html {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 1em;
   height: 100%;
   width: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 
-
-  @media (min-width: $tablet){
-    font-size: 16pt
+  @media (min-width: $tablet) {
+    font-size: 1.2em;
   }
 
-  @media (min-width: $desktop){
-    font-size: 18pt
+  @media (min-width: $desktop) {
+    font-size: 1.4em;
   }
 }
 
@@ -62,29 +61,24 @@ h1 {
 h2 {
   color: $brand-black;
   font-weight: 200;
-  font-size: 22pt;
+  font-size: 2em;
+
+  @media (min-width: $tablet){
+    font-size: 2.5em;
+  }
 
   @media (min-width: $desktop){
-    font-size: 38pt;
+    font-size: 2.2em;
     letter-spacing: -2px;
   }
 }
 
 h3 {
   color: $brand-black;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0;
 
-  @media (min-width: $mobile){
-    font-size: 18pt;
-  }
-
-  @media (min-width: $tablet){
-    font-size: 24pt;
-  }
-
   @media (min-width: $desktop){
-    font-size: 26pt;
     letter-spacing: -2px;
   }
 }
@@ -108,4 +102,5 @@ blockquote {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
