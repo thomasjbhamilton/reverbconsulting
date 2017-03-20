@@ -31,15 +31,10 @@
   .navigation-links {
     @include span-columns(12 of 12)
 
-    &__active-link {
-      color:            #F8F8F8;
-      background-color: #4f81bd;
-    }
-
     @media(min-width: $tablet) {
       @include span-columns(7 of 12)
     }
-    
+
     ul {
       display: flex;
       justify-content: space-around;
@@ -73,6 +68,10 @@
 
           @media(min-width: $tablet) {
             font-size: 16px;
+          }
+
+          &:hover {
+            border-bottom: 2px solid #5a5a5a;
           }
 
           &.active-link {
