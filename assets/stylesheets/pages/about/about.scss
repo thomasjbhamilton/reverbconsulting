@@ -1,11 +1,17 @@
 
+.about-h1 {
+  margin-top: 5rem;
 
+  @media(min-width: $tablet) {
+    margin-top: 0;
+  }
+}
 
 .team-member {
 
   display: flex;
   flex-direction: column;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 
   @media(min-width: $tablet) {
     flex-direction: column;
@@ -13,16 +19,15 @@
 
   @media(min-width: $desktop) {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
-
 
   &__photo {
     width: 100%;;
     position: relative;
 
     @media(min-width: $desktop) {
-      width:33.33%;
+      width:40%;
     }
 
     &-img {
@@ -30,11 +35,11 @@
       overflow: hidden;
 
       @media(min-width: $tablet) {
-        max-height: 350px;
+        max-height: 400px;
       }
 
       @media(min-width: $desktop) {
-        max-height: 248px;
+        max-height: 300px;
       }
     }
 
@@ -42,7 +47,7 @@
       padding-top: .5rem;
       padding-bottom: .5rem;
       padding-left: 0.5rem;
-      background: rgba(185, 20, 25, 0.5);
+      background-image: linear-gradient(-90deg, rgba(240,174,45,0.50) 0%, rgba(184,29,14,0.50) 100%);
       position: absolute;
       bottom: 0;
       left: 0;
@@ -63,7 +68,7 @@
     }
 
     @media(min-width: $desktop) {
-      width: 70%;
+      width: 60%;
       margin-left: 2rem;
       padding-top: 0;
     }
@@ -78,7 +83,7 @@
     }
 
     &__bio {
-      margin: 0.5rem 0 0 0;
+      margin: s0.5rem 0 0 0;
 
       @media(min-width: $tablet) {
         font-size: 0.8em;
