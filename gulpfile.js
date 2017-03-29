@@ -10,7 +10,6 @@ const rename = require('gulp-rename');
 const notify = require('gulp-notify');
 const sourcemaps = require('gulp-sourcemaps');
 const imagemin = require('gulp-imagemin');
-const autoprefixer = require('gulp-autoprefixer');
 
 // Paths
 const SRC = 'assets';
@@ -55,12 +54,6 @@ gulp.task('dev:scss', function() {
       title: 'Sass Compile Error',
       sound: 'Basso'
     }))
-    .pipe(
-      autoprefixer({
-        browsers: ['last 2 versions'],
-        cascade: false
-      })
-    )
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(STYLES_DEST));
 });
