@@ -1,0 +1,18 @@
+<svg id="removeSvg" xmlns="http://www.w3.org/2000/svg" width="111" height="91" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="w" width="109.1595" height="75.1959" rx="8"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(.857 15.77)">
+      <mask id="x" fill="#fff">
+        <use xlink:href="#w"/>
+      </mask>
+      <use fill="#ECECEC" xlink:href="#w"/>
+      <path fill="#D2D2D2" d="M-5.664-4.6673h119.9726v20.7437H-5.664z" mask="url(#x)"/>
+      <path fill="#E46F80" d="M83.9292 26.9668h20.0812v39.9316H83.9292zM35.0134 26.9668H74.661v39.9316H35.0134z" mask="url(#x)"/>
+    </g>
+    <text fill="#E9CAD2" font-family="Assistant-Bold, Assistant" font-size="10" font-weight="bold" letter-spacing=".3125" transform="translate(0 -3)">
+      <tspan x="27.8678" y="10">ACCORDION</tspan>
+    </text>
+  </g>
+</svg>
