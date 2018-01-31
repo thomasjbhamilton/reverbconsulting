@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="374" height="622" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="326" height="574" rx="7"/>
+    <filter id="a" width="123.9%" height="113.6%" x="-12%" y="-5.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+    </filter>
+    <rect id="c" width="104" height="138" x="53" y="49" rx="3"/>
+    <filter id="d" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="e" width="104" height="138" x="53" y="219" rx="3"/>
+    <filter id="f" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="g" width="104" height="138" x="53" y="388" rx="3"/>
+    <filter id="h" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="i" width="104" height="138" x="168" y="49" rx="3"/>
+    <filter id="j" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="k" width="104" height="138" x="168" y="219" rx="3"/>
+    <filter id="l" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+    <rect id="m" width="104" height="138" x="168" y="388" rx="3"/>
+    <filter id="n" width="115.4%" height="111.6%" x="-7.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0380434783 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(24 18)">
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FBFBFB" xlink:href="#b"/>
+    <use fill="#F9F9F9" xlink:href="#c"/>
+    <use fill="#000" filter="url(#d)" xlink:href="#c"/>
+    <use fill="#F9F9F9" xlink:href="#e"/>
+    <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+    <use fill="#F9F9F9" xlink:href="#g"/>
+    <use fill="#000" filter="url(#h)" xlink:href="#g"/>
+    <use fill="#F9F9F9" xlink:href="#i"/>
+    <use fill="#000" filter="url(#j)" xlink:href="#i"/>
+    <g>
+      <use fill="#F9F9F9" xlink:href="#k"/>
+      <use fill="#000" filter="url(#l)" xlink:href="#k"/>
+    </g>
+    <g>
+      <use fill="#F9F9F9" xlink:href="#m"/>
+      <use fill="#000" filter="url(#n)" xlink:href="#m"/>
+    </g>
+    <circle cx="299.5" cy="288.5" r="18.5" fill="#0D2845" opacity=".6"/>
+    <circle cx="305.5" cy="284.5" r="5.5" fill="#C1A366" opacity=".6"/>
+  </g>
+</svg>

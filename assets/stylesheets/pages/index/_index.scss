@@ -31,6 +31,7 @@
     letter-spacing: 0;
     line-height: 28px;
   }
+
   &__tagline {
     align-self: flex-end;
     margin-top: 12rem;
@@ -72,6 +73,7 @@
     }
 
     &-button {
+      flex-basis: 105px;
       border: 1px solid transparent;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -95,8 +97,10 @@
 
 .hp-intro {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   min-height: 100vh;
 
   &__container {
@@ -104,7 +108,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     height: 350px;
   }
 
@@ -173,5 +176,309 @@
     &:hover {
       border: 1px solid $gold;
     }
+  }
+
+  &__coffee-cup {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin-top: 80px;
+    padding-bottom: -30px;
+    border-bottom: 2px solid #E3E3E3;
+  }
+}
+
+.hp-dd {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 80vh;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 493px;
+  }
+
+  &__body {
+    height: 100%;
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  &__p {
+    margin: 0;
+    margin-top: 100px;
+    padding-right: 15px;
+    font-family: 'National2';
+    font-size: 18px;
+    color: #5A5A5A;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: right;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -18px;
+    max-width: 150px;
+    min-height: 40px;
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-weight: 933px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    &:hover {
+      border: 1px solid $gold;
+    }
+  }
+
+  &__divider {
+    height: 100%;
+    width: 14px;
+    border-right: 1px solid $gold;
+    border-bottom: 1px solid $gold;
+  }
+
+  &__title {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 175px;
+    margin-bottom: 25px;
+    padding-left: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'National2';
+    font-size: 34px;
+    color: #5A5A5A;
+    letter-spacing: -0.85px;
+    line-height: 38px;
+  }
+  &__computer {
+    margin-right: 387px;
+    margin-top: -9px;
+  }
+}
+
+.hp-dark-section {
+  position: relative;
+  margin-top: -20px;
+  background-color: $dark-blue;
+  overflow: hidden;
+
+  &__ripples {
+    position: absolute;
+    right: -32%;
+    top: 50px;
+    z-index: 0;
+  }
+
+  &__sifi-lines {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    width: 100%;
+
+  }
+}
+
+
+.hp-du {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 375px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-bottom: 65px;
+    padding-right: 30px;
+    text-align: right;
+    vertical-align: bottom;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+    letter-spacing: -0.85px;
+    line-height: 38px;
+
+  }
+
+  &__divider {
+    height: 100%;
+    width: 10px;
+    border-left: 1px solid $gold;
+    border-bottom: 1px solid $gold;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 550px;
+    padding-top: 25px;
+  }
+
+  &__p {
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'National2';
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    max-width: 210px;
+    min-height: 40px;
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    font-family: 'National2';
+    font-weight: 700;
+    font-weight: 933px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    &:hover {
+      border: 1px solid $gold;
+    }
+  }
+}
+
+.hp-rf {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  min-height: 80vh;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    height: 435px;
+  }
+
+  &__body {
+    height: 100%;
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  &__p {
+    margin: 0;
+    margin-top: 100px;
+    padding-right: 15px;
+    font-family: 'National2';
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: right;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -18px;
+    max-width: 150px;
+    min-height: 40px;
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-weight: 933px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    &:hover {
+      border: 1px solid $gold;
+    }
+  }
+
+  &__divider {
+    height: 100%;
+    width: 14px;
+    border-right: 1px solid $gold;
+    border-bottom: 1px solid $gold;
+  }
+
+  &__title {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    width: 235px;
+    margin-bottom: 25px;
+    padding-left: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+    letter-spacing: -0.85px;
+    line-height: 38px;
+  }
+  &__computer {
+    margin-right: 387px;
+    margin-top: -9px;
   }
 }

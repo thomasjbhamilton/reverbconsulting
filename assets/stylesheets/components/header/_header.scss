@@ -62,7 +62,7 @@
 }
 
 .nav-link {
-  border-bottom: 1px solid $blue;
+  border-bottom: 2px solid #eee;
   padding-bottom: 12px;
   font-family: 'National2';
   font-size: 32px;
@@ -72,7 +72,7 @@
   transition: 250ms ease;
 
   &:hover {
-    border-bottom: 1px solid $gold;
+    border-bottom: 2px solid $gold;
   }
 }
 

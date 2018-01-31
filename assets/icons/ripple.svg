@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1262" height="1371" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="97.8695%">
+      <stop stop-color="#6E85AE" offset="0%"/>
+      <stop stop-color="#41598D" stop-opacity=".8738" offset="100%"/>
+    </linearGradient>
+    <ellipse id="b" cx="679.5" cy="682" rx="159.5" ry="161"/>
+    <filter id="a" width="141.7%" height="141.3%" x="-14.9%" y="-17.2%" filterUnits="objectBoundingBox">
+      <feOffset dx="19" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.240574049 0" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+    <ellipse cx="679.5" cy="682.5" stroke="#4B5B7C" stroke-opacity=".5961" stroke-width="35" rx="262.5" ry="265.5"/>
+    <ellipse cx="677.5" cy="683.5" stroke="#4B5B7C" stroke-opacity=".3439" stroke-width="20" rx="396.5" ry="400.5"/>
+    <ellipse cx="676" cy="681.5" stroke="#4B5B7C" stroke-opacity=".1318" stroke-width="10" rx="530" ry="535.5"/>
+    <ellipse cx="676" cy="683.5" stroke="#4B5B7C" stroke-opacity=".1318" stroke-width="3" rx="676" ry="683.5"/>
+    <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+    <use fill="url(#c)" xlink:href="#b"/>
+  </g>
+</svg>
