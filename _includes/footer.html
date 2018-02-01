@@ -1,7 +1,17 @@
-<footer id="footer" class="footer">
-
-
+<footer class="footer">
+  <div class="">
+    {% include components/social-icons.html %}
+  </div>
+  <a id="to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+      <g fill="none" fill-rule="evenodd">
+        <rect width="24" height="24" fill="#041322" rx="3"/>
+        <path fill="#FFF" d="M11.5 9l4.5 4H7"/>
+      </g>
+    </svg>
+  </a>
 </footer>
+{% include components/contact-modal.html %}
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
 <script src="/dist/javascript/bundle.js"></script>
 <script src="https://use.typekit.net/ytv7yjt.js"></script>

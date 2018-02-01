@@ -109,6 +109,7 @@
     justify-content: center;
     align-items: center;
     height: 350px;
+    z-index: 1;
   }
 
   &__title {
@@ -166,12 +167,12 @@
     padding-right: 15px;
     font-family: 'National2';
     font-weight: 700;
-    font-weight: 933px;
     font-size: 12px;
     text-transform: uppercase;
     color: $gold;
     letter-spacing: 1.75px;
     transition: all 250ms ease;
+    cursor: pointer;
 
     &:hover {
       border: 1px solid $gold;
@@ -187,6 +188,7 @@
     margin-top: 80px;
     padding-bottom: -30px;
     border-bottom: 2px solid #E3E3E3;
+    z-index: 0;
   }
 }
 
@@ -241,7 +243,6 @@
     padding-right: 15px;
     font-family: 'National2';
     font-weight: 700;
-    font-weight: 933px;
     font-size: 12px;
     text-transform: uppercase;
     color: $gold;
@@ -399,6 +400,7 @@
   align-items: center;
   position: relative;
   min-height: 80vh;
+  z-index: 1;
 
   &__container {
     display: flex;
@@ -442,12 +444,12 @@
     padding-right: 15px;
     font-family: 'National2';
     font-weight: 700;
-    font-weight: 933px;
     font-size: 12px;
     text-transform: uppercase;
     color: $gold;
     letter-spacing: 1.75px;
     transition: all 250ms ease;
+    cursor: pointer;
 
     &:hover {
       border: 1px solid $gold;
@@ -480,5 +482,79 @@
   &__computer {
     margin-right: 387px;
     margin-top: -9px;
+  }
+}
+
+.hp-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+
+  &__container {
+    width: 960px;
+    z-index: 1;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: 'National2';
+    font-size: 76px;
+    font-weight: 700;
+    color: $blue;
+    letter-spacing: -2px;
+    line-height: 72px;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+  }
+
+  &__line {
+    height: 1px;
+    width: 90%;
+    background-color: $gold;
+  }
+
+  &__btn {
+    flex-basis: 125px;
+    border: 1px solid $gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-weight: 933px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    &:hover {
+      border: 1px solid $gold;
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__content {
+    font-family: 'National2';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+    color: #1D1E1E;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+
+  &__icon {
+    position: absolute;
+    z-index: 0;
   }
 }

@@ -1,0 +1,85 @@
+.about-hero{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(-180deg, #0A2044 0%, #041322 100%);
+
+  &__sound-wave {
+    margin-top: 200px;
+  }
+
+  &__title {
+    margin-top: 100px;
+    font-family: 'National2';
+    font-size: 54px;
+    color: white;
+    letter-spacing: -0.75px;
+
+    &-border {
+      margin: 45px auto;
+      margin-top: 40px;
+      height: 1px;
+      width: 250px;
+      background: $off-white;
+    }
+  }
+}
+
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+
+
+  &__title {
+    margin-bottom: 50px;
+    font-family: 'National2';
+    font-size: 120px;
+    font-weight: 700;
+    color: $blue;
+    letter-spacing: -1px;
+    line-height: 100px;
+  }
+
+  &__body {
+    width: 975px;
+    text-align: center;
+    font-family: 'National2';
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.19px;
+    line-height: 32px;
+  }
+}
+
+.hero-serve {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  &__title {
+    margin-bottom: 25px;
+    font-family: 'National2';
+    font-size: 120px;
+    color: #E5E5E5;
+    letter-spacing: -2px;
+    line-height: 100px;
+  }
+
+  &__body {
+    width: 975px;
+    text-align: center;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: #1D1E1E;
+    letter-spacing: 0.32px;
+    line-height: 32px;
+  }
+}

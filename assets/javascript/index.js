@@ -6,10 +6,20 @@ $(document).ready(function(){
 
   $('#menuButton').on('click', function(){
     $('.nav-modal').fadeIn();
+    $('body').css('overflow', 'hidden');
   })
 
   $('#closeMenuButton').on('click', function(){
     $('.nav-modal').fadeOut();
+    $('body').css('overflow', 'auto');
+  })
+
+  $('#closeModalButton').on('click', function(){
+    $('.contact-modal').fadeOut();
+  })
+
+  $('#to-top').on('click', function(){
+    $("html, body").animate({ scrollTop: 0 }, "slow");
   })
 
   navLink.hover(function(){

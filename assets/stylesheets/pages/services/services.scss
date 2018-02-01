@@ -1,0 +1,402 @@
+.services-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+    width: 1039px;
+    height: 400px;
+    background-image: url('../../assets/icons/services-computer.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 72px;
+    text-align: right;
+    color: #FFFFFF;
+    letter-spacing: -1.08px;
+    line-height: 100px;
+  }
+}
+
+.services-wd {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__content {
+    order: 1;
+    height: 100%;
+    width: 557px;
+    z-index: 1;
+  }
+
+  &__title {
+    border-bottom: 2px solid $blue;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: -0.36px;
+  }
+
+  &__body {
+    width: 1025px;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-left: 12px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__image {
+    order: 2;
+    height: 640px;
+    width: 347px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(4, 19, 34, 0.9),
+      rgba(4, 19, 34, 0.9)
+    ), url('../../assets/images/web-development.png');
+    z-index: 0;
+  }
+}
+
+.services-da {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15rem;
+  padding-bottom: 15rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    order: 2;
+    height: 100%;
+    width: 557px;
+    z-index: 1;
+  }
+
+  &__title {
+    width: 100%;
+    border-bottom: 2px solid $blue;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: right;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    letter-spacing: -0.36px;
+  }
+
+  &__body {
+    margin-left: -450px;
+    width: 1000px;
+    padding-left: 10px;
+    text-align: right;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__image {
+    order: 1;
+    height: 640px;
+    width: 347px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(4, 19, 34, 0.9),
+      rgba(4, 19, 34, 0.9)
+    ), url('../../assets/images/digital-advertising.png');
+    z-index: 0;
+  }
+}
+
+.services-ec {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+  &__content {
+    order: 1;
+    margin-top: 70px;
+    height: 100%;
+    width: 557px;
+    z-index: 1;
+  }
+
+  &__title {
+    border-bottom: 2px solid $blue;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: $dark-blue;
+    letter-spacing: -0.36px;
+  }
+
+  &__body {
+    width: 1025px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: $dark-blue;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__image {
+    order: 2;
+    height: 640px;
+    width: 347px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ), url('../../assets/images/eCommerce.png');
+    z-index: 0;
+  }
+}
+
+.services-seo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+
+  &__content {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    width: 557px;
+    margin-top: 40px;
+    z-index: 1;
+  }
+
+  &__title {
+    width: 100%;
+    border-bottom: 2px solid $blue;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: right;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: $dark-blue;
+    letter-spacing: -0.36px;
+  }
+
+  &__body {
+    margin-left: -450px;
+    width: 1000px;
+    padding-left: 10px;
+    text-align: right;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: $dark-blue;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__image {
+    order: 1;
+    height: 345px;
+    width: 519px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ), url('../../assets/images/seo.png');
+    z-index: 0;
+  }
+}
+
+.services-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+  &__content {
+    order: 1;
+    margin-top: 40px;
+    height: 100%;
+    width: 557px;
+    z-index: 1;
+  }
+
+  &__title {
+    border-bottom: 2px solid $blue;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: $dark-blue;
+    letter-spacing: -0.36px;
+  }
+
+  &__body {
+    width: 1025px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: $dark-blue;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+  }
+
+  &__image {
+    order: 2;
+    height: 328px;
+    width: 344px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ), url('../../assets/images/content.png');
+    z-index: 0;
+  }
+}

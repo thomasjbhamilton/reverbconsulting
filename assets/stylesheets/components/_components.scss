@@ -1,5 +1,59 @@
-@import "header/header";
+@import "header";
+@import "footer";
 
 .dark-bg {
   background-color: $dark-blue;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.contact-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: white;
+  overflow: hidden;
+  z-index: 100;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 200px
+  }
+
+
+  &__nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+    width: 100%;
+  }
+
+  &__link-description {
+    margin-top: 100px;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 120px;
+    color: $blue;
+    letter-spacing: -5px;
+    line-height: 110px;
+  }
 }
