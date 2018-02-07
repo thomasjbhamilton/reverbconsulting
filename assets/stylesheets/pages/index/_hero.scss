@@ -1,0 +1,176 @@
+.hp-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $dark-blue;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 6rem;
+  padding-left: 25px;
+  padding-right: 18px;
+  overflow: hidden;
+
+  @media(min-width: $tablet) {
+    padding-top: 8rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 3rem;
+  }
+
+  @media(min-width: $desktop) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  &__value-prop {
+    z-index: 1;
+  }
+
+  &__value-title {
+    font-family: 'National2';
+    font-size: 28px;
+    color: $off-white;
+    letter-spacing: 0.17px;
+
+    @media(min-width: $tablet) {
+      margin-bottom: 0;
+      font-size: 40px;
+      letter-spacing: 0.25px;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__value-body {
+    max-width: 400px;
+    color: $off-white;
+    font-family: 'National2';
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__tagline {
+    align-self: flex-end;
+    margin-top: 4rem;
+    max-width: 339px;
+    text-align: right;
+    color: white;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 52px;
+    color: white;
+    letter-spacing: -1.25px;
+    line-height: 52px;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+      margin-top: 3rem;
+      max-width: 550px;
+      font-size: 82px;
+      letter-spacing: -1.64px;
+      line-height: 90px;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    right: -1px;
+    bottom: -105px;
+    z-index: 0;
+    width: 160%;
+    height: 110%;
+    background-image:  url('../../assets/images/waves2.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media(min-width: $tablet) {
+      right: 0;
+      bottom: -220px;
+      z-index: 0;
+      width: 100%;
+      height: 110%;
+    }
+
+    @media(min-width: $desktop) {
+      bottom: -50px;
+    }
+  }
+
+  &__cta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.1rem;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+
+    &-line {
+      display: none;
+      height: 1px;
+      width: 90%;
+      background-color: $gold;
+
+      @media(min-width: $tablet) {
+        display: block;
+      }
+
+      @media(min-width: $desktop) {
+
+      }
+    }
+
+    &-button {
+      flex-basis: 135px;
+      border: 1px solid $gold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: center;
+      font-family: 'National2';
+      font-weight: 700;
+      font-weight: 933px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $gold;
+      letter-spacing: 1.75px;
+      transition: all 250ms ease;
+
+      @media(min-width: $tablet) {
+        flex-basis: 115px;
+        border: 1px solid transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &:hover {
+          border: 1px solid $gold;
+        }
+      }
+    }
+  }
+}

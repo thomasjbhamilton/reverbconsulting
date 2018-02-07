@@ -13,20 +13,19 @@
 }
 
 .contact-modal {
-  display: none;
   position: absolute;
-  top: 0;
-  right: 0;
+  left: -1500px;
   bottom: 0;
-  left: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
   background: white;
   overflow: hidden;
-  z-index: 100;
+  z-index: 200;
+  transition: 250ms ease;
+  overflow: hidden;
 
   &__header {
     display: flex;
@@ -38,22 +37,66 @@
     width: 200px
   }
 
-
-  &__nav-list {
+  &__form {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 150px;
-    width: 100%;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70%;
+    width: 1000px;
   }
 
-  &__link-description {
-    margin-top: 100px;
+  &__inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &__input {
+    border: 2px solid $blue;
+    width: 275px;
+    height: 50px;
+    padding-left: 15px;
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__label {
     font-family: 'National2';
     font-weight: 700;
-    font-size: 120px;
+    font-size: 16px;
     color: $blue;
-    letter-spacing: -5px;
-    line-height: 110px;
+    letter-spacing: 0;
+  }
+
+  &__textarea {
+    width: 100%;
+    height: 200px;
+    border: 2px solid $blue;
+    padding: 15px;
+  }
+
+  &__submit {
+    margin-top: 50px;
+    border: 2px solid $gold;
+    background: white;
+    padding: 20px 40px;
+    color: $gold;
+    font-family: 'National2';
+    font-weight: 700;
+    cursor: pointer;
+    transition: 250ms ease;
+
+    &:hover {
+      background: $gold;
+      color: white;
+    }
   }
 }

@@ -15,7 +15,13 @@ $(document).ready(function(){
   })
 
   $('#closeModalButton').on('click', function(){
-    $('.contact-modal').fadeOut();
+    $('.contact-modal').css('left', '-1500px');
+    $('body').css('overflow', 'auto');
+  })
+
+  $('#contactButton').on('click', function(){
+    $('.contact-modal').css('left', '0');
+    $('body').css('overflow', 'hidden');
   })
 
   $('#to-top').on('click', function(){
@@ -47,7 +53,5 @@ $(document).ready(function(){
         break;
     }
   })
-
-
 
 })

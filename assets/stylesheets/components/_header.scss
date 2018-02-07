@@ -1,17 +1,40 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   position: absolute;
   right:0;
   left:0;
-  top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 2;
 
+  @media(min-width: $tablet) {
+    align-items: center;
+    top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   &__logo {
-    width: 200px;
+    display: none;
+
+
+    @media(min-width: $tablet) {
+      display: block;
+      width: 200px;
+    }
+
+    &-small {
+      display: block;
+      width: 30px;
+
+      @media(min-width: $tablet) {
+        display: none;
+
+      }
+    }
   }
 
   &__menu-button {
@@ -29,53 +52,83 @@
   left: 0;
   height: 100%;
   width: 100%;
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
   background: white;
   overflow: hidden;
   z-index: 100;
 
+  @media(min-width: $tablet) {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+
+    @media(min-width: $tablet) {
+      align-items: center;
+    }
   }
 
   &__nav-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     width: 100%;
+
+    @media(min-width: $tablet) {
+      flex-direction: row;
+      margin-top: 150px;
+    }
   }
 
   &__link-description {
+    display: none;
     margin-top: 100px;
+    margin-bottom: 10rem;
     font-family: 'National2';
     font-weight: 700;
     font-size: 120px;
     color: $blue;
     letter-spacing: -5px;
     line-height: 110px;
+
+    @media(min-width: $tablet) {
+      display: block;
+    }
   }
 }
 
 .nav-link {
+  margin-bottom: 20px;
   border-bottom: 2px solid #eee;
   padding-bottom: 12px;
-  font-family: 'National2';
-  font-size: 32px;
-  color: #0D2845;
+  color: $blue;
   text-transform: capitalize;
-  letter-spacing: -0.44px;
+  font-family: 'National2';
+  font-size: 24px;
+  letter-spacing: -0.33px;
   transition: 250ms ease;
 
   &:hover {
-    border-bottom: 2px solid $gold;
+  border-bottom: 2px solid $gold;
   }
+
+  @media(min-width: $tablet) {
+    margin-bottom: 0;
+    font-size: 32px;
+    letter-spacing: -0.44px;
+  }
+
 }
 
 .nav-link.is-active {
-    border-bottom: 2px solid $gold;
+  border-bottom: 2px solid $gold;
 }

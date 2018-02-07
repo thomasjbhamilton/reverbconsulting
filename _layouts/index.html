@@ -31,7 +31,8 @@ layout: default
 <section class="hp-intro">
   <div class="hp-intro__container">
     <div class="hp-intro__title">
-      what you might <br> want to know
+      what you might<br>
+      want to know
     </div>
     <div class="hp-intro__divider"></div>
     <div class="hp-intro__body">
@@ -139,7 +140,7 @@ layout: default
     <img src="assets/icons/ripple.svg" alt="">
   </div>
   <div class="hp-dark-section__sifi-lines">
-    <img src="assets/icons/sifi-lines.svg" alt="">
+    <img src="assets/icons/soundwave.svg" alt="">
   </div>
 </div>
 
@@ -151,7 +152,7 @@ layout: default
     </h2>
     <div class="hp-contact__button">
       <div class="hp-contact__line"></div>
-      <a class="hp-contact__btn">
+      <a id="contactButton" class="hp-contact__btn">
         contact us
       </a>
     </div>
@@ -164,3 +165,5 @@ layout: default
     <img src="/assets/icons/homepage-door.svg" alt="">
   </div>
 </section>
+
+{% include components/contact-modal.html %}
