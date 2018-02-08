@@ -1,0 +1,58 @@
+.services-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media(min-width: $tablet) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @media(min-width: $desktop) {}
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    padding-top: 20rem;
+    background-image: url('../../assets/icons/services-computer.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: -1.25px;
+    line-height: 52px;
+
+    @media(min-width: $tablet) {
+      margin-top: 0px;
+      padding-top: 0;
+      padding-right: 100px;
+      width: 1039px;
+      background-position: left;
+      text-align: right;
+      font-size: 72px;
+      letter-spacing: -1.08px;
+      line-height: 100px;
+    }
+
+    @media(min-width: $desktop) {
+      
+    }
+  }
+}
+
+@import 'web-dev';
+@import 'digital-advertising';
+@import 'ecommerce';
+@import 'seo';
+@import 'content';

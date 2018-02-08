@@ -1,0 +1,115 @@
+.services-wd {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+
+  &__content {
+    order: 1;
+    margin-left: -330px;
+    height: 100%;
+    width: 80%;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+      margin-left: 0;
+      width: 557px;
+    }
+  }
+
+  &__title {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.36px;
+
+    @media(min-width: $tablet) {
+
+    }
+
+    @media(min-width: $desktop) {
+      border-bottom: 2px solid $blue;
+    }
+  }
+
+  &__body {
+    width: 100%;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      width: 660px;
+      text-align: left;
+    }
+
+    @media(min-width: $desktop) {
+      width: 910px;
+    }
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-left: 12px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+
+    @media(min-width: $tablet) {
+
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__image {
+    order: 1;
+    margin-left: -31px;
+    height: 1000px;
+    width: 347px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(4, 19, 34, 0.9),
+      rgba(4, 19, 34, 0.9)
+    ), url('../../assets/images/web-development.png');
+    background-size: cover;
+    z-index: 0;
+
+    @media(min-width: $tablet) {
+      order: 2;
+      margin-left: -200px;
+      height: 640px;
+      background-size: contain;
+    }
+
+    @media(min-width: $desktop) {
+      margin-left: 0px;
+    }
+  }
+}
