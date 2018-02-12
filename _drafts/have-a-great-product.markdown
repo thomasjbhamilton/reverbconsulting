@@ -11,11 +11,11 @@ This is a question the keeps business owners (including myself) up late night. B
 
 It's simple really, if you don't have customers to pay for your good or services, you don't have a business. You can have an amazing brand, perfectly aligned with your target market, with the right messaging and marketing assets, but if you don't find new customers every day... You die.
 
-Which is what marketing is supposed to be for right? But the reality is that most marketing... doesn't work. Now before you get uptight and start telling me that it most certainly works, bear in mind I am Marketer, so obviously I believe that marketing works. The problem is that most marketing is incredibly ineffective. 
+Which is what marketing is supposed to be for right? But the reality is that most marketing... doesn't work. Now before you get uptight and start telling me that it most certainly works, bear in mind I am Marketer, so obviously I believe that marketing works. The problem is that most marketing is incredibly ineffective.
 
 The fact is, there too many variables that go into each media channel, and so many external factors, that even the top experts in a given field can't guarantee success. Just ask an SEO Guru. There are assumptions, case studies, and methodologies that make success more likely, but you don't know how the market is going to receive your campaign until you run it, and you can't run it without money.
 
-The most frustrating part is that you can't truly test any one channel without a decent chunk of cash. 
+The most frustrating part is that you can't truly test any one channel without a decent chunk of cash.
 
 Personally, I've always cringed when I hear a media manager tell me that they need at least 3 months of "testing" budget to really get it to work. Even though this makes sense statistically, the underlying message is basically "I have no idea if this is going to work, so I need 3 months to waste your money, learn how to do this for you and then hopefully at that point we will be able to get some results". As someone who runs these sorts of campaigns for people, knowing that this is the simply reality stresses me to the point of hair pulling. Because money is exhaustive, every dollar spent on marketing is not spent paying employee's, rent, groceries, or even yourself (but seriously... who gets paid when they own a business?). Even if your business happens to be cash flush, and has marketing budgets set-aside, someone's job is on the line, based on the success of the dollars they invest.
 
@@ -31,7 +31,7 @@ I've searched and searched for this answer, and every time that I do, I end up b
 
 ## Have a flipping awesome product (or service) that is worth every penny people pay for it!
 
-Want an example of what I mean? Of course, you do:
+Want an example of what I mean? Of course you do:
 
 I spend $45 to get my hair cut. I understand that if you are a lady you are probably thinking "WHAT!! THAT'S IT??", but for a guy's cut, this is pretty expensive. But I have never felt that the price was too high and here's why
 
@@ -39,9 +39,9 @@ I spend $45 to get my hair cut. I understand that if you are a lady you are prob
 
  2. Even though the owner has only met you once, he remembers you and calls you by name.
 
- 3. They offer to take your coat for you, which the hang-up properly as to now cause damage
+ 3. They offer to take your coat for you, which the hang-up properly as to not cause damage
 
- 4. You are offered a delicious espresso and based biscotti (baked by his Italian mother-in-law)
+ 4. You are offered a delicious espresso based drink and biscotti (baked by his Italian mother-in-law)
 
  5. They sweet and kind assistants take you over the sink and wash your hair out. They wash, condition, and given the most wonderful head massage.
 

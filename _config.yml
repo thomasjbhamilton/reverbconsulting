@@ -26,7 +26,13 @@ description: |-
   many different digital marketing tools and automating your operations.
 baseurl: ''
 twitter_username: reverbconsult
+excerpt_separator: "<!--excerpt-->"
 keywords: digital marketing, funnel development, operational automation
-logo: "/assets/images/RVC_Logo_RGB.svg"
-gems:
+logo: "/assets/icons/logo-large.svg"
+white-logo: "/assets/icons/logo-large-white.svg"
+small-logo: "/assets/icons/logo-small-white.svg"
+small-blue-logo: "/assets/icons/logo-small-blue.svg"
+menu-button: "/assets/icons/menu-button.svg"
+close-menu-button: "/assets/icons/close-button.svg"
+plugins:
 - jekyll-sitemap

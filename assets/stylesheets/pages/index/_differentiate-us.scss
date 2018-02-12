@@ -1,0 +1,149 @@
+.hp-du {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 375px;
+
+    @media(min-width: $tablet) {
+      flex-wrap: nowrap;
+      height: 375px;
+      max-width: 100%;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  &__title {
+    order: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -170px;
+    padding-left: 25px;
+    padding-right: 30px;
+    text-align: left;
+    vertical-align: bottom;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    letter-spacing: -0.5px;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      order: 1;
+      justify-content: flex-end;
+      margin-bottom: 65px;
+      width: 315px;
+      text-align: right;
+      font-size: 34px;
+      letter-spacing: -0.85px;
+      line-height: 38px;
+    }
+
+    @media(min-width: $desktop) {
+      width: 375px;
+    }
+  }
+
+  &__divider {
+    order: 1;
+    height: 551px;
+    width: 10px;
+    border-left: 1px solid $gold;
+    border-bottom: 1px solid $gold;
+
+    @media(min-width: $tablet) {
+      order: 2;
+      height: 100%
+    }
+
+    @media(min-width: $desktop) {
+      height: 120%;
+    }
+  }
+
+  &__body {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 345px;
+    padding-top: 25px;
+
+    @media(min-width: $tablet) {
+      order: 2;
+      width: 430px;
+    }
+
+    @media(min-width: $desktop) {
+      width: 550px;
+    }
+  }
+
+  &__p {
+    margin-top: 140px;
+    padding-left: 5px;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      margin: 0;
+      padding-left: 15px;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 86px;
+    max-width: 235px;
+    min-height: 40px;
+    border: 1px solid $gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    @media(min-width: $tablet) {
+      margin-top: 40px;
+      max-width: 210px;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid $gold;
+      }
+    }
+
+    @media(min-width: $desktop) {
+      margin-top: 143px;
+    }
+  }
+}

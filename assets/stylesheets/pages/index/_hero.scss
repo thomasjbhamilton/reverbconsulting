@@ -1,39 +1,187 @@
-
-.logo-mobile {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+.hp-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $dark-blue;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 6rem;
+  padding-left: 25px;
+  padding-right: 18px;
+  overflow: hidden;
 
   @media(min-width: $tablet) {
-    display: none;
+    padding-top: 8rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 3rem;
   }
-}
 
-.sound-wave {
-  position: absolute;
-  bottom: -6px;
-  left: -25%;
-  right: -25%;
-
-  @media(min-width: $large-screen) {
-    left: 0;
-    right: 0;
+  @media(min-width: $desktop) {
+    padding-left: 100px;
+    padding-right: 100px;
   }
-}
 
-
-.hero-content {
-  @media(min-width: $tablet) {
-    top: -4rem;
+  &__value-prop {
+    z-index: 1;
   }
-}
 
-.h1-m-spacing {
-  margin-top: 2rem;
-  @media(min-width: $stnd-mobile) {
+  &__value-title {
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: $off-white;
+    letter-spacing: 0.17px;
+
+    @media(min-width: $tablet) {
+      margin-bottom: 0;
+      font-size: 40px;
+      letter-spacing: 0.25px;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+
+    @media(min-width: $large-screen) {
+      font-size: 45px;
+      letter-spacing: -0.55px;
+    }
+  }
+
+  &__value-body {
+    max-width: 400px;
+    color: $off-white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      max-width: 500px;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    @media(min-width: $large-screen) {
+      max-width: 650px;
+      font-size: 20px;
+    }
+  }
+
+  &__tagline {
+    align-self: flex-end;
     margin-top: 4rem;
+    max-width: 339px;
+    text-align: right;
+    color: white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: white;
+    letter-spacing: -1.25px;
+    line-height: 52px;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+      margin-top: 3rem;
+      max-width: 550px;
+      font-size: 82px;
+      letter-spacing: -1.64px;
+      line-height: 90px;
+    }
+
+    @media(min-width: $large-screen) {
+      max-width: 1010px;
+      font-size: 120px;
+      line-height: 150px;
+    }
   }
-  @media(min-width: $big-mobile) {
-    margin-top: 6rem;
+
+  &__bg {
+    position: absolute;
+    right: -1px;
+    bottom: -105px;
+    z-index: 0;
+    width: 160%;
+    height: 110%;
+    background-image:  url('../../assets/images/waves2.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media(min-width: $tablet) {
+      right: 0;
+      bottom: -220px;
+      z-index: 0;
+      width: 100%;
+      height: 110%;
+    }
+
+    @media(min-width: $desktop) {
+      bottom: -50px;
+    }
+  }
+
+  &__cta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.1rem;
+    z-index: 1;
+
+    @media(min-width: $tablet) {}
+
+    @media(min-width: $desktop) {}
+
+    &-line {
+      display: none;
+      height: 1px;
+      width: 90%;
+      background-color: $gold;
+
+      @media(min-width: $tablet) {
+        display: block;
+      }
+
+      @media(min-width: $desktop) {
+
+      }
+    }
+
+    &-button {
+      flex-basis: 135px;
+      border: 1px solid $gold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: center;
+      font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      font-weight: 933px;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $gold;
+      letter-spacing: 1.75px;
+      transition: all 250ms ease;
+
+      @media(min-width: $tablet) {
+        flex-basis: 115px;
+        border: 1px solid transparent;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        &:hover {
+          border: 1px solid $gold;
+        }
+      }
+
+      @media(min-width: $large-screen) {
+        flex-basis: 195px;
+        font-size: 16px;
+        letter-spacing: 2.75px;
+      }
+    }
   }
 }

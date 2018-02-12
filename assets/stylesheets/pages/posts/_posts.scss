@@ -1,0 +1,89 @@
+.posts {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 0;
+  padding-right: 0;
+
+  @media(min-width: $tablet) {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  @media(min-width: $desktop) {
+
+  }
+
+  &__title {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    letter-spacing: -1.08px;
+    line-height: 65px;
+
+    @media(min-width: $tablet) {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 120px;
+      line-height: 100px;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+}
+
+.post-preview {
+  max-width: 90%;
+  border-bottom: 1px solid $gold;
+  padding-bottom: 40px;
+  margin-left: 20px;
+
+  @media(min-width: $tablet) {
+    max-width: 70%;
+  }
+
+  &__title {
+    color: $off-white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0;
+  }
+
+  &__excerpt {
+    color: $off-white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  &__meta-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__author {
+    color: $off-white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  &__date {
+    margin-left: 20px;
+    color: $off-white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+@import "post";

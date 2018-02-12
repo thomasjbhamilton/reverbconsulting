@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="313">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="69" height="13" x="101" y="152" fill="#0F3359" rx="6.5"/>
+    <rect width="252" height="19" x="10" y="159" fill="#081B2F" rx="8"/>
+    <rect width="209" height="14" x="32" y="169" fill="#081B2F" rx="7"/>
+    <path fill="#171D2C" d="M230 178h12v135h-12z"/>
+    <path fill="#081B2F" d="M30 178h12v135H30z"/>
+    <path fill="#0F3359" d="M127 140h17l3 12h-23"/>
+    <rect width="271" height="141" fill="#0F3359" rx="8"/>
+    <path fill="#154E6E" d="M13 8h246c2.7614 0 5 2.2386 5 5v109H8V13c0-2.7614 2.2386-5 5-5z"/>
+    <path stroke="#0F3359" d="M306.5 20.5h-28M494.506 8H306.5" stroke-linecap="square"/>
+    <rect width="15" height="8" x="266" y="17" fill="#0F3359" rx="4"/>
+    <path stroke="#0F3359" d="M306.5 8.5v12.0416" stroke-linecap="square"/>
+    <text fill="#429EB5" font-family="National2Test-Bold, National 2 Test" font-size="20" font-weight="bold" letter-spacing="-.7143">
+      <tspan x="21" y="43">Work effing harder.</tspan>
+    </text>
+  </g>
+</svg>

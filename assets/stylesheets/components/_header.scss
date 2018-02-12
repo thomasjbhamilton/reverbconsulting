@@ -1,0 +1,136 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  right:0;
+  left:0;
+  top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 2;
+
+  @media(min-width: $tablet) {
+    align-items: center;
+    top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  &__logo {
+    display: none;
+
+
+    @media(min-width: $tablet) {
+      display: block;
+      width: 200px;
+    }
+
+    &-small {
+      display: block;
+      width: 30px;
+
+      @media(min-width: $tablet) {
+        display: none;
+
+      }
+    }
+  }
+
+  &__menu-button {
+    width: 27px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: white;
+  overflow: hidden;
+  z-index: 100;
+
+  @media(min-width: $tablet) {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @media(min-width: $tablet) {
+      align-items: center;
+    }
+  }
+
+  &__nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100%;
+
+    @media(min-width: $tablet) {
+      flex-direction: row;
+      margin-top: 150px;
+    }
+  }
+
+  &__link-description {
+    display: none;
+    margin-top: 100px;
+    margin-bottom: 10rem;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: $blue;
+    letter-spacing: -5px;
+    line-height: 110px;
+
+    @media(min-width: $tablet) {
+      display: block;
+    }
+  }
+}
+
+.nav-link {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 12px;
+  color: $blue;
+  text-transform: capitalize;
+  font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: -0.33px;
+  transition: 250ms ease;
+
+  &:hover {
+  border-bottom: 2px solid $gold;
+  }
+
+  @media(min-width: $tablet) {
+    margin-bottom: 0;
+    font-size: 32px;
+    letter-spacing: -0.44px;
+  }
+
+}
+
+.nav-link.is-active {
+  border-bottom: 2px solid $gold;
+}
