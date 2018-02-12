@@ -1,7 +1,6 @@
 ---
 title: Tone
-date: 2018-01-02 20:43:00 -04:00
-published: true
+date: 2018-01-02 19:43:00 -05:00
 categories:
 - content
 layout: post

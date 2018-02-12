@@ -1,12 +1,8 @@
 ---
-title: Failure: Part 1
-date: 2018-01-12 20:43:00 -04:00
-published: false
-categories:
-- about-us
-layout: post
-author: Thomas Hamilton
+title: 2018 01 12 Failure Part 1
+date: 2018-02-11 22:32:18.786000000 -05:00
 ---
+
 In short; Reverb Consulting is a Digital Marketing Agency.
 
 However, this doesn't tell you much about us.  There are numerous Digital Marketing Agencies in the world, and even more freelancers, all with capable skill sets. If you're looking for digital marketing, there are a multitude of options for you to explore.

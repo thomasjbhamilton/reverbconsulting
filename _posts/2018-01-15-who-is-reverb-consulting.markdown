@@ -1,12 +1,12 @@
 ---
 title: Who is Reverb Consulting?
-date: 2018-01-15 20:43:00 -04:00
-published: true
+date: 2018-01-15 19:43:00 -05:00
 categories:
 - about-us
 layout: post
 author: Thomas Hamilton
 ---
+
 In short; Reverb Consulting is a Digital Marketing Agency.
 
 However, this doesn't tell you much about us.  There are numerous Digital Marketing Agencies in the world, and even more freelancers, all with capable skill sets. If you're looking for digital marketing, there are a multitude of options for you to explore.
