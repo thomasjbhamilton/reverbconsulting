@@ -40,6 +40,8 @@
   &__menu-button {
     width: 27px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -93,7 +95,7 @@
     display: none;
     margin-top: 100px;
     margin-bottom: 10rem;
-    font-family: 'National2';
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 120px;
     color: $blue;
@@ -112,7 +114,7 @@
   padding-bottom: 12px;
   color: $blue;
   text-transform: capitalize;
-  font-family: 'National2';
+  font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   letter-spacing: -0.33px;
   transition: 250ms ease;

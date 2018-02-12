@@ -27,7 +27,7 @@
   }
 
   &__value-title {
-    font-family: 'National2';
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 28px;
     color: $off-white;
     letter-spacing: 0.17px;
@@ -41,23 +41,30 @@
     @media(min-width: $desktop) {
 
     }
+
+    @media(min-width: $large-screen) {
+      font-size: 45px;
+      letter-spacing: -0.55px;
+    }
   }
 
   &__value-body {
     max-width: 400px;
     color: $off-white;
-    font-family: 'National2';
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 28px;
 
     @media(min-width: $tablet) {
+      max-width: 500px;
       font-size: 16px;
       letter-spacing: 0;
     }
 
-    @media(min-width: $desktop) {
-
+    @media(min-width: $large-screen) {
+      max-width: 650px;
+      font-size: 20px;
     }
   }
 
@@ -67,7 +74,7 @@
     max-width: 339px;
     text-align: right;
     color: white;
-    font-family: 'National2';
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 52px;
     color: white;
@@ -83,8 +90,10 @@
       line-height: 90px;
     }
 
-    @media(min-width: $desktop) {
-
+    @media(min-width: $large-screen) {
+      max-width: 1010px;
+      font-size: 120px;
+      line-height: 150px;
     }
   }
 
@@ -121,13 +130,9 @@
     margin-top: 2.1rem;
     z-index: 1;
 
-    @media(min-width: $tablet) {
+    @media(min-width: $tablet) {}
 
-    }
-
-    @media(min-width: $desktop) {
-
-    }
+    @media(min-width: $desktop) {}
 
     &-line {
       display: none;
@@ -152,7 +157,7 @@
       padding-left: 25px;
       padding-right: 25px;
       text-align: center;
-      font-family: 'National2';
+      font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: 700;
       font-weight: 933px;
       font-size: 12px;
@@ -170,6 +175,12 @@
         &:hover {
           border: 1px solid $gold;
         }
+      }
+
+      @media(min-width: $large-screen) {
+        flex-basis: 195px;
+        font-size: 16px;
+        letter-spacing: 2.75px;
       }
     }
   }

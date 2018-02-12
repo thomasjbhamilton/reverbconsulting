@@ -1,0 +1,84 @@
+.contact {
+
+&__header {
+  margin-bottom: 5rem;
+  width: 100vw;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  // background-image: linear-gradient(-180deg, #0A2044 0%, #041322 100%);
+  background:
+    linear-gradient(135deg, $blue 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, $blue 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, $blue 25%, transparent 25%),
+    linear-gradient(45deg, $blue 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: $dark-blue;
+  background-attachment: fixed;
+}
+
+  &__title {
+    color: white;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    letter-spacing: -0.38px;
+    line-height: 60px;
+
+    @media(min-width: $tablet) {
+
+      font-size: 72px;
+      letter-spacing: -1.08px;
+      line-height: 100px;
+    }
+  }
+
+  &__methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__icon-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 70%;
+    max-width: 1000px;
+
+    @media(min-width: $tablet) {
+      flex-direction: row;
+      margin-top: 0px;
+    }
+  }
+
+
+  &__small-text {
+    margin-left: 20px;
+    text-align: center;
+    color: $dark-blue;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+
+    @media(min-width: $tablet) {
+      text-align: left;
+      font-size: 24px;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+  }
+
+  &__form {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

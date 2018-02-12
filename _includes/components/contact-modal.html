@@ -7,25 +7,6 @@
       <img class="" src="{{ site.close-menu-button }}">
     </div>
   </div>
-  <form class="contact-modal__form" action="index.html" method="post">
-    <div class="contact-modal__inputs">
-      <div class="contact-modal__input-container">
-        <input class="contact-modal__input" type="text" name="poop1" value="">
-        <label class="contact-modal__label" for="poop1">name</label>
-      </div>
-      <div class="contact-modal__input-container">
-        <input class="contact-modal__input" type="phone" name="poop2" value="">
-        <label class="contact-modal__label" for="poop2">phone</label>
-      </div>
-      <div class="contact-modal__input-container">
-        <input class="contact-modal__input" type="email" name="poop3" value="">
-        <label class="contact-modal__label" for="poop3">email</label>
-      </div>
-    </div>
-    <textarea class="contact-modal__textarea" placeholder="Describe what you're looking for" name="textarea" rows="8" cols="80"></textarea>
-    <input class="contact-modal__submit" type="submit" name="" value="send message">
-  </form>
-  <div class="contact-modal__social-icons">
-    {% include components/social-icons.html %}
-  </div>
+  {% include components/form.html %}
+
 </div>
