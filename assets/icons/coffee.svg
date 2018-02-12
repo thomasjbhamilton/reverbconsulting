@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="137">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#373737" d="M3 54h71c1.657 0 3 1.343 3 3v71c0 4.9706-4.0294 9-9 9H9c-4.9706 0-9-4.0294-9-9V57c0-1.657 1.343-3 3-3z"/>
+    <path fill="#434343" d="M5 56h72L7.21 132.0195c-1.1206 1.2205-3.0183 1.3016-4.2388.181-.619-.568-.9712-1.3697-.9712-2.21V59c0-1.657 1.343-3 3-3z"/>
+    <path stroke="#373737" stroke-width="6" d="M77 102.8272c14 1.307 21-4.802 21-18.3272 0-13.5252-7-19.6342-21-18.3272"/>
+    <text class="svg-text" fill="#F4F4F4" font-size="12" font-weight="bold" letter-spacing="-.75" transform="translate(0 54)">
+      <tspan x="11" y="41">Always</tspan> <tspan x="11" y="56">Flipping</tspan> <tspan x="11" y="71">Deliver</tspan> <tspan x="44.726" y="71" letter-spacing="-.3">.</tspan>
+    </text>
+    <ellipse cx="68.5" cy="39.5" fill="#E9E9E9" rx="8.5" ry="4.5"/>
+    <ellipse cx="90" cy="28" fill="#E9E9E9" fill-opacity=".6" rx="12" ry="7"/>
+    <ellipse cx="69" cy="9" fill="#E9E9E9" fill-opacity=".4" rx="16" ry="9"/>
+  </g>
+</svg>

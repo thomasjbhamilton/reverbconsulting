@@ -1,4 +1,161 @@
-@import 'hero';
-@import 'more-info';
-@import 'testimonials';
-@import 'philosophy';
+@import "hero";
+@import "intro";
+@import "digital-department";
+@import "right-for-you";
+@import "differentiate-us";
+
+
+.hp-dark-section {
+  position: relative;
+  margin-top: -20px;
+  background-color: $dark-blue;
+  overflow: hidden;
+
+  &__ripples {
+    position: absolute;
+    right: -322px;
+    top: 264px;
+    z-index: 0;
+
+    @media(min-width: $tablet) {
+      right: -72%;
+      top: 170px;
+    }
+
+    @media(min-width: $desktop) {
+      right: -52%;
+      top: 20px;
+    }
+  }
+
+  &__sifi-lines {
+    position: absolute;
+    bottom: -15px;
+    left: -175px;
+    width: 180%;
+
+    @media(min-width: $tablet) {
+      width: 130%;
+    }
+  }
+}
+
+.hp-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+
+  &__container {
+    margin-top: 80px;
+    width: 330px;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+      margin-top: 0;
+      width: 960px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    color: $blue;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: -1.25px;
+    line-height: 52px;
+
+    @media(min-width: $tablet) {
+      font-size: 76px;
+      letter-spacing: -2px;
+      line-height: 72px;
+      padding-left: 40px;
+    }
+
+    @media(min-width: $desktop) {
+      padding-left: 0px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+
+    @media(min-width: $tablet) {
+
+    }
+  }
+
+  &__line {
+    height: 1px;
+    width: 60%;
+    background-color: $gold;
+
+    @media(min-width: $tablet) {
+      width: 80%;
+    }
+
+    @media(min-width: $desktop) {
+      width: 90%;
+    }
+  }
+
+  &__btn {
+    flex-basis: 125px;
+    border: 1px solid $gold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-weight: 933px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $gold;
+    letter-spacing: 1.75px;
+    transition: all 250ms ease;
+
+    &:hover {
+      border: 1px solid $gold;
+      background-color: $gold;
+      color: white;
+    }
+
+    @media(min-width: $tablet) {
+
+    }
+  }
+
+  &__content {
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    color: #1D1E1E;
+    letter-spacing: 0;
+    line-height: 32px;
+
+    @media(min-width: $tablet) {
+      text-align: right;
+      padding-right: 40px;
+    }
+
+    @media(min-width: $desktop) {
+      padding-right: 0px;
+    }
+  }
+
+  &__icon {
+    top: -200px;
+    position: absolute;
+    z-index: 0;
+  }
+
+  @media(min-width: $tablet) {
+
+  }
+}

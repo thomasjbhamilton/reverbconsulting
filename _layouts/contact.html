@@ -1,29 +1,44 @@
 ---
 layout: default
 ---
-
-<div class="wrapper">
-  <section class="section-container call-out__section hero-spacing overflow-h">
-    <div class="content-box hero-content">
-      <div class="logo-mobile">
-        <img class="logo-image" src="{{ site.logo }}">
-      </div>
-      <h1 class="thick light-text center-text mb0 mt2 text-center">
-        We would love to hear from you
-      </h1>
-      <p class="light-text text-center mb0">
-        Feel to email-us at
-        <span class="orange-text thick">
-          sales@reverbconsulting.com
-        </span> <br>
-        or simply give us a call at
-        <span class="orange-text thick">
-          905-220-4445
-        </span>
-      </p>
-      <p class="light-text text-center">
-        You can also use the form below!
-      </p>
+<header class="contact__header dark-bg">
+  <h1 class="contact__title" itemprop="name headline">
+    We can't wait to talk to you
+  </h1>
+</header>
+<div class="contact__methods">
+  <div class="contact__icon-with-text">
+    <div class="contact__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="33" height="32">
+        <path fill="#041322" fill-rule="nonzero" d="M30.195 10.1606V8.717h-1.8975l-9.6937-7.26c-1.2375-.9075-2.97-.9075-4.2075 0l-9.6938 7.26H2.805v1.4437L.1237 12.182 0 12.223v19.7175h33V12.2231l-2.805-2.0625zM14.6438 1.787c1.0724-.825 2.5987-.825 3.7124 0l9.2813 6.93H5.3625l9.2813-6.93zM3.2175 9.1294h26.6063v5.5687l-11.4675 8.58c-1.0725.825-2.5988.825-3.7126 0l-11.4262-8.58V9.1294zm-2.805 3.3l2.3925-1.7738v3.7538L.4125 12.6356v-.2062zm32.175 8.8275v10.23H.4125V13.1306L14.3963 23.567c1.2374.9075 2.97.9075 4.2075 0l13.9837-10.4363v8.1263zm0-8.6213l-2.3925 1.7738v-3.7538l2.3925 1.7738v.2062z"/>
+      </svg>
     </div>
-  </section>
+    <p class="contact__small-text">
+      You can email us at info@reverbconsulting.com
+    </p>
+  </div>
+  <div class="contact__icon-with-text">
+    <div class="contact__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="37">
+        <path fill="#041322" fill-rule="nonzero" d="M16.3611 0H2.639C1.1875 0 0 1.1584 0 2.5743v31.664c0 1.4158 1.1875 2.5742 2.6389 2.5742H16.361c1.4514 0 2.6389-1.1584 2.6389-2.5743V2.5742C19 1.1585 17.8125 0 16.3611 0zm1.7593 34.2382c0 .9439-.7917 1.7162-1.7593 1.7162H2.639c-.9676 0-1.7593-.7723-1.7593-1.7162V2.5742c0-.9438.7917-1.7161 1.7593-1.7161h1.2755c.2199 0 .3518.1287.3518.2574v1.2013c0 .515.4399.944 1.0115.944h8.4005c.5718 0 1.0116-.429 1.0116-.944V1.1155c0-.1287.176-.2574.352-.2574h1.2753c.9677 0 1.7593.7723 1.7593 1.7162v31.664H18.1204z"/>
+      </svg>
+    </div>
+    <p class="contact__small-text">
+      Feel free to give us a phone call at 905-220-4445 if you want to talk to
+      a human
+    </p>
+  </div>
+  <div class="contact__icon-with-text">
+    <div class="contact__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="33">
+        <path fill="#041322" fill-rule="nonzero" d="M14.3229 32.4017H29.11V3.5917h-3.821V0H21.43v3.5917H7.98V0H4.121v3.5917H.3v28.7718h14.0229v.0382zM1.0642 4.3559H4.121v3.5917H7.98V4.3559h13.488v3.5917h3.8592V4.3559h3.0567v6.4192H1.0642V4.3559zM7.2159.7642v6.4192H4.8851V.7642H7.216zm17.309 0v6.4192H22.194V.7642h2.3308zm3.821 30.8733H22.003v-6.4192h6.3428v6.4192zm-13.2588 0v-6.4192h6.1517v6.4192h-6.1517zm-6.916-6.4192h6.1518v6.4192H8.1712v-6.4192zm13.0677-7.9476h-6.1517v-5.7314h6.1517v5.7314zm-6.1517 7.1834V18.035h6.1517v6.4192h-6.1517zm-.7642-12.9148v5.6932H8.1712v-5.6932h6.1517zm0 6.4956v6.4192H8.1712V18.035h6.1517zm14.023 6.4192H22.003V18.035h6.3428v6.4192zm-6.3429-7.1834v-5.7314h6.3428v5.6932H22.003v.0382zM7.407 11.5393v5.6932H1.0642v-5.6932H7.407zm-6.3428 6.4956H7.407v6.4192H1.0642V18.035zm0 7.1834H7.407v6.4192H1.0642v-6.4192z"/>
+      </svg>
+    </div>
+    <p class="contact__small-text">
+      Or use the contact form below to book a time!
+    </p>
+  </div>
+</div>
+<div class="contact__form">
+  {% include components/form.html %}
 </div>

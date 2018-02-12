@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="dark-bg">
+  <section class="posts">
+    <h1 class="posts__title">
+      some of our musings
+    </h1>
+
+    {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <div class="post-preview">
+        <h2 class="post-preview__title">
+          {{ post.title }}
+        </h>
+        <p class="post-preview__excerpt">
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+        </p>
+        <div class="post-preview__meta-container">
+          {% if post.author %}
+          <p class="post-preview__author">Written by: {{ post.author }}</p>
+          {% endif %}
+          <span class="post-preview__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+
+  </section>
+</div>
+
+{% comment %}
+<!-- <p class="">
+  subscribe
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    via RSS
+  </a>
+</p> -->
+{% endcomment %}

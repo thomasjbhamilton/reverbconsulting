@@ -1,0 +1,119 @@
+.services-da {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15rem;
+  padding-bottom: 15rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    order: 2;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+    @media(min-width: $tablet) {
+      width: 557px;
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__title {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: right;
+    font-family: 'National2';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    letter-spacing: -0.36px;
+
+    @media(min-width: $tablet) {
+
+    }
+
+    @media(min-width: $desktop) {
+      border-bottom: 2px solid $blue;
+    }
+  }
+
+  &__body {
+    margin-left: -450px;
+    width: 90%;
+    padding-left: 10px;
+    text-align: justify;
+    font-family: 'National2';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+
+    @media(min-width: $tablet) {
+      width: 690px;
+      text-align: right;
+    }
+
+    @media(min-width: $desktop) {
+      width: 900px;
+    }
+  }
+
+  &__btn {
+    border: 1px solid $gold;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: $gold;
+    font-family: 'National2';
+    font-size: 12px;
+    letter-spacing: 3.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 250ms ease;
+
+    &:hover {
+      background-color: $gold;
+      color: white;
+    }
+
+    @media(min-width: $tablet) {
+
+    }
+
+    @media(min-width: $desktop) {
+
+    }
+  }
+
+  &__image {
+    order: 1;
+    margin-right: -400px;
+    height: 1000px;
+    width: 347px;
+    border: 2px solid $blue;
+    background-image: linear-gradient(
+      rgba(4, 19, 34, 0.9),
+      rgba(4, 19, 34, 0.9)
+    ), url('../../assets/images/digital-advertising.png');
+    background-size: cover;
+    z-index: 0;
+
+    @media(min-width: $tablet) {
+      margin-right: -200px;
+      background-size: contain;
+    }
+
+    @media(min-width: $desktop) {
+      margin-right: 0px;
+    }
+  }
+}

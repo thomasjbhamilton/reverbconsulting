@@ -3,37 +3,46 @@
 /* WebKit/Blink Browsers */
 }
 
-::selection {
-color:$brand-orange;
+@font-face {
+  font-family: 'National2';
+  src: url('../../assets/National2Web-Light.eot');
+  src: url('../../assets/National2Web-Light.eot?#iefix') format('embedded-opentype'),
+       url('../../assets/National2Web-Light.woff2') format('woff2'),
+       url('../../assets/National2Web-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'National2';
+  src: url('../../assets/National2Web-Bold.eot');
+  src: url('../../assets/National2Web-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../../assets/National2Web-Bold.woff2') format('woff2'),
+       url('../../assets/National2Web-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+// ::selection {
+// color:$brand-orange;
+// }
+
 html {
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
+
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1em;
-  height: 100%;
-  width: 100%;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-
-  @media (min-width: $tablet) {
-    font-size: 1.2em;
-  }
-
-  @media (min-width: $desktop) {
-    font-size: 1.4em;
-  }
+  position: relative;
+  font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
-  line-height: 1.6;
-  font-weight: 400;
-  color: $brand-black;
+  color: $grey;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
 }
 
 li {
@@ -43,9 +52,9 @@ li {
 
 
 h1 {
-  color: $brand-black;
-  font-weight: 200;
-  letter-spacing: -0.43px;
+  font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
   font-size: 26pt;
 
   @media (min-width: $tablet) {
@@ -59,8 +68,8 @@ h1 {
 
 
 h2 {
-  color: $brand-black;
-  font-weight: 200;
+
+  font-weight: 300;
   font-size: 2em;
 
   @media (min-width: $tablet){
@@ -74,7 +83,7 @@ h2 {
 }
 
 h3 {
-  color: $brand-black;
+  color: $grey;
   font-weight: 600;
   margin: 0;
 
@@ -96,11 +105,28 @@ blockquote {
   transition: all 300ms ease-in;
 
   &:hover {
-    border-left: 5px solid $brand-orange;
+    border-left: 5px solid $blue;
   }
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+
+/** Resets **/
+
+img {
+  max-width: 100%;
+}
+
+/** Core **/
+
+body {
+  color: #5A5A5A;
+}
+
+.svg-text {
+  font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
