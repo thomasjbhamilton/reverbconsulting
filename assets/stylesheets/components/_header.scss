@@ -5,14 +5,14 @@
   position: absolute;
   right:0;
   left:0;
-  top: 28px;
+  top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   z-index: 2;
 
   @media(min-width: $tablet) {
     align-items: center;
-    top: 50px;
+    top: 30px;
     padding-left: 100px;
     padding-right: 100px;
   }
