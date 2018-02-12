@@ -1,5 +1,5 @@
 ---
-title: Reverb Consulting - Services | Digital Marketing For Your Clients
+title: Reverb Consulting | Thank You
 position: 1
 layout: thank-you
 phone: '9052204445'
