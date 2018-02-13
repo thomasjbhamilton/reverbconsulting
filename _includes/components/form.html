@@ -1,4 +1,7 @@
-<form class="contact-modal__form" action="https://formspree.io/thomas@reverbconsulting.com" method="post">
+<form class="contact-modal__form"
+      action="https://formspree.io/thomas@reverbconsulting.com"
+      method="post"
+>
   {%- if include.title -%}
   <h2 class="contact-modal__form-title">
     Like what you just read? let's get in touch!
@@ -6,21 +9,56 @@
   {%- endif -%}
   <div class="contact-modal__inputs">
     <div class="contact-modal__input-container">
-      <input class="contact-modal__input" type="text" name="name" value="">
-      <label class="contact-modal__label" for="name">name</label>
+      <input class="contact-modal__input"
+             type="text"
+             name="name"
+             value=""
+      >
+      <label class="contact-modal__label" for="name">
+        name
+      </label>
     </div>
     <div class="contact-modal__input-container">
-      <input class="contact-modal__input" type="phone" name="phone" value="">
-      <label class="contact-modal__label" for="phone">phone</label>
+      <input class="contact-modal__input"
+             type="phone"
+             name="phone"
+             value=""
+      >
+      <label class="contact-modal__label" for="phone">
+        phone
+      </label>
     </div>
     <div class="contact-modal__input-container">
-      <input class="contact-modal__input" type="email" name="_replyto" value="">
-      <label class="contact-modal__label" for="email">email</label>
+      <input class="contact-modal__input"
+             type="email"
+             name="_replyto"
+             value=""
+      >
+      <label class="contact-modal__label" for="email">
+        email
+      </label>
     </div>
   </div>
-  <textarea class="contact-modal__textarea" placeholder="Describe what you're looking for" name="textarea" rows="8" cols="80"></textarea>
-  <input class="contact-modal__submit" type="submit" name="" value="send message">
-  <input type="hidden" name="_next" value="//reverbconsulting.com/index.html" />
-  <input type="hidden" name="_subject" value="Hot Lead" />
-  <input type="text" name="_gotcha" style="display:none" />
+  <textarea class="contact-modal__textarea"
+            placeholder="Describe what you're looking for"
+            name="textarea"
+            rows="8"
+            cols="80"
+  ></textarea>
+  <input class="contact-modal__submit"
+         type="submit"
+         value="send message"
+  >
+  <input type="hidden"
+         name="_next"
+         value="//reverbconsulting.com/thank-you"
+  />
+  <input type="hidden"
+         name="_subject"
+         value="Hot Lead"
+  />
+  <input type="text"
+         name="_gotcha"
+         style="display:none"
+  />
 </form>
