@@ -41,10 +41,10 @@
 }
 
 .hp-contact {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   margin-top: 15rem;
   margin-bottom: 15rem;
 
@@ -83,10 +83,6 @@
   &__button {
     display: flex;
     align-items: center;
-
-    @media(min-width: $tablet) {
-
-    }
   }
 
   &__line {
@@ -110,12 +106,12 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    color: $gold;
+    text-transform: uppercase;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-weight: 933px;
     font-size: 12px;
-    text-transform: uppercase;
-    color: $gold;
     letter-spacing: 1.75px;
     transition: all 250ms ease;
 
@@ -124,18 +120,14 @@
       background-color: $gold;
       color: white;
     }
-
-    @media(min-width: $tablet) {
-
-    }
   }
 
   &__content {
+    color: $dark-blue;
+    text-align: left;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 300;
-    text-align: left;
-    color: #1D1E1E;
     letter-spacing: 0;
     line-height: 32px;
 
@@ -150,12 +142,8 @@
   }
 
   &__icon {
-    top: -200px;
     position: absolute;
+    top: -200px;
     z-index: 0;
-  }
-
-  @media(min-width: $tablet) {
-
   }
 }

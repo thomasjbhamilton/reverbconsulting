@@ -1,16 +1,11 @@
 .hp-rf {
-
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
   min-height: 80vh;
   z-index: 1;
-
-  @media(min-width: $tablet) {
-
-  }
 
   &__container {
     display: flex;
@@ -29,11 +24,11 @@
   }
 
   &__body {
+    order: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    order: 2;
     height: 100%;
     width: 304px;
 
@@ -44,7 +39,6 @@
     }
 
     @media(min-width: $desktop) {
-      order: 1;
       width: 566px;
       padding-top: 0;
     }
@@ -55,8 +49,8 @@
     margin-top: 100px;
     padding-right: 3px;
     color: white;
-    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: right;
+    font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 28px;
@@ -82,11 +76,11 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    color: $gold;
+    text-transform: uppercase;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 12px;
-    text-transform: uppercase;
-    color: $gold;
     letter-spacing: 1.75px;
     transition: all 250ms ease;
     cursor: pointer;
@@ -122,25 +116,24 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    margin-bottom: -70px;
     height: 100%;
     width: 100%;
-    margin-bottom: -70px;
     padding-left: 115px;
     text-align: right;
-    vertical-align: bottom;
+    color: white;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 28px;
     letter-spacing: -0.5px;
     line-height: 32px;
-    color: white;
 
     @media(min-width: $tablet) {
-      align-items: flex-start;
       order: 3;
+      align-items: flex-start;
       margin-bottom: 0;
-      padding-left: 28px;
       width: 235px;
+      padding-left: 28px;
       text-align: left;
       font-size: 34px;
       letter-spacing: -0.85px;

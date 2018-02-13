@@ -26,10 +26,6 @@
     font-size: 24px;
     letter-spacing: -0.36px;
 
-    @media(min-width: $tablet) {
-
-    }
-
     @media(min-width: $desktop) {
       border-bottom: 2px solid $blue;
     }
@@ -77,14 +73,6 @@
     &:hover {
       background-color: $gold;
       color: white;
-    }
-
-    @media(min-width: $tablet) {
-
-    }
-
-    @media(min-width: $desktop) {
-
     }
   }
 

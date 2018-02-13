@@ -15,11 +15,8 @@
     z-index: 1;
 
     @media(min-width: $tablet) {
+      margin-top: 150px;
       width: 557px;
-    }
-
-    @media(min-width: $desktop) {
-
     }
   }
 
@@ -33,10 +30,6 @@
     font-size: 24px;
     color: white;
     letter-spacing: -0.36px;
-
-    @media(min-width: $tablet) {
-
-    }
 
     @media(min-width: $desktop) {
       border-bottom: 2px solid $blue;
@@ -84,14 +77,6 @@
       background-color: $gold;
       color: white;
     }
-
-    @media(min-width: $tablet) {
-
-    }
-
-    @media(min-width: $desktop) {
-
-    }
   }
 
   &__image {
@@ -109,7 +94,8 @@
 
     @media(min-width: $tablet) {
       margin-right: -200px;
-      background-size: contain;
+      height: 800px;
+      background-size: cover
     }
 
     @media(min-width: $desktop) {
