@@ -1,9 +1,9 @@
 .hp-dd {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 
   @media(min-width: $tablet) {
     min-height: 80vh;
@@ -13,9 +13,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 375px;
     padding-top: 10rem;
     padding-bottom: 5rem;
-    max-width: 375px;
 
     @media(min-width: $tablet) {
       flex-wrap: nowrap;
@@ -28,12 +28,12 @@
 
   &__body {
     order: 3;
-    height: 100%;
-    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    height: 100%;
+    width: 350px;
 
     @media(min-width: $tablet) {
       order: 2;
@@ -51,18 +51,17 @@
     margin-top: 100px;
     padding-right: 5px;
     padding-left: 15px;
+    color: #5A5A5A;
+    text-align: right;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    color: #5A5A5A;
     letter-spacing: 0;
     line-height: 28px;
-    text-align: right;
-
 
     @media(min-width: $tablet) {
       margin-top: 100px;
-      padding-left: 15px;
       width: 450px;
+      padding-left: 15px;
       font-size: 18px;
       line-height: 32px;
     }
@@ -73,9 +72,6 @@
   }
 
   &__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 35px;
     margin-bottom: -18px;
     max-width: 150px;
@@ -85,11 +81,12 @@
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+    color: $gold;
+    text-align: center;
+    text-transform: uppercase;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 12px;
-    text-transform: uppercase;
-    color: $gold;
     letter-spacing: 1.75px;
     transition: all 250ms ease;
 
@@ -124,16 +121,15 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
+    margin-bottom: -75px;
     height: 100%;
     width: 100%;
-    margin-bottom: -75px;
     padding-left: 15px;
     padding-right: 30px;
+    color: #5A5A5A;
     text-align: right;
-    vertical-align: bottom;
     font-family: "National2", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 28px;
-    color: #5A5A5A;
     letter-spacing: -0.5px;
     line-height: 28px;
 
@@ -144,11 +140,11 @@
       padding-left: 30px;
       padding-right: 0;
       width: 175px;
-      opacity: 0.92;
       text-align: left;
       font-size: 34px;
       letter-spacing: -0.85px;
       line-height: 38px;
+      opacity: 0.92;
     }
   }
 

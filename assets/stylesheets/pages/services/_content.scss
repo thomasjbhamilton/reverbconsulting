@@ -5,14 +5,6 @@
   margin-top: 25rem;
   margin-bottom: 15rem;
 
-  @media(min-width: $tablet) {
-
-  }
-
-  @media(min-width: $desktop) {
-
-  }
-
   &__content {
     order: 1;
     margin-top: 40px;
@@ -22,10 +14,6 @@
 
     @media(min-width: $tablet) {
       width: 557px;
-    }
-
-    @media(min-width: $desktop) {
-
     }
   }
 
@@ -37,10 +25,6 @@
     font-size: 24px;
     color: $dark-blue;
     letter-spacing: -0.36px;
-
-    @media(min-width: $tablet) {
-
-    }
 
     @media(min-width: $desktop) {
       border-bottom: 2px solid $blue;
@@ -86,14 +70,6 @@
       background-color: $gold;
       color: white;
     }
-
-    @media(min-width: $tablet) {
-
-    }
-
-    @media(min-width: $desktop) {
-
-    }
   }
 
   &__image {
@@ -112,10 +88,6 @@
     @media(min-width: $tablet) {
       margin-left: 0;
       margin-top: 0;
-    }
-
-    @media(min-width: $desktop) {
-
     }
   }
 }

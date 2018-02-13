@@ -21,10 +21,6 @@
       margin-left: 0px;
       width: 557px;
     }
-
-    @media(min-width: $desktop) {
-
-    }
   }
 
   &__title {
@@ -98,10 +94,6 @@
     @media(min-width: $tablet) {
       margin-right: 0px;
     }
-
-    @media(min-width: $desktop) {
-
-    }
   }
 
   &__image {
@@ -115,6 +107,7 @@
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ), url('../../assets/images/seo.png');
+    background-size: cover;
     z-index: 0;
 
     @media(min-width: $tablet) {
